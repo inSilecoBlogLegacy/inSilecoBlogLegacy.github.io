@@ -532,11 +532,11 @@ useful and underestimated. By the way, there are undoubtedly similar initiatives
 </span></span><span class="line"><span class="cl"><span class="nf">microbenchmark</span><span class="p">(</span><span class="nf">nchar</span><span class="p">(</span><span class="n">vec</span><span class="p">)</span> <span class="o">&gt;</span> <span class="m">0</span><span class="p">,</span> <span class="o">!!</span> <span class="nf">nchar</span><span class="p">(</span><span class="n">vec</span><span class="p">),</span> <span class="nf">nchar</span><span class="p">(</span><span class="n">vec</span><span class="p">)</span> <span class="o">&amp;</span> <span class="m">1</span><span class="p">,</span> <span class="nf">nzchar</span><span class="p">(</span><span class="n">vec</span><span class="p">),</span>
 </span></span><span class="line"><span class="cl">  <span class="n">times</span> <span class="o">=</span> <span class="m">1000L</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Unit: nanoseconds</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;             expr min  lq     mean median     uq   max neval</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   nchar(vec) &gt; 0 832 872  934.626    892  931.5 10650  1000</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;     !!nchar(vec) 912 952 1021.006    972 1013.0 10610  1000</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   nchar(vec) &amp; 1 941 981 1045.971    992 1037.5 10470  1000</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;      nzchar(vec)  60  90   95.964     90  100.0   611  1000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;             expr min  lq     mean median   uq   max neval</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   nchar(vec) &gt; 0 831 872  932.157  892.0  922  9728  1000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;     !!nchar(vec) 902 952 1012.525  971.0 1001 10239  1000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   nchar(vec) &amp; 1 932 972 1017.814  991.5 1022  1724  1000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;      nzchar(vec)  70  90  102.403   91.0  100  7645  1000</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Yep yep!<code>nzchar()</code> is indeed way faster &#x1f680;!</p>
@@ -607,8 +607,8 @@ value of the last evaluated expression is returned.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">microbenchmark</span><span class="p">(</span><span class="nf">foo</span><span class="p">(</span><span class="m">4</span><span class="p">),</span> <span class="nf">foo2</span><span class="p">(</span><span class="m">4</span><span class="p">),</span> <span class="n">times</span> <span class="o">=</span> <span class="m">1e5</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Unit: nanoseconds</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;      expr min  lq     mean median  uq      max neval</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    foo(4) 390 451 682.7110    461 481 12749628 1e+05</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   foo2(4) 280 341 419.3055    351 361  2468143 1e+05</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    foo(4) 430 452 592.2454    471 481  3955427 1e+05</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   foo2(4) 320 341 495.0713    351 361 12396178 1e+05</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="invisible"><code>invisible()</code></h2>
@@ -801,16 +801,16 @@ argument <code>env</code> (which can also be the name of a environment).</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] microbenchmark_1.5.0 inSilecoRef_0.1.1   </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  loaded via a namespace (and not attached):</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] sass_0.4.9        generics_0.1.3    xml2_1.3.7        blogdown_1.20     stringi_1.8.4    </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] sass_0.4.9        generics_0.1.3    xml2_1.3.8        blogdown_1.21     stringi_1.8.7    </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [6] httpcode_0.3.0    digest_0.6.37     magrittr_2.0.3    evaluate_1.0.3    bookdown_0.42    </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] fastmap_1.2.0     plyr_1.8.9        jsonlite_1.9.1    backports_1.5.0   crul_1.5.0       </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] fastmap_1.2.0     plyr_1.8.9        jsonlite_2.0.0    backports_1.5.0   crul_1.5.0       </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] promises_1.3.2    bibtex_0.5.1      jquerylib_0.1.4   cli_3.6.4         shiny_1.10.0     </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] rlang_1.1.5       cachem_1.1.0      yaml_2.3.10       tools_4.4.3       dplyr_1.1.4      </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] httpuv_1.6.15     DT_0.33           rcrossref_1.2.0   curl_6.2.1        vctrs_0.6.5      </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] R6_2.6.1          mime_0.12         lifecycle_1.0.4   stringr_1.5.1     fs_1.6.5         </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] htmlwidgets_1.6.4 miniUI_0.1.1.1    pkgconfig_2.0.3   pillar_1.10.1     bslib_0.9.0      </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] later_1.4.1       glue_1.8.0        Rcpp_1.0.14       xfun_0.51         tibble_3.2.1     </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] tidyselect_1.2.1  knitr_1.49        xtable_1.8-4      htmltools_0.5.8.1 rmarkdown_2.29   </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] httpuv_1.6.15     DT_0.33           rcrossref_1.2.0   curl_6.2.2        vctrs_0.6.5      </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] R6_2.6.1          mime_0.13         lifecycle_1.0.4   stringr_1.5.1     fs_1.6.5         </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] htmlwidgets_1.6.4 miniUI_0.1.1.1    pkgconfig_2.0.3   pillar_1.10.2     bslib_0.9.0      </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] later_1.4.2       glue_1.8.0        Rcpp_1.0.14       xfun_0.52         tibble_3.2.1     </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] tidyselect_1.2.1  knitr_1.50        xtable_1.8-4      htmltools_0.5.8.1 rmarkdown_2.29   </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] compiler_4.4.3</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -956,7 +956,7 @@ argument <code>env</code> (which can also be the name of a environment).</p>
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 11 March 2025 00:58 UTC.
+      Latest build: 11 April 2025 01:01 UTC.
     </p>
 
   </div>
