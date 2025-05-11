@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='720.00pt' height='360.00pt' viewBox='0 0 720.00 360.00'>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='720.00pt' height='360.00pt' viewBox='0 0 720.00 360.00'>
+<g class='svglite'>
 <defs>
   <style type='text/css'><![CDATA[
     .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
@@ -12,6 +13,10 @@
     .svglite text {
       white-space: pre;
     }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
   ]]></style>
 </defs>
 <rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
@@ -21,10 +26,10 @@
   </clipPath>
 </defs>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='151.47' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='50.12px' lengthAdjust='spacingAndGlyphs'>September</text>
-<text x='285.89' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='36.85px' lengthAdjust='spacingAndGlyphs'>October</text>
-<text x='424.80' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='47.64px' lengthAdjust='spacingAndGlyphs'>November</text>
-<text x='559.23' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='46.84px' lengthAdjust='spacingAndGlyphs'>December</text>
+<text x='151.47' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='38.36px' lengthAdjust='spacingAndGlyphs'>September</text>
+<text x='285.89' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='28.80px' lengthAdjust='spacingAndGlyphs'>October</text>
+<text x='424.80' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='37.12px' lengthAdjust='spacingAndGlyphs'>November</text>
+<text x='559.23' y='306.72' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='37.02px' lengthAdjust='spacingAndGlyphs'>December</text>
 <line x1='151.47' y1='280.80' x2='698.13' y2='280.80' style='stroke-width: 0.75;' />
 <line x1='151.47' y1='280.80' x2='151.47' y2='288.00' style='stroke-width: 0.75;' />
 <line x1='285.89' y1='280.80' x2='285.89' y2='288.00' style='stroke-width: 0.75;' />
@@ -43,70 +48,71 @@
 <polyline points='604.03,264.53 604.03,264.53 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='267.81' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='152.86px' lengthAdjust='spacingAndGlyphs'>Preliminary version to co-authors</text>
+<text x='122.40' y='267.51' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='120.09px' lengthAdjust='spacingAndGlyphs'>Preliminary version to co-authors</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='545.78,241.87 572.67,241.87 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='245.15' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='50.53px' lengthAdjust='spacingAndGlyphs'>Conclusion</text>
+<text x='122.40' y='244.85' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='40.66px' lengthAdjust='spacingAndGlyphs'>Conclusion</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='483.05,219.20 545.78,219.20 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='222.48' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='48.87px' lengthAdjust='spacingAndGlyphs'>Discussion</text>
+<text x='122.40' y='222.18' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='39.28px' lengthAdjust='spacingAndGlyphs'>Discussion</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='406.88,196.53 483.05,196.53 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='199.81' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='33.62px' lengthAdjust='spacingAndGlyphs'>Results</text>
+<text x='122.40' y='199.51' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='26.25px' lengthAdjust='spacingAndGlyphs'>Results</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='272.45,173.87 406.88,173.87 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='177.15' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='40.18px' lengthAdjust='spacingAndGlyphs'>Analyses</text>
+<text x='122.40' y='176.85' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='32.41px' lengthAdjust='spacingAndGlyphs'>Analyses</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='272.45,151.20 406.88,151.20 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='154.48' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='57.00px' lengthAdjust='spacingAndGlyphs'>Introduction</text>
+<text x='122.40' y='154.18' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='44.44px' lengthAdjust='spacingAndGlyphs'>Introduction</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='241.08,128.53 272.45,128.53 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.20;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='131.81' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='20.10px' lengthAdjust='spacingAndGlyphs'>Plan</text>
+<text x='122.40' y='131.51' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='15.84px' lengthAdjust='spacingAndGlyphs'>Plan</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='209.72,105.87 272.45,105.87 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.20;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='109.15' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='78.31px' lengthAdjust='spacingAndGlyphs'>Data preparation</text>
+<text x='122.40' y='108.85' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='60.06px' lengthAdjust='spacingAndGlyphs'>Data preparation</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='209.72,83.20 406.88,83.20 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='86.48' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='39.75px' lengthAdjust='spacingAndGlyphs'>Methods</text>
+<text x='122.40' y='86.18' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='31.50px' lengthAdjust='spacingAndGlyphs'>Methods</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='151.47,60.53 545.78,60.53 ' style='stroke-width: 4.50; stroke: #3FB3B2; stroke-opacity: 0.73;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='122.40' y='63.81' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='96.09px' lengthAdjust='spacingAndGlyphs'>Research &amp; readings</text>
+<text x='122.40' y='63.51' text-anchor='end' style='font-size: 9.00px; font-family: "Nimbus Roman";' textLength='73.95px' lengthAdjust='spacingAndGlyphs'>Research &amp; readings</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <polyline points='151.47,37.87 604.03,37.87 ' style='stroke-width: 6.00; stroke: #3FB3B2;' />
 </g>
 <g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHwzNjAuMDA=)'>
-<text x='14.40' y='41.36' style='font-size: 9.60px; font-weight: bold; font-family: "Nimbus Roman";' textLength='61.83px' lengthAdjust='spacingAndGlyphs'>Manuscript</text>
+<text x='14.40' y='41.11' style='font-size: 9.60px; font-weight: bold; font-family: "Nimbus Roman";' textLength='47.92px' lengthAdjust='spacingAndGlyphs'>Manuscript</text>
 </g>
 <g clip-path='url(#cpMTI5LjYwfDcyMC4wMHwyOC44MHwyNzMuNjA=)'>
 <line x1='129.60' y1='26.53' x2='720.00' y2='26.53' style='stroke-width: 0.75; stroke: #634D42;' />
-<line x1='12603.82' y1='273.60' x2='12603.82' y2='28.80' style='stroke-width: 1.50; stroke-dasharray: 8.00,8.00;' />
+<line x1='12738.24' y1='273.60' x2='12738.24' y2='28.80' style='stroke-width: 1.50; stroke-dasharray: 8.00,8.00;' />
+</g>
 </g>
 </svg>
