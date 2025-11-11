@@ -295,11 +295,11 @@ interested in reproducing the examples below, simply install <code>inSilecoMisc<
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">val</span> <span class="o">&lt;-</span> <span class="nf">runif</span><span class="p">(</span><span class="m">40</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="m">100</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">val</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 81.984775 73.672448 75.150085 55.891672 34.319461 47.717126 36.254971  1.966460 51.324718</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [10] 38.734148 63.580854 52.028940 97.250964 99.214591 84.260851 86.356722 83.488231 34.266660</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [19] 65.032504 35.193467  8.880377 24.448231 66.604128 82.182819 94.653718 99.883188 86.776196</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [28] 40.940041 57.010939 90.720212 70.107790 21.410155 13.750592 87.870267 27.211647 74.322652</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [37] 43.721304  8.489728 47.278522 85.954531</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 59.6860399 83.1311427 89.9986783 68.8772450 66.9647835 25.9820281 26.8579849 55.5781732</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [9] 95.7570566 62.3493123 73.6690094 88.1152656 62.1234719  0.8391815 83.0769804 74.2860960</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [17] 61.7386393 65.2502590 62.4286127 46.2187348 17.6771455 59.0561190 23.3519656 41.7708686</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [25] 36.8781460 56.8399293 94.3265268 97.9823018 33.3660862 94.6135090 87.6973178 23.4505380</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [33] 71.0772975 92.4993337  7.2193944 58.2460406 66.4139747 70.1718865 11.3751580  8.7599081</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>… <strong>and</strong> that I wish to create a color scale with 25 tones. I use <a href="http://insileco.github.io/graphicsutils/reference/showPalette.html"><code>showPalette()</code></a> to show the color palette:</p>
@@ -324,8 +324,8 @@ interested in reproducing the examples below, simply install <code>inSilecoMisc<
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">scaleWithin</span><span class="p">(</span><span class="n">val</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="m">25</span><span class="p">,</span> <span class="n">mn</span> <span class="o">=</span> <span class="m">30</span><span class="p">,</span> <span class="n">mx</span> <span class="o">=</span> <span class="m">70</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 25 25 25 17  3 12  4  1 14  6 21 14 25 25 25 25 25  3 22  4  1  1 23 25 25 25 25  7 17 25 25  1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [33]  1 25  1 25  9  1 11 25</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 19 25 25 25 24  1  1 16 25 21 25 25 21  1 25 25 20 23 21 11  1 19  1  8  5 17 25 25  3 25 25  1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [33] 25 25  1 18 23 25  1  1</span>
 </span></span><span class="line"><span class="cl"><span class="n">graphicsutils</span><span class="o">::</span><span class="nf">showPalette</span><span class="p">(</span><span class="n">pal</span><span class="nf">[scaleWithin</span><span class="p">(</span><span class="n">val</span><span class="p">,</span> <span class="n">n</span> <span class="o">=</span> <span class="m">25</span><span class="p">,</span> <span class="n">mn</span> <span class="o">=</span> <span class="m">30</span><span class="p">,</span> <span class="n">mx</span> <span class="o">=</span> <span class="m">70</span><span class="p">)</span><span class="n">]</span><span class="p">,</span> <span class="n">add_codecolor</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -607,7 +607,7 @@ command!</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">sessionInfo</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  R version 4.5.1 (2025-06-13)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  R version 4.5.2 (2025-10-31)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Platform: x86_64-pc-linux-gnu</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Running under: Ubuntu 24.04.3 LTS</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
@@ -630,24 +630,24 @@ command!</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] inSilecoMisc_0.7.0.9000 inSilecoRef_0.1.1      </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  loaded via a namespace (and not attached):</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] sass_0.4.10              generics_0.1.4           xml2_1.4.0              </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [4] blogdown_1.21            stringi_1.8.7            httpcode_0.3.0          </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] sass_0.4.10              generics_0.1.4           xml2_1.4.1              </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [4] blogdown_1.22            stringi_1.8.7            httpcode_0.3.0          </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [7] graphicsutils_1.6.0.9000 digest_0.6.37            magrittr_2.0.4          </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [10] evaluate_1.0.5           bookdown_0.45            fastmap_1.2.0           </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [13] plyr_1.8.9               jsonlite_2.0.0           backports_1.5.0         </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] crul_1.6.0               promises_1.3.3           bibtex_0.5.1            </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [19] jquerylib_0.1.4          cli_3.6.5                shiny_1.11.1            </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] crul_1.6.0               promises_1.5.0           jquerylib_0.1.4         </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [19] bibtex_0.5.1             cli_3.6.5                shiny_1.11.1            </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [22] crayon_1.5.3             rlang_1.1.6              cachem_1.1.0            </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [25] yaml_2.3.10              tools_4.5.1              dplyr_1.1.4             </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [28] httpuv_1.6.16            DT_0.34.0                rcrossref_1.2.1         </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] curl_7.0.0               vctrs_0.6.5              R6_2.6.1                </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [34] mime_0.13                lifecycle_1.0.4          stringr_1.5.2           </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [37] fs_1.6.6                 htmlwidgets_1.6.4        miniUI_0.1.2            </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [40] pkgconfig_2.0.3          pillar_1.11.1            bslib_0.9.0             </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [43] later_1.4.4              glue_1.8.0               Rcpp_1.1.0              </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] xfun_0.53                tibble_3.3.0             tidyselect_1.2.1        </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [49] knitr_1.50               xtable_1.8-4             htmltools_0.5.8.1       </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [52] rmarkdown_2.30           compiler_4.5.1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [25] yaml_2.3.10              otel_0.2.0               tools_4.5.2             </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [28] dplyr_1.1.4              httpuv_1.6.16            DT_0.34.0               </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] rcrossref_1.2.1          curl_7.0.0               vctrs_0.6.5             </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [34] R6_2.6.1                 mime_0.13                lifecycle_1.0.4         </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [37] stringr_1.6.0            fs_1.6.6                 htmlwidgets_1.6.4       </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [40] miniUI_0.1.2             pkgconfig_2.0.3          pillar_1.11.1           </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [43] bslib_0.9.0              later_1.4.4              glue_1.8.0              </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] Rcpp_1.1.0               xfun_0.54                tibble_3.3.0            </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [49] tidyselect_1.2.1         knitr_1.50               xtable_1.8-4            </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [52] htmltools_0.5.8.1        rmarkdown_2.30           compiler_4.5.2</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></details>
@@ -783,7 +783,7 @@ command!</p>
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 11 October 2025 00:57 UTC.
+      Latest build: 11 November 2025 01:04 UTC.
     </p>
 
   </div>
