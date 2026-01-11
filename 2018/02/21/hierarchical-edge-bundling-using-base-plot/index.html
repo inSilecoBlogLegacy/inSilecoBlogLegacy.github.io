@@ -380,13 +380,13 @@ between those nodes.</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 Drivers driver_5</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6 Drivers driver_6</span>
 </span></span><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">links</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          from         to</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1   action_3  driver_10</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 species_12  species_3</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 species_30   driver_4</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4   driver_4 species_18</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 species_22  species_9</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  species_5   driver_3</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;             from         to</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1      driver_5  species_1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 beneficiary_5  manager_4</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3     manager_4   action_3</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 beneficiary_4   driver_9</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5    species_16  species_7</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6      action_1 species_15</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="circle-functions">Circle functions</h2>
@@ -623,7 +623,7 @@ for visual differentiation between the group.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">metanetwork</span><span class="o">$</span><span class="n">networkGroup</span><span class="o">$</span><span class="n">x</span><span class="p">,</span> <span class="n">metanetwork</span><span class="o">$</span><span class="n">networkGroup</span><span class="o">$</span><span class="n">y</span><span class="p">,</span> <span class="n">pch</span> <span class="o">=</span> <span class="m">20</span><span class="p">,</span> <span class="n">cex</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/nodePos-1.png" width="480" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/nodePos-1.png" alt="" width="480" style="display: block; margin: auto;" />
 <h2 id="visualization-functions">Visualization functions</h2>
 <p>Now we need a few functions to automate the visualization of a few components of
 the circular plot.</p>
@@ -737,7 +737,7 @@ and <code>plotrix::arctext</code> function.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">boxGroup</span><span class="p">(</span><span class="n">metanetwork</span><span class="p">,</span> <span class="n">rad1</span> <span class="o">=</span> <span class="m">.5</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/plotGroups-1.png" width="960" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/plotGroups-1.png" alt="" width="960" style="display: block; margin: auto;" />
 <h3 id="plot-connections">Plot connections</h3>
 <p>Now we can plot the links between the nodes in our graph using the underlying
 hierarchical structure identified using the <code>nodePos</code> function created earlier.
@@ -810,7 +810,7 @@ We can do this using the <code>xspline</code> function.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">metanetwork</span><span class="o">$</span><span class="n">nodes</span><span class="o">$</span><span class="n">x</span><span class="p">,</span> <span class="n">metanetwork</span><span class="o">$</span><span class="n">nodes</span><span class="o">$</span><span class="n">y</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/plotLinks-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/plotLinks-1.png" alt="" width="672" style="display: block; margin: auto;" />
 </br>
 <h2 id="plot-metanetwork">Plot metanetwork</h2>
 <div class="highlight"><div class="chroma">
@@ -831,7 +831,7 @@ We can do this using the <code>xspline</code> function.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">points</span><span class="p">(</span><span class="n">metanetwork</span><span class="o">$</span><span class="n">nodes</span><span class="o">$</span><span class="n">x</span><span class="p">,</span> <span class="n">metanetwork</span><span class="o">$</span><span class="n">nodes</span><span class="o">$</span><span class="n">y</span><span class="p">,</span> <span class="n">pch</span> <span class="o">=</span> <span class="m">20</span><span class="p">,</span> <span class="n">cex</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/metanetwork-1.png" width="576" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/metanetwork-1.png" alt="" width="576" style="display: block; margin: auto;" />
 <br/>
 <h3 id="customize-graph-functions">Customize graph functions</h3>
 <p>Now we can build functions to customize the graph a little bit, <em>e.g.</em> add colors
@@ -950,12 +950,12 @@ to links and nodes and change the size of the nodes.</p>
 </span></span><span class="line"><span class="cl"><span class="n">metanetwork</span> <span class="o">&lt;-</span> <span class="nf">nodeSize</span><span class="p">(</span><span class="n">metanetwork</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">metanetwork</span><span class="o">$</span><span class="n">nodes</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    network     name          x         y    cols Freq       cex</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1 Drivers driver_1 -0.0546519 0.8732916 #ffdd55    5 0.2941176</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 Drivers driver_2 -0.1282239 0.8655539 #ffdd55   15 0.8823529</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 Drivers driver_3 -0.2008793 0.8516293 #ffdd55    9 0.5294118</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 Drivers driver_4 -0.2720989 0.8316172 #ffdd55    8 0.4705882</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 Drivers driver_5 -0.3413735 0.8056607 #ffdd55    6 0.3529412</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6 Drivers driver_6 -0.4082079 0.7739453 #ffdd55    6 0.3529412</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1 Drivers driver_1 -0.0546519 0.8732916 #ffdd55   12 0.8000000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 Drivers driver_2 -0.1282239 0.8655539 #ffdd55    9 0.6000000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 Drivers driver_3 -0.2008793 0.8516293 #ffdd55    6 0.4000000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 Drivers driver_4 -0.2720989 0.8316172 #ffdd55   11 0.7333333</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 Drivers driver_5 -0.3413735 0.8056607 #ffdd55   11 0.7333333</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6 Drivers driver_6 -0.4082079 0.7739453 #ffdd55    9 0.6000000</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><br/>
@@ -1124,13 +1124,13 @@ the metanetwork, or focus on all the links for a single network.</p>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">metanetwork</span> <span class="o">&lt;-</span> <span class="nf">linkCol</span><span class="p">(</span><span class="n">metanetwork</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#39;focus&#39;</span><span class="p">,</span> <span class="n">focus</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#39;Species&#39;</span><span class="p">,</span><span class="s">&#39;Drivers&#39;</span><span class="p">))</span>
 </span></span><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">metanetwork</span><span class="o">$</span><span class="n">links</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          from         to      cols</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1   action_3  driver_10 #f4f4f466</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 species_12  species_3 #876b4066</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 species_30   driver_4 #876b4066</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4   driver_4 species_18 #876b4066</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 species_22  species_9 #876b4066</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  species_5   driver_3 #876b4066</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;             from         to      cols</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1      driver_5  species_1 #876b4066</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 beneficiary_5  manager_4 #f4f4f466</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3     manager_4   action_3 #f4f4f466</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 beneficiary_4   driver_9 #f4f4f466</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5    species_16  species_7 #876b4066</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6      action_1 species_15 #f4f4f466</span>
 </span></span><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">metanetwork</span><span class="o">$</span><span class="n">networkGroup</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;             Var1 Freq      Prop   spanDeg     lower     upper          x          y    cols colNames</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1       Actions    9 0.1250000 0.7853982 0.0125000 0.7728982  0.4619398  0.1913417 #f4f4f4  #212121</span>
@@ -1289,7 +1289,7 @@ the metanetwork, or focus on all the links for a single network.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">plotMetanetwork</span><span class="p">(</span><span class="n">metanetwork</span><span class="p">,</span> <span class="n">type</span> <span class="o">=</span> <span class="s">&#39;focus&#39;</span><span class="p">,</span> <span class="n">focus</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#39;Species&#39;</span><span class="p">,</span> <span class="s">&#39;Drivers&#39;</span><span class="p">,</span> <span class="s">&#39;Managers&#39;</span><span class="p">))</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/function-1.png" width="960" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/index_files/figure-html/function-1.png" alt="" width="960" style="display: block; margin: auto;" />
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -1370,12 +1370,12 @@ the metanetwork, or focus on all the links for a single network.</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [6] httpcode_0.3.0    digest_0.6.39     magrittr_2.0.4    evaluate_1.0.5    bookdown_0.46    </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] fastmap_1.2.0     plyr_1.8.9        jsonlite_2.0.0    backports_1.5.0   crul_1.6.0       </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] promises_1.5.0    jquerylib_0.1.4   bibtex_0.5.1      cli_3.6.5         shiny_1.12.1     </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] rlang_1.1.6       plotrix_3.8-13    cachem_1.1.0      yaml_2.3.12       otel_0.2.0       </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] rlang_1.1.7       plotrix_3.8-13    cachem_1.1.0      yaml_2.3.12       otel_0.2.0       </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] tools_4.5.2       dplyr_1.1.4       httpuv_1.6.16     DT_0.34.0         rcrossref_1.2.1  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] curl_7.0.0        vctrs_0.6.5       R6_2.6.1          mime_0.13         lifecycle_1.0.4  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] curl_7.0.0        vctrs_0.6.5       R6_2.6.1          mime_0.13         lifecycle_1.0.5  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] stringr_1.6.0     fs_1.6.6          htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] pillar_1.11.1     bslib_0.9.0       later_1.4.4       glue_1.8.0        Rcpp_1.1.0       </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] xfun_0.54         tibble_3.3.0      tidyselect_1.2.1  knitr_1.50        xtable_1.8-4     </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] pillar_1.11.1     bslib_0.9.0       later_1.4.5       glue_1.8.0        Rcpp_1.1.0       </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] xfun_0.55         tibble_3.3.0      tidyselect_1.2.1  knitr_1.51        xtable_1.8-4     </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] htmltools_0.5.9   rmarkdown_2.30    compiler_4.5.2</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -1512,7 +1512,7 @@ the metanetwork, or focus on all the links for a single network.</p>
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 11 December 2025 01:27 UTC.
+      Latest build: 11 January 2026 01:12 UTC.
     </p>
 
   </div>

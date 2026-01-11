@@ -280,7 +280,7 @@ explaining how I do so. Let&rsquo;s consider the following plot,</p>
 </span></span><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/prob-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/prob-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>By default, <code>plot.default</code> internally has its way to decide where tick marks
 should be added. It is always a good default choice, but sometimes not the one
 you&rsquo;re looking for. Fortunately, the core package <code>graphics</code> includes all what
@@ -298,7 +298,7 @@ the y-axis, respectively.</p>
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">xaxt</span> <span class="o">=</span> <span class="s">&#34;n&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-1-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -307,7 +307,7 @@ the y-axis, respectively.</p>
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">xaxt</span> <span class="o">=</span> <span class="s">&#34;n&#34;</span><span class="p">,</span> <span class="n">yaxt</span> <span class="o">=</span> <span class="s">&#34;n&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-2-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>The second option is to set <code>axes</code> to <code>FALSE</code> in <code>plot()</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -317,7 +317,7 @@ the y-axis, respectively.</p>
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">plot</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="n">cy</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-3-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>As you can see, when <code>axes = FALSE</code> the box is also removed and you can actually add it back with <code>box()</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -329,7 +329,7 @@ the y-axis, respectively.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-4-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>and change its style, if desired:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -341,7 +341,7 @@ the y-axis, respectively.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">(</span><span class="n">bty</span> <span class="o">=</span> <span class="s">&#34;l&#34;</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-5-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>That being said, let&rsquo;s only remove the x-axis for the moment and add ticks at 0,
 0.5, 1, 1.5 and 2 to the x-axis using <code>axis()</code>:</p>
 <div class="highlight"><div class="chroma">
@@ -354,7 +354,7 @@ the y-axis, respectively.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">axis</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">at</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">.5</span><span class="p">))</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-6-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>I can easily change the labels if values on the axis are not the ones that
 should be displayed, e.g.</p>
 <div class="highlight"><div class="chroma">
@@ -367,7 +367,7 @@ should be displayed, e.g.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">axis</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">at</span> <span class="o">=</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">.5</span><span class="p">),</span> <span class="n">labels</span> <span class="o">=</span> <span class="kc">letters</span><span class="n">[1</span><span class="o">:</span><span class="m">5</span><span class="n">]</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-7-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-7-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <h2 id="second-set-of-tick-marks">Second set of tick marks</h2>
 <p>Now, let&rsquo;s add a second set tick marks! This can be done by calling <code>axis()</code> one
 more time.</p>
@@ -383,7 +383,7 @@ more time.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">axis</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">at</span> <span class="o">=</span> <span class="nf">setdiff</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">.5</span><span class="p">)),</span> <span class="n">labels</span> <span class="o">=</span> <span class="kc">NA</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-8-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-8-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>As you may have noticed, I use <code>setdiff()</code> to select the complementary set of
 ticks. I think it is an efficient of proceeding: I first select the finest gap
 between two ticks (here 0.1) and create the sequence with <code>seq()</code>, then create
@@ -408,7 +408,7 @@ default behavior of <code>plot()</code>): the lines that comes along with the ti
 </span></span><span class="line"><span class="cl"><span class="nf">axis</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">at</span> <span class="o">=</span> <span class="nf">setdiff</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">.5</span><span class="p">)),</span> <span class="n">labels</span> <span class="o">=</span> <span class="kc">NA</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-9-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>overlap with the box</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -420,7 +420,7 @@ default behavior of <code>plot()</code>): the lines that comes along with the ti
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-10-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-10-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>This may frequently goes unnoticed, but I personally tend to notice such overlap
 this and it annoys me&hellip; Anyway, one way to handle this is to set the line width
 to 0 in <code>axis()</code>.</p>
@@ -436,7 +436,7 @@ to 0 in <code>axis()</code>.</p>
 </span></span><span class="line"><span class="cl"><span class="nf">axis</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">at</span> <span class="o">=</span> <span class="nf">setdiff</span><span class="p">(</span><span class="n">cx</span><span class="p">,</span> <span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">.5</span><span class="p">)),</span> <span class="n">labels</span> <span class="o">=</span> <span class="kc">NA</span><span class="p">,</span> <span class="n">lwd</span> <span class="o">=</span> <span class="m">0</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-11-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-11-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>and then to set the line with of the ticks, controlled by <code>lwd.ticks</code>, to
 something greater than 0</p>
 <div class="highlight"><div class="chroma">
@@ -453,7 +453,7 @@ something greater than 0</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-12-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-12-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>Note that if you only wish to remove the marks you can use <code>tick = FALSE</code>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -469,7 +469,7 @@ something greater than 0</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-13-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-13-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>But if you just want to get rid of the extra line, but not the ticks, then you
 need set <code>lwd</code> to 0 and <code>lwd.ticks</code> to a positive values.</p>
 <h2 id="custom-the-ticks">Custom the ticks</h2>
@@ -489,7 +489,7 @@ is a good way to custom your tick marks!</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-14-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-14-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>A second parameter to further customize the tick marks is <code>tck</code> that actually
 belongs to <code>par()</code></p>
 <div class="highlight"><div class="chroma">
@@ -514,7 +514,7 @@ belongs to <code>par()</code></p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinpar-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinpar-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>but can also be used with <code>axis()</code> thanks to the ellipsis (<code>...</code>) which allow me
 to change it only for one set of ticks</p>
 <div class="highlight"><div class="chroma">
@@ -537,7 +537,7 @@ to change it only for one set of ticks</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinaxis-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinaxis-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>Moreover, using positive value you can make the tick go up!</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -559,7 +559,7 @@ to change it only for one set of ticks</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-15-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-15-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>And finally you change many aspect of them, including color then and line type:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -575,7 +575,7 @@ to change it only for one set of ticks</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-16-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-16-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>One more tip, if you need to adjust the position of the tick you would have to
 use <code>mgp</code> (also documented in <code>par</code>) which is a vector of three elements
 controlling the following features:</p>
@@ -606,7 +606,7 @@ controlling the following features:</p>
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgp-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgp-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <p>Note that, just as for <code>tck</code>, I can use <code>mgp</code> in <code>axis()</code>. In this example,  it
 won&rsquo;t affected the axis labels because they were added by <code>plot()</code>.</p>
 <div class="highlight"><div class="chroma">
@@ -629,7 +629,7 @@ won&rsquo;t affected the axis labels because they were added by <code>plot()</co
 </span></span><span class="line"><span class="cl"><span class="nf">box</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgpinaxis-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgpinaxis-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <h2 id="wrap-all-that-up-in-a-function">Wrap all that up in a function</h2>
 <p>All the steps above may appear overwhelming at first because you need to
 memorize where is what&hellip; But once everything gets clear, you would realize that
@@ -669,7 +669,7 @@ a function similar to the one below:</p>
 </span></span><span class="line"><span class="cl"><span class="nf">myaxis</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="nf">seq</span><span class="p">(</span><span class="m">-0.5</span><span class="p">,</span> <span class="m">2.8</span><span class="p">,</span> <span class="m">.1</span><span class="p">),</span> <span class="nf">seq</span><span class="p">(</span><span class="m">-0.5</span><span class="p">,</span> <span class="m">2.5</span><span class="p">,</span> <span class="m">.5</span><span class="p">),</span> <span class="n">las</span> <span class="o">=</span> <span class="m">1</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/final-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/final-1.png" alt="" width="672" style="display: block; margin: auto;" />
 <br>
 <h4 id="thats-all-folks-smile">That&rsquo;s all folks &#x1f604;!</h4>
 <div style="margin: 1.5rem 0rem 0.5rem 0rem;">
@@ -744,12 +744,12 @@ a function similar to the one below:</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [6] httpcode_0.3.0    digest_0.6.39     magrittr_2.0.4    evaluate_1.0.5    bookdown_0.46    </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] fastmap_1.2.0     plyr_1.8.9        jsonlite_2.0.0    backports_1.5.0   crul_1.6.0       </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] promises_1.5.0    jquerylib_0.1.4   bibtex_0.5.1      cli_3.6.5         shiny_1.12.1     </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] rlang_1.1.6       cachem_1.1.0      yaml_2.3.12       otel_0.2.0        tools_4.5.2      </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] rlang_1.1.7       cachem_1.1.0      yaml_2.3.12       otel_0.2.0        tools_4.5.2      </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] dplyr_1.1.4       httpuv_1.6.16     DT_0.34.0         rcrossref_1.2.1   curl_7.0.0       </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] vctrs_0.6.5       R6_2.6.1          mime_0.13         lifecycle_1.0.4   stringr_1.6.0    </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] vctrs_0.6.5       R6_2.6.1          mime_0.13         lifecycle_1.0.5   stringr_1.6.0    </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] fs_1.6.6          htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3   pillar_1.11.1    </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] bslib_0.9.0       later_1.4.4       glue_1.8.0        Rcpp_1.1.0        xfun_0.54        </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] tibble_3.3.0      tidyselect_1.2.1  knitr_1.50        xtable_1.8-4      htmltools_0.5.9  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] bslib_0.9.0       later_1.4.5       glue_1.8.0        Rcpp_1.1.0        xfun_0.55        </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] tibble_3.3.0      tidyselect_1.2.1  knitr_1.51        xtable_1.8-4      htmltools_0.5.9  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] rmarkdown_2.30    compiler_4.5.2</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -886,7 +886,7 @@ a function similar to the one below:</p>
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 11 December 2025 01:27 UTC.
+      Latest build: 11 January 2026 01:12 UTC.
     </p>
 
   </div>
