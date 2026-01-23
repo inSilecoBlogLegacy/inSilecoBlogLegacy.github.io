@@ -1,0 +1,12 @@
+<section class="section page-hero">
+    <div class="container">
+        <h1 class="title is-2 has-text-centered">{{ .Title }}</h1>
+        {{ with .Params.subtitle }}
+            <p class="subtitle is-5 has-text-centered">{{ . }}</p>
+        {{ else }}
+            {{ with .Params.description }}
+                <p class="subtitle is-5 has-text-centered">{{ . }}</p>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>

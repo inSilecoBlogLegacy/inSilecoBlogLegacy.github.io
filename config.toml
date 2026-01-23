@@ -61,6 +61,8 @@ summaryLength = 25
 [params]
     author = "inSileco"
     description = "Codes, ideas and methods in ecology"
+    subtitle = "Environmental Management & Biodiversity Data Science"
+    footer = "The source code of this website is available on <a href=\"https://github.com/inSileco/inSileco.github.io\">GitHub</a> licensed under <a href=\"http://opensource.org/licenses/mit-license.php\">MIT</a>.<br><i class=\"fa-solid fa-copyright fa-sm\"></i> inSileco Inc. 2017-2024."
     githubUsername = "#inSileco"
     twitterUsername = "inSileco"
     font = "Lato"

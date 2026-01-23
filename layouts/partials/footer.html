@@ -1,32 +1,45 @@
-<footer>
+<footer class="footer">
+  <div class="columns is-desktop is-vcentered">
+    <div class="column is-1"></div>
 
-  <hr>
+    {{ $footer := index .Site.Data "home" "footer" }}
+    <div class="column is-5-desktop is-12-mobile">
+      <div id="contact" class="content has-text-centered">
+        <h3>{{ $footer.tally.heading }}</h3>
+        <p><i>{{ $footer.tally.blurb }}</i></p>
+        <iframe
+          data-tally-src="{{ $footer.tally.subscribe_url }}"
+          loading="lazy" width="100%" height="{{ $footer.tally.subscribe_height }}" frameborder="0" marginheight="0" marginwidth="0"
+          title="{{ $footer.tally.subscribe_title }}">
+        </iframe>
+        <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
+      </div>
+    </div>
 
-  <div class="col-md-3">
-
-    <a href="#" id="bottom"></a>
-
+    <div class="column is-5-desktop is-12-mobile">
+      <div class="content has-text-centered mb-6">
+        <h3>inSileco Inc.</h3>
+        <h6>{{ .Site.Params.subtitle }}</h6>
+      </div>
+      <div class="content has-text-centered">
+        <p>{{ .Site.Params.footer | safeHTML }}</p>
+      </div>
+    </div>
   </div>
-
-  <div class="col-md-6">
-
-    <script src="//yihui.name/js/math-code.js"></script>
-    <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-
-    <p class="copyright text-muted" style="font-size: 1.6rem;">
-      &copy; {{ .Site.Copyright | default .Site.Title }} |
-      Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
-      <a href="https://gohugo.io">Hugo</a>
-      and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: {{ now.Format "02 January 2006 15:04 MST" }}.
-    </p>
-
-  </div>
-
-
 </footer>
 
-</body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var burger = document.querySelector('.navbar-burger');
+    var menu = document.getElementById('navbarBasicExample');
+    if (burger && menu) {
+      burger.addEventListener('click', function () {
+        burger.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+      });
+    }
+  });
+</script>
 
+</body>
 </html>

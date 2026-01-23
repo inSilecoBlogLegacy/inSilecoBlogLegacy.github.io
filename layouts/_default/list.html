@@ -1,34 +1,35 @@
 {{ partial "header" . }}
 
-{{ partial "banner" . }}
+{{ partial "page-hero.html" . }}
 
-<main>
+<section class="section">
+    <div class="container">
+        <div class="columns is-multiline blog-card-grid">
+            {{ range (.Paginator 12).Pages }}
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+                <a class="card blog-card" href="{{ .RelPermalink }}">
+                    <div class="card-content">
+                        <h3 class="title is-5 mb-2">{{ .Title }}</h3>
+                        <p class="is-size-7 has-text-grey">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</p>
+                        <p class="mt-3">{{ .Summary | plainify | truncate 160 }}</p>
+                        <span class="portfolio-link">Read post →</span>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        </div>
 
-    <h2>{{ .Title }}</h2>
-
-    {{ range (.Paginator 12).Pages }} {{ partial "list-item" . }} {{ end }}
-
-</main>
-
-{{ if or .Paginator.HasPrev .Paginator.HasNext }}
-
-    <div class="pages">
-
-        {{ if .Paginator.HasPrev }}
-            <a class="icon pages-icon" href="{{ .Paginator.Prev.URL }}" rel="prev">
-                <i class="fas fa-arrow-circle-left fa-4x"></i>
-            </a>
-
+        {{ if or .Paginator.HasPrev .Paginator.HasNext }}
+        <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+            {{ if .Paginator.HasPrev }}
+                <a class="pagination-previous" href="{{ .Paginator.Prev.URL }}">Previous</a>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+                <a class="pagination-next" href="{{ .Paginator.Next.URL }}">Next</a>
+            {{ end }}
+        </nav>
         {{ end }}
-
-        {{ if .Paginator.HasNext }}
-            <a class="icon pages-icon" href="{{ .Paginator.Next.URL }}" rel="next">
-                <i class="fas fa-arrow-circle-right fa-4x"></i>
-            </a>
-        {{ end }}
-
     </div>
+</section>
 
-{{ end }}
-
-{{ partial "footer_center" . }}
+{{ partial "footer" . }}
