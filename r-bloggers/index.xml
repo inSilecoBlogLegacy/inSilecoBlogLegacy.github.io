@@ -7,7 +7,7 @@
         inSileco
       
     </title>
-    <link>https://insileco.github.io/r-bloggers/index.xml</link>
+    <link>https://bloglegacy.insileco.io/r-bloggers/index.xml</link>
     <description>
       Recent content in Our posts on R-bloggers on inSileco
     </description>
@@ -19,19 +19,19 @@
     
 
     
-      <atom:link href="https://insileco.github.io/r-bloggers/index.xml" rel="self" type="application/rss+xml" />
+      <atom:link href="https://bloglegacy.insileco.io/r-bloggers/index.xml" rel="self" type="application/rss+xml" />
     
 
     
     
       <item>
         <title>Creating a monorepo of R packages with GitHub</title>
-        <link>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
+        <link>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
         <pubDate>
           Thu, 23 Nov 2023 00:00:00 +0000
         </pubDate>
         
-        <guid>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
+        <guid>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
         <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use &lt;a href=&#34;https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts&#34;&gt;organization accounts&lt;/a&gt; to gather packages that have a common scope. Popular accounts of this kind include:&lt;/p&gt;
 &lt;ul&gt;
@@ -160,7 +160,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;      any::covr
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;      any::goodpractice
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;      any::lintr
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;      local::../testpkg01 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;      
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;      local::../testpkg01 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Note, however, that this only works if all packages are at the same level.&lt;/p&gt;
@@ -189,7 +189,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c&#34;&gt;# determine what needs to be checked&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;changes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;changes&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ubuntu-latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;permissions&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pull-requests&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;read&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -206,7 +206,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;        testpkg01: &amp;#39;testpkg01/**&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;        testpkg02: 
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          - &amp;#39;testpkg01/R&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          - &amp;#39;testpkg02/**&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;        
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          - &amp;#39;testpkg02/**&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;If any files in the folder &lt;code&gt;testpkg01&lt;/code&gt; (&lt;code&gt;&amp;quot;testpkg01/**&amp;quot;&lt;/code&gt;) change, then &lt;code&gt;testpkg01&lt;/code&gt; will be in the output list. Similarly, if any file in &lt;code&gt;testpkg02&lt;/code&gt; change &lt;strong&gt;or&lt;/strong&gt; if any file in &lt;code&gt;testpkg01/R&lt;/code&gt; change then &lt;code&gt;testpkg02&lt;/code&gt; will make the output list. The latter rule is super useful because it allows us to check that &lt;code&gt;testpkg02&lt;/code&gt; was not affected by the changes in &lt;code&gt;testpkg01&lt;/code&gt;. The list of outputs &lt;code&gt;needs.changes.outputs.packages&lt;/code&gt; is then passed to the next job &lt;code&gt;checkPackages&lt;/code&gt; that won’t be triggered if &lt;code&gt;changes&lt;/code&gt; is not completed.&lt;/p&gt;
@@ -241,7 +241,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 &lt;/div&gt;&lt;p&gt;I further add a check to prevent any jobs to run if the list is empty and I run 1 job in parallel (in this case there is no specific reason to do so). &lt;code&gt;checkPackages&lt;/code&gt; will then convert &lt;code&gt;needs.changes.outputs.packages&lt;/code&gt; in a matrix and call &lt;code&gt;R-CMD-check.yaml&lt;/code&gt; for each package in the list. The workflow is now ready &amp;#x1f389;!&lt;/p&gt;
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/gha_jobs.png&#34; alt=&#34;Screenshot of a successsfull run including the check of the two packages.&#34; width=&#34;90%%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/gha_jobs.png&#34; alt=&#34;Screenshot of a successsfull run including the check of the two packages.&#34; width=&#34;90%%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of a successsfull run including the check of the two packages.
@@ -291,7 +291,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 &lt;/div&gt;&lt;p&gt;I design a last workflow &lt;a href=&#34;https://github.com/inSileco/monoRepoR/blob/main/.github/workflows/build-docker-container.yaml&#34;&gt;build-and-release&lt;/a&gt; based on the one available in the documentation page &lt;a href=&#34;https://docs.github.com/en/actions/publishing-packages/publishing-docker-images&#34;&gt;‘Publishing Docker images’&lt;/a&gt;. It generates the &lt;code&gt;*.tar.gz&lt;/code&gt; files, creates the docker image and pushes it to my &lt;a href=&#34;https://hub.docker.com/repository/docker/kevcaz/monorepor/general&#34;&gt;DockerHub repo&lt;/a&gt;. Also, this workflow is only triggered when a tag starting with “v” is added. For me, this means every commit that is a new version, pretty neat!&lt;/p&gt;
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/gha_docker.png&#34; alt=&#34;Screenshot of a successsfull build of the docker image.&#34; width=&#34;60%%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/gha_docker.png&#34; alt=&#34;Screenshot of a successsfull build of the docker image.&#34; width=&#34;60%%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of a successsfull build of the docker image.
@@ -303,12 +303,12 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
     
       <item>
         <title>A few thoughts about pipes in R</title>
-        <link>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
+        <link>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
         <pubDate>
           Fri, 25 Aug 2023 00:00:00 +0000
         </pubDate>
         
-        <guid>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
+        <guid>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
         <description>&lt;h2 id=&#34;piping-in-r&#34;&gt;Piping in R&lt;/h2&gt;
 &lt;p&gt;Back in 2014, I discovered the forward pipe for R introduced in &lt;a href=&#34;https://magrittr.tidyverse.org/&#34;&gt;&lt;code&gt;magrittr&lt;/code&gt;&lt;/a&gt; and since that time, I never stopped piping, although my piping habits evolved over time, especially with the &lt;a href=&#34;https://www.jumpingrivers.com/blog/new-features-r410-pipe-anonymous-functions/&#34;&gt;introduction of the native pipe&lt;/a&gt; in R 4.1.&lt;/p&gt;
 &lt;p&gt;When I started using pipes in R, I had some experience with the &lt;a href=&#34;https://effective-shell.com/part-2-core-skills/thinking-in-pipelines/&#34;&gt;bash pipe&lt;/a&gt;, &lt;code&gt;|&lt;/code&gt;, which basically passes the output of a function to the input of a second one, and so allow to do chaining operations. But using pipes in R was a major breakthrough: with a simple infix operator, lines of code involving a collection of nested function calls were suddenly turned into one readable data recipe. Let’s take an example and create a data pipeline where we apply a statistical model, &lt;code&gt;model_1()&lt;/code&gt;, to the data set &lt;code&gt;data_1&lt;/code&gt; after two steps of data preprocessing, &lt;code&gt;transform_1()&lt;/code&gt; and &lt;code&gt;transform_2()&lt;/code&gt;. Here is the code without pipes:&lt;/p&gt;
@@ -1026,9 +1026,9 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [11] plyr_1.8.9        jsonlite_2.0.0    backports_1.5.0   crul_1.6.0        promises_1.5.0   &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [16] textshaping_1.0.4 jquerylib_0.1.4   bibtex_0.5.1      cli_3.6.5         shiny_1.12.1     &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [21] rlang_1.1.7       cachem_1.1.0      yaml_2.3.12       otel_0.2.0        tools_4.5.2      &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [26] httpuv_1.6.16     DT_0.34.0         rcrossref_1.2.1   curl_7.0.0        vctrs_0.7.0      &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [26] httpuv_1.6.16     DT_0.34.0         rcrossref_1.2.1   curl_7.0.0        vctrs_0.7.1      &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [31] R6_2.6.1          mime_0.13         lifecycle_1.0.5   stringr_1.6.0     fs_1.6.6         &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [36] htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3   pillar_1.11.1     bslib_0.9.0      &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [36] htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3   pillar_1.11.1     bslib_0.10.0     &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [41] later_1.4.5       glue_1.8.0        Rcpp_1.1.1        systemfonts_1.3.1 xfun_0.56        &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [46] tibble_3.3.1      tidyselect_1.2.1  knitr_1.51        xtable_1.8-4      htmltools_0.5.9  &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [51] svglite_2.2.2     rmarkdown_2.30    compiler_4.5.2&lt;/span&gt;
@@ -1041,12 +1041,12 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
     
       <item>
         <title>Continuous integration for R projects: from Travis CI to GitHub actions step by step</title>
-        <link>https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</link>
+        <link>https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</link>
         <pubDate>
           Tue, 24 Nov 2020 00:00:00 +0000
         </pubDate>
         
-        <guid>https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</guid>
+        <guid>https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</guid>
         <description>&lt;p&gt;I have been using Travis CI (&lt;a href=&#34;https://travis-ci.org/&#34;&gt;https://travis-ci.org/&lt;/a&gt;) since 2015 and GitHub
 Actions (hereafter GH Actions; &lt;a href=&#34;https://github.com/features/actions&#34;&gt;https://github.com/features/actions&lt;/a&gt;) for over a
 year now&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. While using these two hosted continuous integration services,
@@ -1073,7 +1073,7 @@ shows the different jobs I set (described in
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/on_travis.png&#34; alt=&#34;Screenshot of the inSilecoMisc project page on [travis-ci.org](https://travis-ci.org/).&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/on_travis.png&#34; alt=&#34;Screenshot of the inSilecoMisc project page on [travis-ci.org](https://travis-ci.org/).&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the inSilecoMisc project page on &lt;a href=&#34;https://travis-ci.org/&#34;&gt;travis-ci.org&lt;/a&gt;.
@@ -1089,7 +1089,7 @@ shows the different jobs I set (described in
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/switch_off.png&#34; alt=&#34;Screenshots of `inSilecoMisc`&amp;#39;s status on &amp;lt;https://travis-ci.org&amp;gt; (left: on/before, right: off/after).&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/switch_off.png&#34; alt=&#34;Screenshots of `inSilecoMisc`&amp;#39;s status on &amp;lt;https://travis-ci.org&amp;gt; (left: on/before, right: off/after).&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshots of &lt;code&gt;inSilecoMisc&lt;/code&gt;&amp;rsquo;s status on &lt;a href=&#34;https://travis-ci.org&#34;&gt;https://travis-ci.org&lt;/a&gt; (left: on/before, right: off/after).
@@ -1107,7 +1107,7 @@ this was done, I committed my changes and pushed!&lt;/p&gt;
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/ciao.png&#34; alt=&#34;Screenshot of `inSileco`&amp;#39;s home page (commit [`500d5ef`](https://github.com/inSileco/inSilecoMisc/commit/500d5ef332a407e48037ce422a9a14e7c4634fe7)).&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/ciao.png&#34; alt=&#34;Screenshot of `inSileco`&amp;#39;s home page (commit [`500d5ef`](https://github.com/inSileco/inSilecoMisc/commit/500d5ef332a407e48037ce422a9a14e7c4634fe7)).&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of &lt;code&gt;inSileco&lt;/code&gt;&amp;rsquo;s home page (commit &lt;a href=&#34;https://github.com/inSileco/inSilecoMisc/commit/500d5ef332a407e48037ce422a9a14e7c4634fe7&#34;&gt;&lt;code&gt;500d5ef&lt;/code&gt;&lt;/a&gt;).
@@ -1151,7 +1151,7 @@ that I&amp;rsquo;ve simplified a bit (I use only 4 combinations OS / R versions)
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/codecov.png&#34; alt=&#34;Screenshot of the CodeCov settings page of `inSilecoMisc`.&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/codecov.png&#34; alt=&#34;Screenshot of the CodeCov settings page of `inSilecoMisc`.&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the CodeCov settings page of &lt;code&gt;inSilecoMisc&lt;/code&gt;.
@@ -1163,7 +1163,7 @@ that I&amp;rsquo;ve simplified a bit (I use only 4 combinations OS / R versions)
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/token_codecov.png&#34; alt=&#34;Screenshot of the Secret tab of the setting of the GitHub `inSilecoMisc` repository.&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/token_codecov.png&#34; alt=&#34;Screenshot of the Secret tab of the setting of the GitHub `inSilecoMisc` repository.&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the Secret tab of the setting of the GitHub &lt;code&gt;inSilecoMisc&lt;/code&gt; repository.
@@ -1186,7 +1186,7 @@ that I&amp;rsquo;ve simplified a bit (I use only 4 combinations OS / R versions)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;matrix.config.os == &amp;#39;macOS-latest&amp;#39; &amp;amp;&amp;amp; matrix.config.r == &amp;#39;release&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    remotes::install_cran(&amp;#34;covr&amp;#34;)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    covr::codecov(token = &amp;#34;${{secrets.CODECOV_TOKEN}}&amp;#34;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    covr::codecov(token = &amp;#34;${{secrets.CODECOV_TOKEN}}&amp;#34;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;shell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Rscript {0}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -1217,7 +1217,7 @@ part &lt;code&gt;matrix.config.r == &#39;release&#39;&lt;/code&gt; in case I wou
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    sudo apt-get install libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    git fetch origin gh-pages:gh-pages
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    git --work-tree=docs checkout gh-pages -- .
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    Rscript -e &amp;#39;remotes::install_cran(c(&amp;#34;pkgdown&amp;#34;)); pkgdown::build_site()&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;    Rscript -e &amp;#39;remotes::install_cran(c(&amp;#34;pkgdown&amp;#34;)); pkgdown::build_site()&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;There are a few lines that require some explanations. First, I decided to build this on Ubuntu (again, this is arbitrary). Second, the following line:&lt;/p&gt;
@@ -1260,7 +1260,7 @@ On my Debian machine, I used the following command line in my terminal:&lt;/p&gt
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/deploy_key.png&#34; alt=&#34;Screenshot of the deploy key setting.&#34; width=&#34;80%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/deploy_key.png&#34; alt=&#34;Screenshot of the deploy key setting.&#34; width=&#34;80%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the deploy key setting.
@@ -1272,7 +1272,7 @@ On my Debian machine, I used the following command line in my terminal:&lt;/p&gt
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/private.png&#34; alt=&#34;Screenshot of the secret `ACTIONS_DEPLOY_KEY`.&#34; width=&#34;80%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/private.png&#34; alt=&#34;Screenshot of the secret `ACTIONS_DEPLOY_KEY`.&#34; width=&#34;80%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the secret &lt;code&gt;ACTIONS_DEPLOY_KEY&lt;/code&gt;.
@@ -1312,7 +1312,7 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/perso_token.png&#34; alt=&#34;Screenshot of the page to generate the personal token.&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/perso_token.png&#34; alt=&#34;Screenshot of the page to generate the personal token.&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the page to generate the personal token.
@@ -1324,7 +1324,7 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 
 &lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/pat_secret.png&#34; alt=&#34;Screenshot of the secret `PERSO_TOKEN`.&#34; width=&#34;90%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/pat_secret.png&#34; alt=&#34;Screenshot of the secret `PERSO_TOKEN`.&#34; width=&#34;90%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       Screenshot of the secret &lt;code&gt;PERSO_TOKEN&lt;/code&gt;.
@@ -1470,9 +1470,9 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;branches&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;l&#34;&gt;master&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;R-CMD-check&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;R-CMD-check&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;R-CMD-check&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;${{ matrix.config.os }}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1503,7 +1503,7 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Query dependencies&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          install.packages(&amp;#39;remotes&amp;#39;)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          saveRDS(remotes::dev_package_deps(dependencies = TRUE), &amp;#34;depends.Rds&amp;#34;, version = 2)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          saveRDS(remotes::dev_package_deps(dependencies = TRUE), &amp;#34;depends.Rds&amp;#34;, version = 2)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;shell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Rscript {0}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Cache R packages&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1521,14 +1521,14 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          Rscript -e &amp;#34;remotes::install_github(&amp;#39;r-hub/sysreqs&amp;#39;)&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          sysreqs=$(Rscript -e &amp;#34;cat(sysreqs::sysreq_commands(&amp;#39;DESCRIPTION&amp;#39;))&amp;#34;)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          sudo -s eval &amp;#34;$sysreqs&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          sudo -s eval &amp;#34;$sysreqs&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Install dependencies&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          library(remotes)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          deps &amp;lt;- readRDS(&amp;#34;depends.Rds&amp;#34;)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          deps[[&amp;#34;installed&amp;#34;]] &amp;lt;- vapply(deps[[&amp;#34;package&amp;#34;]], remotes:::local_sha, character(1))
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          update(deps)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          remotes::install_cran(&amp;#34;rcmdcheck&amp;#34;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          remotes::install_cran(&amp;#34;rcmdcheck&amp;#34;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;shell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Rscript {0}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Check&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1546,7 +1546,7 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;matrix.config.os == &amp;#39;macOS-latest&amp;#39; &amp;amp;&amp;amp; matrix.config.r == &amp;#39;release&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;run&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;sd&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          remotes::install_cran(&amp;#34;covr&amp;#34;)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          covr::codecov(token = &amp;#34;${{secrets.CODECOV_TOKEN}}&amp;#34;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          covr::codecov(token = &amp;#34;${{secrets.CODECOV_TOKEN}}&amp;#34;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;shell&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Rscript {0}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Build website &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1557,7 +1557,7 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          git fetch origin gh-pages:gh-pages
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          git --work-tree=docs checkout gh-pages -- .
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;          Rscript -e &amp;#39;remotes::install_cran(c(&amp;#34;pkgdown&amp;#34;)); pkgdown::build_site()&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;          
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sd&#34;&gt;            &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Deploy website &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;matrix.config.os == &amp;#39;ubuntu-20.04&amp;#39; &amp;amp;&amp;amp; matrix.config.r == &amp;#39;release&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;peaceiris/actions-gh-pages@v3&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1584,12 +1584,12 @@ the default is &lt;code&gt;gh-pages&lt;/code&gt; and I already had a branch &lt;
     
       <item>
         <title>Custom tick marks with R&#39;s base graphics system</title>
-        <link>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
+        <link>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
         <pubDate>
           Sat, 29 Aug 2020 00:00:00 +0000
         </pubDate>
         
-        <guid>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
+        <guid>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
         <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 &lt;p&gt;If you are using R&amp;rsquo;s base graphics system for your plots and if you like
 customizing your plots, you may have already wondered how to custom the tick
@@ -1607,7 +1607,7 @@ explaining how I do so. Let&amp;rsquo;s consider the following plot,&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/prob-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/prob-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;By default, &lt;code&gt;plot.default&lt;/code&gt; internally has its way to decide where tick marks
 should be added. It is always a good default choice, but sometimes not the one
 you&amp;rsquo;re looking for. Fortunately, the core package &lt;code&gt;graphics&lt;/code&gt; includes all what
@@ -1625,7 +1625,7 @@ the y-axis, respectively.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;xaxt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -1634,7 +1634,7 @@ the y-axis, respectively.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;xaxt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;yaxt&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;n&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-2-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-2-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;The second option is to set &lt;code&gt;axes&lt;/code&gt; to &lt;code&gt;FALSE&lt;/code&gt; in &lt;code&gt;plot()&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1644,7 +1644,7 @@ the y-axis, respectively.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;plot&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;cy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;axes&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;FALSE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;As you can see, when &lt;code&gt;axes = FALSE&lt;/code&gt; the box is also removed and you can actually add it back with &lt;code&gt;box()&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1656,7 +1656,7 @@ the y-axis, respectively.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;and change its style, if desired:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1668,7 +1668,7 @@ the y-axis, respectively.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;bty&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;l&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;That being said, let&amp;rsquo;s only remove the x-axis for the moment and add ticks at 0,
 0.5, 1, 1.5 and 2 to the x-axis using &lt;code&gt;axis()&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1681,7 +1681,7 @@ the y-axis, respectively.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;axis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;at&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-6-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-6-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;I can easily change the labels if values on the axis are not the ones that
 should be displayed, e.g.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1694,7 +1694,7 @@ should be displayed, e.g.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;axis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;at&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;letters&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;[1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-7-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;h2 id=&#34;second-set-of-tick-marks&#34;&gt;Second set of tick marks&lt;/h2&gt;
 &lt;p&gt;Now, let&amp;rsquo;s add a second set tick marks! This can be done by calling &lt;code&gt;axis()&lt;/code&gt; one
 more time.&lt;/p&gt;
@@ -1710,7 +1710,7 @@ more time.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;axis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;at&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;setdiff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;NA&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-8-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-8-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;As you may have noticed, I use &lt;code&gt;setdiff()&lt;/code&gt; to select the complementary set of
 ticks. I think it is an efficient of proceeding: I first select the finest gap
 between two ticks (here 0.1) and create the sequence with &lt;code&gt;seq()&lt;/code&gt;, then create
@@ -1735,7 +1735,7 @@ default behavior of &lt;code&gt;plot()&lt;/code&gt;): the lines that comes along
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;axis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;at&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;setdiff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;NA&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-9-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-9-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;overlap with the box&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1747,7 +1747,7 @@ default behavior of &lt;code&gt;plot()&lt;/code&gt;): the lines that comes along
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-10-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-10-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;This may frequently goes unnoticed, but I personally tend to notice such overlap
 this and it annoys me&amp;hellip; Anyway, one way to handle this is to set the line width
 to 0 in &lt;code&gt;axis()&lt;/code&gt;.&lt;/p&gt;
@@ -1763,7 +1763,7 @@ to 0 in &lt;code&gt;axis()&lt;/code&gt;.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;axis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;at&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;setdiff&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;NA&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;lwd&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-11-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-11-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;and then to set the line with of the ticks, controlled by &lt;code&gt;lwd.ticks&lt;/code&gt;, to
 something greater than 0&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1780,7 +1780,7 @@ something greater than 0&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-12-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-12-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;Note that if you only wish to remove the marks you can use &lt;code&gt;tick = FALSE&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1796,7 +1796,7 @@ something greater than 0&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-13-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-13-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;But if you just want to get rid of the extra line, but not the ticks, then you
 need set &lt;code&gt;lwd&lt;/code&gt; to 0 and &lt;code&gt;lwd.ticks&lt;/code&gt; to a positive values.&lt;/p&gt;
 &lt;h2 id=&#34;custom-the-ticks&#34;&gt;Custom the ticks&lt;/h2&gt;
@@ -1816,7 +1816,7 @@ is a good way to custom your tick marks!&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-14-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-14-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;A second parameter to further customize the tick marks is &lt;code&gt;tck&lt;/code&gt; that actually
 belongs to &lt;code&gt;par()&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1841,7 +1841,7 @@ belongs to &lt;code&gt;par()&lt;/code&gt;&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinpar-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinpar-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;but can also be used with &lt;code&gt;axis()&lt;/code&gt; thanks to the ellipsis (&lt;code&gt;...&lt;/code&gt;) which allow me
 to change it only for one set of ticks&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1864,7 +1864,7 @@ to change it only for one set of ticks&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinaxis-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/tckinaxis-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;Moreover, using positive value you can make the tick go up!&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1886,7 +1886,7 @@ to change it only for one set of ticks&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-15-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-15-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;And finally you change many aspect of them, including color then and line type:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1902,7 +1902,7 @@ to change it only for one set of ticks&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-16-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/unnamed-chunk-16-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;One more tip, if you need to adjust the position of the tick you would have to
 use &lt;code&gt;mgp&lt;/code&gt; (also documented in &lt;code&gt;par&lt;/code&gt;) which is a vector of three elements
 controlling the following features:&lt;/p&gt;
@@ -1933,7 +1933,7 @@ controlling the following features:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgp-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgp-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;Note that, just as for &lt;code&gt;tck&lt;/code&gt;, I can use &lt;code&gt;mgp&lt;/code&gt; in &lt;code&gt;axis()&lt;/code&gt;. In this example,  it
 won&amp;rsquo;t affected the axis labels because they were added by &lt;code&gt;plot()&lt;/code&gt;.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1956,7 +1956,7 @@ won&amp;rsquo;t affected the axis labels because they were added by &lt;code&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;box&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgpinaxis-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/mgpinaxis-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;h2 id=&#34;wrap-all-that-up-in-a-function&#34;&gt;Wrap all that up in a function&lt;/h2&gt;
 &lt;p&gt;All the steps above may appear overwhelming at first because you need to
 memorize where is what&amp;hellip; But once everything gets clear, you would realize that
@@ -1996,7 +1996,7 @@ a function similar to the one below:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;myaxis&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;-0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2.8&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;seq&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;-0.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;2.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;.5&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;las&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/final-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/index_files/figure-html/final-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;br&gt;
 &lt;h4 id=&#34;thats-all-folks-smile&#34;&gt;That&amp;rsquo;s all folks &amp;#x1f604;!&lt;/h4&gt;
 &lt;div style=&#34;margin: 1.5rem 0rem 0.5rem 0rem;&#34;&gt;
@@ -2073,9 +2073,9 @@ a function similar to the one below:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [16] promises_1.5.0    jquerylib_0.1.4   bibtex_0.5.1      cli_3.6.5         shiny_1.12.1     &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [21] rlang_1.1.7       cachem_1.1.0      yaml_2.3.12       otel_0.2.0        tools_4.5.2      &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [26] dplyr_1.1.4       httpuv_1.6.16     DT_0.34.0         rcrossref_1.2.1   curl_7.0.0       &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [31] vctrs_0.7.0       R6_2.6.1          mime_0.13         lifecycle_1.0.5   stringr_1.6.0    &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [31] vctrs_0.7.1       R6_2.6.1          mime_0.13         lifecycle_1.0.5   stringr_1.6.0    &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [36] fs_1.6.6          htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3   pillar_1.11.1    &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [41] bslib_0.9.0       later_1.4.5       glue_1.8.0        Rcpp_1.1.1        xfun_0.56        &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [41] bslib_0.10.0      later_1.4.5       glue_1.8.0        Rcpp_1.1.1        xfun_0.56        &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [46] tibble_3.3.1      tidyselect_1.2.1  knitr_1.51        xtable_1.8-4      htmltools_0.5.9  &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [51] rmarkdown_2.30    compiler_4.5.2&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -2087,13 +2087,13 @@ a function similar to the one below:&lt;/p&gt;
     
       <item>
         <title>inSilecoMisc 0.4.0 (part 2/2)</title>
-        <link>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
+        <link>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
         <pubDate>
           Tue, 21 Apr 2020 00:00:00 +0000
         </pubDate>
         
-        <guid>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
-        <description>&lt;p&gt;In the &lt;a href=&#34;https://insileco.github.io/2020/04/05/insilecomisc-0.4.0-part-1/2/&#34;&gt;first part of this post&lt;/a&gt; I
+        <guid>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
+        <description>&lt;p&gt;In the &lt;a href=&#34;https://bloglegacy.insileco.io/2020/04/05/insilecomisc-0.4.0-part-1/2/&#34;&gt;first part of this post&lt;/a&gt; I
 introduced several functions available in the package &lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt;. In this post, I keep on introducing features of the package you
 might find useful! If you did not read the first part of this post and are
 interested in reproducing the examples below, simply install &lt;code&gt;inSilecoMisc&lt;/code&gt;:&lt;/p&gt;
@@ -2138,11 +2138,11 @@ interested in reproducing the examples below, simply install &lt;code&gt;inSilec
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;runif&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;   [1] 49.521606 32.105842 87.550130 56.209912 32.415707 69.118839 18.270687 73.869205 94.251267&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [10] 69.196940 78.321924 89.711793 43.166426 32.741519 98.286966  2.602975 20.525628 38.846887&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [19] 94.271344 67.224240  2.848049 79.324870 30.025673 53.328660 53.273482 42.422725 21.919512&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [28]  5.713796 66.465001 87.401825  4.125456 92.363473 34.532716 15.826554 18.413302 19.969519&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [37] 61.976930 88.693843 50.682154 97.659990&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;   [1]  2.290139 76.440952 56.539971 31.633387 93.119810 95.502860 36.742903 53.810432 43.687985&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [10] 35.157638 41.702122 68.153665 51.128009 57.397860 53.658037 19.362567 22.565192 59.278631&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [19] 52.995923 62.649651 81.279012 82.342342 88.374142 22.972362 90.430836 30.796434 41.902835&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [28]  3.383146 47.546230 97.812545 53.176887 72.228791 14.189157 17.114002  9.886531 47.211560&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [37] 44.741898 16.489321 40.256266 38.603144&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;… &lt;strong&gt;and&lt;/strong&gt; that I wish to create a color scale with 25 tones. I use &lt;a href=&#34;http://insileco.github.io/graphicsutils/reference/showPalette.html&#34;&gt;&lt;code&gt;showPalette()&lt;/code&gt;&lt;/a&gt; to show the color palette:&lt;/p&gt;
@@ -2156,7 +2156,7 @@ interested in reproducing the examples below, simply install &lt;code&gt;inSilec
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;graphicsutils&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;showPalette&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/index_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;&lt;strong&gt;But&lt;/strong&gt; the color scale should be used for the range [30%-70%], meaning that values below 30% should have the lowest values and values above 70%, the highest one. The caption should thus indicate &lt;code&gt;\(\geqslant\)&lt;/code&gt; 30% and &lt;code&gt;\(\leqslant\)&lt;/code&gt; 70%. Then the function &lt;code&gt;scaleWithin()&lt;/code&gt; is very handy!&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -2167,12 +2167,12 @@ interested in reproducing the examples below, simply install &lt;code&gt;inSilec
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nf&#34;&gt;scaleWithin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mn&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mx&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;70&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;   [1] 13  2 25 17  2 25  1 25 25 25 25 25  9  2 25  1  1  6 25 24  1 25  1 15 15  8  1  1 23 25  1 25&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [33]  3  1  1  1 20 25 13 25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;   [1]  1 25 17  2 25 25  5 15  9  4  8 24 14 18 15  1  1 19 15 21 25 25 25  1 25  1  8  1 11 25 15 25&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [33]  1  1  1 11 10  1  7  6&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;graphicsutils&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;showPalette&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pal&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;[scaleWithin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;val&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mn&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;30&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;mx&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;70&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;add_codecolor&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;FALSE&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;img src=&#34;https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
+&lt;/div&gt;&lt;img src=&#34;https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/index_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;
 &lt;p&gt;Even though this function is pretty useful – at least I think it is! – I had a
 lot of trouble conveying why! So, in the last version of &lt;code&gt;inSilecoMisc&lt;/code&gt;, I
 re-wrote the entire documentation and I hope that, together with this example,
@@ -2298,59 +2298,59 @@ that quickly writes a data frame in various formats.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Plant&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Type&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;Treatment&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;conc&lt;/th&gt;
-&lt;th style=&#34;text-align:right&#34;&gt;uptake&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Qn1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Quebec&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;nonchilled&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;95&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;16.0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Qn1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Quebec&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;nonchilled&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;175&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;30.4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Qn1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Quebec&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;nonchilled&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;250&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;34.8&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Qn1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Quebec&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;nonchilled&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;350&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;37.2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Qn1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Quebec&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;nonchilled&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;500&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;35.3&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Qn1&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;Quebec&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;nonchilled&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;675&lt;/td&gt;
-&lt;td style=&#34;text-align:right&#34;&gt;39.2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Plant&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Type&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Treatment&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;conc&lt;/th&gt;
+          &lt;th style=&#34;text-align: right&#34;&gt;uptake&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Qn1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quebec&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nonchilled&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;95&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;16.0&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Qn1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quebec&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nonchilled&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;175&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;30.4&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Qn1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quebec&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nonchilled&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;250&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;34.8&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Qn1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quebec&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nonchilled&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;350&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;37.2&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Qn1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quebec&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nonchilled&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;500&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;35.3&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Qn1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Quebec&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nonchilled&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;675&lt;/td&gt;
+          &lt;td style=&#34;text-align: right&#34;&gt;39.2&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;I wrote a function that calls &lt;code&gt;kable()&lt;/code&gt; to write the data frame
 and then renders the table(s) in the
@@ -2368,7 +2368,7 @@ default) using &lt;a href=&#34;https://pandoc.org/&#34;&gt;pandoc&lt;/a&gt;.&lt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;center&gt;
   &lt;figure&gt;
-    &lt;img class=&#34;mg-bot&#34; src=&#34;https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/table_odt.png&#34; alt=&#34;table_odt.png (screenshot)&#34; width=&#34;90%%&#34; &gt;
+    &lt;img class=&#34;mg-bot&#34; src=&#34;https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/table_odt.png&#34; alt=&#34;table_odt.png (screenshot)&#34; width=&#34;90%%&#34; &gt;
     &lt;figcaption&gt;
       &lt;i class=&#34;fas fa-info-circle&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;
       table_odt.png (screenshot)
@@ -2483,11 +2483,11 @@ command!&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [22] crayon_1.5.3             rlang_1.1.7              cachem_1.1.0            &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [25] yaml_2.3.12              otel_0.2.0               tools_4.5.2             &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [28] dplyr_1.1.4              httpuv_1.6.16            DT_0.34.0               &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [31] rcrossref_1.2.1          curl_7.0.0               vctrs_0.7.0             &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [31] rcrossref_1.2.1          curl_7.0.0               vctrs_0.7.1             &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [34] R6_2.6.1                 mime_0.13                lifecycle_1.0.5         &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [37] stringr_1.6.0            fs_1.6.6                 htmlwidgets_1.6.4       &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [40] miniUI_0.1.2             pkgconfig_2.0.3          pillar_1.11.1           &lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [43] bslib_0.9.0              later_1.4.5              glue_1.8.0              &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [43] bslib_0.10.0             later_1.4.5              glue_1.8.0              &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [46] Rcpp_1.1.1               xfun_0.56                tibble_3.3.1            &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [49] tidyselect_1.2.1         knitr_1.51               xtable_1.8-4            &lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#R&amp;gt;  [52] htmltools_0.5.9          rmarkdown_2.30           compiler_4.5.2&lt;/span&gt;

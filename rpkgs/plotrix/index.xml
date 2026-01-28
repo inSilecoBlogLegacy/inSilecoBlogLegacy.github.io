@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plotrix on inSileco</title>
-    <link>https://insileco.github.io/rpkgs/plotrix/</link>
+    <link>https://bloglegacy.insileco.io/rpkgs/plotrix/</link>
     <description>Recent content in Plotrix on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/rpkgs/plotrix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/rpkgs/plotrix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hierarchical edge bundling using base plot</title>
-      <link>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
+      <link>https://bloglegacy.insileco.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
-      <description>I recently came across a very interesting paper from Laura Dee and collaborators focused on the concept of metanetworks and entitled &amp;ldquo;Operationalizing Network Theory for Ecosystem Service Assessments&amp;rdquo; (Dee et al 2017, TREE 32(2):118-130).</description>
+      <guid>https://bloglegacy.insileco.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
+      <description>&lt;p&gt;I recently came across a very interesting paper from Laura Dee and collaborators&#xA;focused on the concept of metanetworks and entitled &amp;ldquo;&lt;em&gt;Operationalizing Network&#xA;Theory for Ecosystem Service Assessments&lt;/em&gt;&amp;rdquo;&#xA;(&lt;a href=&#34;http://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(16)30192-6&#34;&gt;Dee &lt;em&gt;et al&lt;/em&gt; 2017, TREE 32(2):118-130&lt;/a&gt;).&#xA;After reading that article I have begun to revamp the context of my thesis around&#xA;the concept of metanetworks to include environmental impact assessment and&#xA;cumulative impacts assessment within such a framework.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,201 +2,201 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on inSileco</title>
-    <link>https://insileco.github.io/tags/r/</link>
+    <link>https://bloglegacy.insileco.io/tags/r/</link>
     <description>Recent content in R on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a monorepo of R packages with GitHub</title>
-      <link>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
+      <link>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
-      <description>Context As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use organization accounts to gather packages that have a common scope.</description>
+      <guid>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use &lt;a href=&#34;https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts&#34;&gt;organization accounts&lt;/a&gt; to gather packages that have a common scope. Popular accounts of this kind include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>A few thoughts about pipes in R</title>
-      <link>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
-      <description>Piping in R Back in 2014, I discovered the forward pipe for R introduced in magrittr and since that time, I never stopped piping, although my piping habits evolved over time, especially with the introduction of the native pipe in R 4.</description>
+      <guid>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
+      <description>&lt;h2 id=&#34;piping-in-r&#34;&gt;Piping in R&lt;/h2&gt;&#xA;&lt;p&gt;Back in 2014, I discovered the forward pipe for R introduced in &lt;a href=&#34;https://magrittr.tidyverse.org/&#34;&gt;&lt;code&gt;magrittr&lt;/code&gt;&lt;/a&gt; and since that time, I never stopped piping, although my piping habits evolved over time, especially with the &lt;a href=&#34;https://www.jumpingrivers.com/blog/new-features-r410-pipe-anonymous-functions/&#34;&gt;introduction of the native pipe&lt;/a&gt; in R 4.1.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or Tips 005 {R}</title>
-      <link>https://insileco.github.io/2023/02/12/trick-or-tips-005-r/</link>
+      <link>https://bloglegacy.insileco.io/2023/02/12/trick-or-tips-005-r/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/02/12/trick-or-tips-005-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2023/02/12/trick-or-tips-005-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Software</title>
-      <link>https://insileco.github.io/resource/software/</link>
+      <link>https://bloglegacy.insileco.io/resource/software/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/software/</guid>
-      <description>diskers [R package] &amp;nbsp; Collection of seed dispersal kernels written in Rcpp. eDriversApp [Shiny App] &amp;nbsp; Shiny application to visualize eDrivers platform data . geographr [R package] &amp;nbsp; An R package to test your skills in world geography.</description>
+      <guid>https://bloglegacy.insileco.io/resource/software/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;&#xA;&#xA;  &lt;div class=&#34;col-sm-12&#34;&gt;&#xA;&#xA;    &#xA;    &lt;div class=&#34;col-sm-6 text-left&#34;&gt;&#xA;      &lt;div class=&#34;panel panel-default&#34;&gt;&#xA;        &lt;div class=&#34;panel-body&#34; style=&#34;min-height: 20rem; max-height:20rem; overflow: scroll;&#34;&gt;&#xA;          &lt;div class=&#34;title-left&#34; style=&#34;width: 80%; display: inline-block&#34;&gt;&#xA;            &lt;h3 style=&#34;font-weight:bold;display:inline;&#34;&gt;&#xA;              diskers&#xA;            &lt;/h3&gt;&#xA;            &lt;h4 style=&#34;font-weight:bold;display:inline;&#34;&gt;&#xA;              [R package]&#xA;            &lt;/h4&gt;&#xA;          &lt;/div&gt;&#xA;          &lt;div class=&#34;title-right&#34; style=&#34;width: 20%; display: inline;&#34;&gt;&#xA;            &#xA;            &lt;a href=&#34;https://github.com/KevCaz/diskers&#34; style=&#34;display:inline;&#34;&gt;&#xA;              &lt;i class=&#34;fab fa-2x fa-github&#34;&gt;&lt;/i&gt;&#xA;            &lt;/a&gt;&amp;nbsp;&#xA;            &#xA;            &#xA;            &lt;a href=&#34;https://kevcaz.insileco.io/diskers/&#34;&gt;&#xA;              &lt;i class=&#34;fa fa-2x fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;            &lt;/a&gt;&#xA;            &#xA;            &lt;hr&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;          &#xA;          &lt;a href=&#34;https://www.repostatus.org/#active&#34;&gt;&lt;img alt=&#34;Repostatus&#34;&#xA;              src=&#34;https://www.repostatus.org/badges/latest/active.svg&#34;&gt;&lt;/img&gt;&lt;/a&gt;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;          &lt;p style=&#34;margin-top: 1rem&#34;&gt; Collection of seed dispersal kernels written in Rcpp. &lt;/p&gt;</description>
     </item>
     <item>
       <title>Our tutorials</title>
-      <link>https://insileco.github.io/resource/tutorials/</link>
+      <link>https://bloglegacy.insileco.io/resource/tutorials/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/tutorials/</guid>
-      <description>Short R tutorials About R Markdown (2018) 🇺🇸 Learn how to use R Markdown.&#xA;About R packages (2018) 🇺🇸 A short tutorial to learn how to created an R package.</description>
+      <guid>https://bloglegacy.insileco.io/resource/tutorials/</guid>
+      <description>&lt;h2&gt;Short R tutorials&lt;/h2&gt;&#xA;&#xA;&lt;ul&gt;&#xA;  &#xA;  &#xA;  &lt;li&gt;&#xA;    About R Markdown&#xA;     (2018) &#xA;    🇺🇸&#xA;    &#xA;    &lt;a href=&#34;https://github.com/KevCaz/aboutRMarkdown&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;    &lt;a href=&#34;https://kevcaz.github.io/aboutRMarkdown/#1&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;  &lt;/li&gt;&#xA;  &lt;p&gt;Learn how to use R Markdown.&lt;/p&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;li&gt;&#xA;    About R packages&#xA;     (2018) &#xA;    🇺🇸&#xA;    &#xA;    &lt;a href=&#34;https://github.com/KevCaz/aboutRPackages&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;    &lt;a href=&#34;https://kevcaz.github.io/aboutRPackages/&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;  &lt;/li&gt;&#xA;  &lt;p&gt;A short tutorial to learn how to created an R package.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Custom tick marks with R&#39;s base graphics system</title>
-      <link>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
+      <link>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
-      <description>Context If you are using R&amp;rsquo;s base graphics system for your plots and if you like customizing your plots, you may have already wondered how to custom the tick marks of your plots!</description>
+      <guid>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;If you are using R&amp;rsquo;s base graphics system for your plots and if you like&#xA;customizing your plots, you may have already wondered how to custom the tick&#xA;marks of your plots! I do that quite a lot and I thought it would be worth&#xA;explaining how I do so. Let&amp;rsquo;s consider the following plot,&lt;/p&gt;</description>
     </item>
     <item>
       <title>inSilecoMisc 0.4.0 (part 2/2)</title>
-      <link>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
-      <description>In the first part of this post I introduced several functions available in the package inSilecoMisc. In this post, I keep on introducing features of the package you might find useful!</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://bloglegacy.insileco.io/2020/04/05/insilecomisc-0.4.0-part-1/2/&#34;&gt;first part of this post&lt;/a&gt; I&#xA;introduced several functions available in the package &lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt;. In this post, I keep on introducing features of the package you&#xA;might find useful! If you did not read the first part of this post and are&#xA;interested in reproducing the examples below, simply install &lt;code&gt;inSilecoMisc&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>inSilecoMisc 0.4.0 (part 1/2)</title>
-      <link>https://insileco.github.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</guid>
-      <description>inSilecoMisc inSilecoMisc is an R &amp;#x1f4e6; I have been maintaining for four years now. It was originally designed as a convenient way to share handy functions.</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</guid>
+      <description>&lt;h2 id=&#34;insilecomisc&#34;&gt;inSilecoMisc&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt; is an R &amp;#x1f4e6; I&#xA;have been maintaining for four years now. It was originally designed as a&#xA;convenient way to share handy functions. Instead of stacking them in my&#xA;&lt;code&gt;.Rprofile&lt;/code&gt;, I created a package and made it available on GitHub. &lt;code&gt;inSilecoMisc&lt;/code&gt;&#xA;is therefore a set of miscellaneous functions, just as other R packages (e.g.&#xA;&lt;a href=&#34;https://CRAN.R-project.org/package=Hmisc&#34;&gt;&lt;code&gt;Hmisc&lt;/code&gt;&lt;/a&gt;) but as I frequently change its API,&#xA;it is meant to stay in the experimental stage! I like having &lt;code&gt;inSilecoMisc&lt;/code&gt; on&#xA;GitHub because it gives a large degree of freedom to experiment new ideas, new&#xA;functions and the code remains available and easy to install! Despite the &amp;ldquo;API&#xA;instability&amp;rdquo;, the overall quality of the package is constantly improving (at&#xA;least, I hope so &amp;#x1f604;). I have even included some of the somewhat more&#xA;matured functions in the research compendium of recent manuscripts&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>R as a ruler? How to calculate distances between geographical objects</title>
-      <link>https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</guid>
-      <description>When working in Ecology, it is often necessary to produce maps and calculate distances between objects such as sampled stations, species distribution ranges or geographical features.</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</guid>
+      <description>&lt;p&gt;When working in Ecology, it is often necessary to produce maps and calculate distances between objects such as sampled stations, species distribution ranges or geographical features. A &lt;a href=&#34;https://bloglegacy.insileco.io/tuto/rinspace/rinspace_homepage/&#34;&gt;tutorial on this blog&lt;/a&gt; describes many techniques to create maps with different packages in R, such as &lt;code&gt;sf&lt;/code&gt; and &lt;code&gt;raster&lt;/code&gt;. In this post, I will go further and use these tools to calculate distances in our spatial environment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or tips 004 {R}</title>
-      <link>https://insileco.github.io/2019/08/13/trick-or-tips-004-r/</link>
+      <link>https://bloglegacy.insileco.io/2019/08/13/trick-or-tips-004-r/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2019/08/13/trick-or-tips-004-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2019/08/13/trick-or-tips-004-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating empty data frames with dfTemplate() and dfTemplateMatch()</title>
-      <link>https://insileco.github.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</link>
+      <link>https://bloglegacy.insileco.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</guid>
-      <description>Creating a data frame is fairly simple but when you need to create a large empty data frame with columns that have different classes it takes several command lines.</description>
+      <guid>https://bloglegacy.insileco.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</guid>
+      <description>&lt;p&gt;Creating a data frame is fairly simple but when you need to &lt;a href=&#34;https://stackoverflow.com/questions/10689055/create-an-empty-data-frame&#34;&gt;create a large empty data frame with columns that have different classes&lt;/a&gt; it takes several command lines. A few days ago, I decided to write a function to simplify this operation and I came to realize that such a function would actually be very useful to ease the row binding of data frames whose column names partially match. How so? This post is meant to answer this question!&lt;/p&gt;</description>
     </item>
     <item>
       <title>A few thoughts on R packages</title>
-      <link>https://insileco.github.io/2018/12/03/a-few-thoughts-on-r-packages/</link>
+      <link>https://bloglegacy.insileco.io/2018/12/03/a-few-thoughts-on-r-packages/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/12/03/a-few-thoughts-on-r-packages/</guid>
-      <description>Jonas Geschke, Ignasi Bartomeus and I have recently released rcites v-1.0.0 on CRAN, a R client for the Species+ API after it has been reviewed by rOpenSci.</description>
+      <guid>https://bloglegacy.insileco.io/2018/12/03/a-few-thoughts-on-r-packages/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jonasgeschke/&#34;&gt;Jonas Geschke&lt;/a&gt;,&#xA;&lt;a href=&#34;https://bartomeuslab.com/&#34;&gt;Ignasi Bartomeus&lt;/a&gt; and I have recently released &lt;a href=&#34;https://cran.r-project.org/web/packages/rcites/index.html&#34;&gt;rcites v-1.0.0&lt;/a&gt; on CRAN, a R client for the &lt;a href=&#34;https://api.speciesplus.net/&#34;&gt;Species+ API&lt;/a&gt; after it has been reviewed by &lt;a href=&#34;https://rOpenSci.org/&#34;&gt;rOpenSci&lt;/a&gt;. In this post, I would like to share this recent experience as well as several valuable resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Curated list of R resources available online</title>
-      <link>https://insileco.github.io/resource/usefulr/</link>
+      <link>https://bloglegacy.insileco.io/resource/usefulr/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/usefulr/</guid>
-      <description>Main sources of resources Comprehensive R Archive Network: CRAN Manuals Contributed manuals and cheat sheets Journals R journal Journal of Statistical Software JOSS Books Bookdown RStudio Website: https://www.</description>
+      <guid>https://bloglegacy.insileco.io/resource/usefulr/</guid>
+      <description>&lt;h2 id=&#34;main-sources-of-resources&#34;&gt;Main sources of resources&lt;/h2&gt;&#xA;&lt;h3 id=&#34;comprehensive-r-archive-network-cran&#34;&gt;Comprehensive R Archive Network: &lt;a href=&#34;https://cran.r-project.org&#34;&gt;CRAN&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/manuals.html&#34;&gt;Manuals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/other-docs.html&#34;&gt;Contributed manuals and cheat sheets&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;journals&#34;&gt;Journals&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://journal.r-project.org&#34;&gt;R journal&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.jstatsoft.org/index&#34;&gt;Journal of Statistical Software&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://joss.theoj.org&#34;&gt;JOSS&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bookdown.org/&#34;&gt;Bookdown&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;rstudio&#34;&gt;RStudio&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Website: &lt;a href=&#34;https://www.rstudio.com&#34;&gt;https://www.rstudio.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/resources/training/books/&#34;&gt;Books&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/resources/cheatsheets/&#34;&gt;Cheat Sheet&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rviews.rstudio.com/&#34;&gt;R Views&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ropensci&#34;&gt;ROpensci&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Website: &lt;a href=&#34;https://ropensci.org/about/&#34;&gt;https://ropensci.org/about/&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ropensci.org/blog/&#34;&gt;ROpensci&amp;rsquo;s blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ropensci&#34;&gt;ROpensci&amp;rsquo;s packages&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rstudio.github.io/learnr/&#34;&gt;Learn R&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tutorials&#34;&gt;Tutorials&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://swcarpentry.github.io/r-novice-gapminder/&#34;&gt;Software carpenteries&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/&#34;&gt;DataCamp&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.guru99.com/r-tutorial.html&#34;&gt;Guru 99&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;tools&#34;&gt;Tools&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.r-pkg.org/&#34;&gt;METACRAN&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://awesome-r.com/&#34;&gt;A curation of R packages&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://rdrr.io/&#34;&gt;rdrr&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.rdocumentation.org/&#34;&gt;rdocumentation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cloudyr.github.io/&#34;&gt;cloudyr&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;blogs&#34;&gt;Blogs&lt;/h3&gt;&#xA;&lt;p&gt;If you want to find people online writing about R, you should definitively check out &lt;a href=&#34;http://www.r-bloggers.com&#34;&gt;R-bloggers&lt;/a&gt;. R-bloggers is &amp;ldquo;a blog aggregator of content contributed by bloggers who write about R&amp;rdquo; and there are&#xA;literally &lt;a href=&#34;https://www.r-bloggers.com/blogs-list/&#34;&gt;&lt;strong&gt;hundreds&lt;/strong&gt; of bloggers&lt;/a&gt; that contribute to it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Non linear regression with nls()</title>
-      <link>https://insileco.github.io/2018/11/18/non-linear-regression-with-nls/</link>
+      <link>https://bloglegacy.insileco.io/2018/11/18/non-linear-regression-with-nls/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/11/18/non-linear-regression-with-nls/</guid>
-      <description>Context Last week, I was discussing about how to use nls() for a specific model with one of my colleague and I ended creating a piece of code to show what I was talking about!</description>
+      <guid>https://bloglegacy.insileco.io/2018/11/18/non-linear-regression-with-nls/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;Last week, I was discussing about how to use &lt;code&gt;nls()&lt;/code&gt; for a specific&#xA;model with one of my colleague and I ended creating a piece of code to&#xA;show what I was talking about! Even though there are many posts exploring &lt;code&gt;nls()&lt;/code&gt;&#xA;in more depth that I did (for instance &lt;a href=&#34;https://datascienceplus.com/first-steps-with-non-linear-regression-in-r/&#34;&gt;this post on datascienceplus by Lionel Herzog&lt;/a&gt;),&#xA;I thought I could share these lines of command here!&lt;/p&gt;</description>
     </item>
     <item>
       <title>My R setup on Debian</title>
-      <link>https://insileco.github.io/2018/06/18/my-r-setup-on-debian/</link>
+      <link>https://bloglegacy.insileco.io/2018/06/18/my-r-setup-on-debian/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/06/18/my-r-setup-on-debian/</guid>
-      <description>R 3.5.0 &amp;ldquo;Joy in playing&amp;rdquo; was released April 23rd this year. It took a couple of weeks before it was made available on Debian testing due to the work required to rebuild the packages and as a Debian user that spend a lot of time on R, I am extremely grateful to the work of Dirk, Michael and Johannes on this!</description>
+      <guid>https://bloglegacy.insileco.io/2018/06/18/my-r-setup-on-debian/</guid>
+      <description>&lt;p&gt;R 3.5.0 &amp;ldquo;Joy in playing&amp;rdquo; was released April 23rd this year. It took a couple&#xA;of weeks before it was made available on Debian testing due to the work&#xA;required to rebuild the packages and as a Debian user that spend a lot of time&#xA;on R, I am extremely grateful to &lt;a href=&#34;http://dirk.eddelbuettel.com/blog/2018/06/11/&#34;&gt;the work of Dirk, Michael and Johannes on this&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo, Github, Travis: a step in continuous deployment!</title>
-      <link>https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</link>
+      <link>https://bloglegacy.insileco.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</guid>
-      <description>I (Kevin) recently rebuilt my personal website and I was eager to set up the same workflow Steve built for our blog (this blog!), i.e. a combination of Hugo, Github and Travis.</description>
+      <guid>https://bloglegacy.insileco.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</guid>
+      <description>&lt;p&gt;I (Kevin) recently rebuilt &lt;a href=&#34;http://kevincazelles.fr/&#34;&gt;my personal website&lt;/a&gt; and&#xA;I was eager to set up the same workflow Steve built for our blog (this blog!),&#xA;&lt;em&gt;i.e.&lt;/em&gt; a combination of Hugo, Github and Travis. I though this was a good opportunity&#xA;to detail how it works and so I wrote this post with Steve. Note that there are&#xA;several blog posts on the topic available online, for instance&#xA;&lt;a href=&#34;https://medium.com/zendesk-engineering/how-to-create-a-website-like-freshswift-net-using-hugo-travis-ci-and-github-pages-67be6f480298&#34;&gt;here&lt;/a&gt;&#xA;and &lt;a href=&#34;https://www.metachris.com/2017/04/continuous-deployment-hugo---travis-ci--github-pages/&#34;&gt;here&lt;/a&gt;.&#xA;We did our best to complement them in the following post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hierarchical edge bundling using base plot</title>
-      <link>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
+      <link>https://bloglegacy.insileco.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
-      <description>I recently came across a very interesting paper from Laura Dee and collaborators focused on the concept of metanetworks and entitled &amp;ldquo;Operationalizing Network Theory for Ecosystem Service Assessments&amp;rdquo; (Dee et al 2017, TREE 32(2):118-130).</description>
+      <guid>https://bloglegacy.insileco.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
+      <description>&lt;p&gt;I recently came across a very interesting paper from Laura Dee and collaborators&#xA;focused on the concept of metanetworks and entitled &amp;ldquo;&lt;em&gt;Operationalizing Network&#xA;Theory for Ecosystem Service Assessments&lt;/em&gt;&amp;rdquo;&#xA;(&lt;a href=&#34;http://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(16)30192-6&#34;&gt;Dee &lt;em&gt;et al&lt;/em&gt; 2017, TREE 32(2):118-130&lt;/a&gt;).&#xA;After reading that article I have begun to revamp the context of my thesis around&#xA;the concept of metanetworks to include environmental impact assessment and&#xA;cumulative impacts assessment within such a framework.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or Tips 003 {R}</title>
-      <link>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</link>
+      <link>https://bloglegacy.insileco.io/2018/02/11/trick-or-tips-003-r/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2018/02/11/trick-or-tips-003-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or Tips 002 {R}</title>
-      <link>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/11/12/trick-or-tips-002-r/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2017/11/12/trick-or-tips-002-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gantt charts in R</title>
-      <link>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</guid>
-      <description>Gantt charts Gantt charts are a very useful way to organize projects into milestones and tasks visually. They are also dead useful when comes the time to create a timeline for a project, whether it be for a research project, field work or grant applications.</description>
+      <guid>https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;h2 id=&#34;gantt-charts&#34;&gt;Gantt charts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gantt_chart&#34;&gt;Gantt charts&lt;/a&gt; are a very useful way&#xA;to organize projects into milestones and tasks visually. They are also dead&#xA;useful when comes the time to create a timeline for a project, whether it be for&#xA;a research project, field work or grant applications. I recently wanted to&#xA;create one, but was unsatisfied by what was available out there in terms of&#xA;visuals (although there are neat R examples, see &lt;a href=&#34;https://www.r-bloggers.com/gantt-charts-in-r-using-plotly/&#34;&gt;here&lt;/a&gt;,&#xA;&lt;a href=&#34;https://stackoverflow.com/questions/3550341/gantt-charts-with-r&#34;&gt;here&lt;/a&gt; and&#xA;&lt;a href=&#34;https://davetang.org/muse/2017/02/03/gantt-chart-using-r/&#34;&gt;here&lt;/a&gt;). So I came up with my own!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Efficiency of spatial intersects in R</title>
-      <link>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
-      <description>Intersects &amp;amp; R We are increasingly performing spatial analyses in R. The replicability and the efficiency of programming languages is much more appealing than using pieces of user friendly software like ArcGIS, even though you can still code your way through analyses when using them (latter versions of QGIS do a fantastic job in that regard!</description>
+      <guid>https://bloglegacy.insileco.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;h2 id=&#34;intersects--r&#34;&gt;Intersects &amp;amp; R&lt;/h2&gt;&#xA;&lt;p&gt;We are increasingly performing spatial analyses in R. The replicability and the&#xA;efficiency of programming languages is much more appealing than using pieces of&#xA;user friendly software like &lt;a href=&#34;https://www.arcgis.com/features/index.html&#34;&gt;ArcGIS&lt;/a&gt;,&#xA;even though you can still code your way through analyses when using them&#xA;(latter versions of &lt;a href=&#34;http://qgis.org/fr/site/&#34;&gt;QGIS&lt;/a&gt; do a fantastic&#xA;job in that regard!). The performance of tools available for spatial analyses in&#xA;R is however not completely certain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Animations in R: Time series of erythemal irradiance in the St. Lawrence</title>
-      <link>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
+      <link>https://bloglegacy.insileco.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
-      <description>The “need” for animations As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St.</description>
+      <guid>https://bloglegacy.insileco.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
+      <description>&lt;h2 id=&#34;the-need-for-animations&#34;&gt;The “&lt;em&gt;need&lt;/em&gt;” for animations&lt;/h2&gt;&#xA;&lt;p&gt;As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St. Lawrence (see ResearchGate &lt;a href=&#34;https://www.researchgate.net/project/Evaluating-the-cumulative-impacts-of-human-activities-on-the-structure-and-function-the-trophic-network-of-the-estuary-and-gulf-of-StLawrence&#34;&gt;project&lt;/a&gt; for more details). I have recently &lt;em&gt;needed&lt;/em&gt; (read: &lt;em&gt;thought it would be cool&lt;/em&gt;) to create an animation of the temporal variations in ultra-violet intensity in the St. Lawrence. Here is how I did it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or tips 001 {R}</title>
-      <link>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/06/30/trick-or-tips-001-r/</link>
       <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2017/06/30/trick-or-tips-001-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Online ecology - Individual species description</title>
-      <link>https://insileco.github.io/2017/06/19/online-ecology-individual-species-description/</link>
+      <link>https://bloglegacy.insileco.io/2017/06/19/online-ecology-individual-species-description/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/06/19/online-ecology-individual-species-description/</guid>
-      <description>Online ecology Let’s imagine that we are interested in a species in a given area and wish to know as much as possible about it.</description>
+      <guid>https://bloglegacy.insileco.io/2017/06/19/online-ecology-individual-species-description/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/proj4/proj4.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet-providers/leaflet-providers_1.9.0.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet-providers-plugin/leaflet-providers-plugin.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/HomeButton/home-button.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/HomeButton/home-button.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/HomeButton/easy-button-src.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/clipboard/setClipboardText.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/mapviewCSS/mapview-popup.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/mapviewCSS/mapview.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;br/&gt;&#xA;&lt;h1 id=&#34;online-ecology&#34;&gt;Online ecology&lt;/h1&gt;&#xA;&lt;p&gt;Let’s imagine that we are interested in a species in a given area and wish to&#xA;know as much as possible about it. But, you can’t go out in the field because&#xA;funding is running short. What we do have, however, is a certain knowledge of&#xA;the open data science tools that are at our disposal. In a series of post&#xA;about online ecology, we will find out exactly just how far these tools allow&#xA;us to delve into the ecology of the species that interest us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add icons on your R plot</title>
-      <link>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</link>
+      <link>https://bloglegacy.insileco.io/2017/05/23/add-icons-on-your-r-plot/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</guid>
-      <description>Introduction Icons are very popular on websites to improve the visual grepping (i.e. visual optimization of eyeball search). We all know how to go at the top or the bottom of a website clicking on chevrons ( ).</description>
+      <guid>https://bloglegacy.insileco.io/2017/05/23/add-icons-on-your-r-plot/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Icons are very popular on websites to improve the visual grepping (&lt;em&gt;i.e.&lt;/em&gt; visual&#xA;optimization of &lt;em&gt;eyeball&lt;/em&gt; search). We all know how to go at the top or the&#xA;bottom of a website clicking on chevrons (&lt;i class=&#34;fa fa-chevron-down&#34;&#xA;aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;i class=&#34;fa fa-chevron-up&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;).&#xA;We are also familiar with simple symbols that allow us to click and edit the&#xA;text we are typing (&lt;i class=&#34;fa fa-align-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;&lt;i class=&#34;fa fa-align-center&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;&lt;i class=&#34;fa fa-align-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;). Moreover, some web&#xA;applications are so widespread than their logo appears in thousands of websites&#xA;(i.e Twitter &lt;i class=&#34;fab fa-twitter&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; or&#xA;GitHub &lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;). Here, we explain how&#xA;to use these icons in your R plots. Why use icons on an R plot? It simply&#xA;increases the possibilities for the number of markers you could use and thus&#xA;efficiently and usefully refine your plots.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make your R plot Hylian</title>
-      <link>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</link>
+      <link>https://bloglegacy.insileco.io/2017/04/14/make-your-r-plot-hylian/</link>
       <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</guid>
-      <description>Below are presented the 5 steps you need to make your plot a Hylian one! May the triforce be with you!&#xA;Open R and download the font The Triforce font is available on line.</description>
+      <guid>https://bloglegacy.insileco.io/2017/04/14/make-your-r-plot-hylian/</guid>
+      <description>&lt;p&gt;Below are presented the 5 steps you need to make your plot a Hylian one! &lt;strong&gt;May the triforce be with you&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;h2 id=&#34;open-r-and-download-the-font&#34;&gt;Open R and download the font&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://zeldauniverse.net/media/fonts/&#34;&gt;&lt;em&gt;Triforce&lt;/em&gt; font&lt;/a&gt; is available on line.&#xA;Below we download it using R. Alternatively, you may simply download and install&#xA;it using a couple of clicks, if you proceed so, skip step 1.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of R packages to create and edit plots</title>
-      <link>https://insileco.github.io/resource/rgraphpkgs/</link>
+      <link>https://bloglegacy.insileco.io/resource/rgraphpkgs/</link>
       <pubDate>Fri, 04 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/rgraphpkgs/</guid>
-      <description>Note that the list of packages below would be updated as soon as we find a new package. If you know a package that should be in the list, please feel mention it in the comment section below.</description>
+      <guid>https://bloglegacy.insileco.io/resource/rgraphpkgs/</guid>
+      <description>&lt;p&gt;Note that the list of packages below would be updated as soon as we find a new&#xA;package. If you know a package that should be in the list, please feel mention&#xA;it in the comment section below.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

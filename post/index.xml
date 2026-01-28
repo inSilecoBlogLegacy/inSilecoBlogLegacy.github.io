@@ -2,222 +2,222 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on inSileco</title>
-    <link>https://insileco.github.io/post/</link>
+    <link>https://bloglegacy.insileco.io/post/</link>
     <description>Recent content in Posts on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a monorepo of R packages with GitHub</title>
-      <link>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
+      <link>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
-      <description>Context As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use organization accounts to gather packages that have a common scope.</description>
+      <guid>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use &lt;a href=&#34;https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts&#34;&gt;organization accounts&lt;/a&gt; to gather packages that have a common scope. Popular accounts of this kind include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>A few thoughts about pipes in R</title>
-      <link>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
-      <description>Piping in R Back in 2014, I discovered the forward pipe for R introduced in magrittr and since that time, I never stopped piping, although my piping habits evolved over time, especially with the introduction of the native pipe in R 4.</description>
+      <guid>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
+      <description>&lt;h2 id=&#34;piping-in-r&#34;&gt;Piping in R&lt;/h2&gt;&#xA;&lt;p&gt;Back in 2014, I discovered the forward pipe for R introduced in &lt;a href=&#34;https://magrittr.tidyverse.org/&#34;&gt;&lt;code&gt;magrittr&lt;/code&gt;&lt;/a&gt; and since that time, I never stopped piping, although my piping habits evolved over time, especially with the &lt;a href=&#34;https://www.jumpingrivers.com/blog/new-features-r410-pipe-anonymous-functions/&#34;&gt;introduction of the native pipe&lt;/a&gt; in R 4.1.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Academic writing with Markdown, Visual Studio Code and Zotero</title>
-      <link>https://insileco.github.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</link>
+      <link>https://bloglegacy.insileco.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</guid>
-      <description>Academic researchers devote a significant amount of time to writing papers to report their findings. As this is an important aspect of their job, they need to use a document preparation system (a word processor) that they are comfortable working with.</description>
+      <guid>https://bloglegacy.insileco.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</guid>
+      <description>&lt;p&gt;Academic researchers devote a significant amount of time to writing papers to report their findings. As this is an important aspect of their job, they need to use a &lt;strong&gt;document preparation system&lt;/strong&gt; (a word processor) that they are comfortable working with. Another important aspect of scientific writing is to contextualize their work within the current body of knowledge. This involves citing other relevant scientific papers. To manage and organize all these references effectively, they use a &lt;strong&gt;reference manager system&lt;/strong&gt;. In this post, I will detail my current setup for academic writing that revolves around two pieces of software (with &lt;em&gt;ad hoc&lt;/em&gt; extensions): &lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt; and &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; (VS Code).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or Tips 005 {R}</title>
-      <link>https://insileco.github.io/2023/02/12/trick-or-tips-005-r/</link>
+      <link>https://bloglegacy.insileco.io/2023/02/12/trick-or-tips-005-r/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/02/12/trick-or-tips-005-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2023/02/12/trick-or-tips-005-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Continuous integration for R projects: from Travis CI to GitHub actions step by step</title>
-      <link>https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</link>
+      <link>https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</guid>
-      <description>I have been using Travis CI (https://travis-ci.org/) since 2015 and GitHub Actions (hereafter GH Actions; https://github.com/features/actions) for over a year now1. While using these two hosted continuous integration services, I came to realize that I was spending less time troubleshooting with GH Actions than I was with Travis.</description>
+      <guid>https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</guid>
+      <description>&lt;p&gt;I have been using Travis CI (&lt;a href=&#34;https://travis-ci.org/&#34;&gt;https://travis-ci.org/&lt;/a&gt;) since 2015 and GitHub&#xA;Actions (hereafter GH Actions; &lt;a href=&#34;https://github.com/features/actions&#34;&gt;https://github.com/features/actions&lt;/a&gt;) for over a&#xA;year now&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. While using these two hosted continuous integration services,&#xA;I came to realize that I was spending less time troubleshooting with GH Actions&#xA;than I was with Travis. For this reason, I am now setting GH Actions workflows&#xA;for my new projects (mainly R and Julia projects) and slowly migrating older&#xA;projects from Travis to GH Actions. Turns out that was the right move! Indeed,&#xA;as Jeroen Ooms explains in his recent post &lt;a href=&#34;https://discuss.ropensci.org/t/ropensci-moving-away-from-travis-ci/2267&#34;&gt;Moving away from Travis&#xA;CI&lt;/a&gt;,&#xA;by next year, &lt;a href=&#34;https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing&#34;&gt;Travis will no longer be free for open source&#xA;projects&lt;/a&gt; (see&#xA;&lt;a href=&#34;https://www.theregister.com/2020/11/02/travis_ci_pricng/&#34;&gt;also&lt;/a&gt;), which gives&#xA;me a good reason to speed up the migration process! As I was working on such&#xA;migration recently, I felt that I should to share some notes about this!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Custom tick marks with R&#39;s base graphics system</title>
-      <link>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
+      <link>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
-      <description>Context If you are using R&amp;rsquo;s base graphics system for your plots and if you like customizing your plots, you may have already wondered how to custom the tick marks of your plots!</description>
+      <guid>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;If you are using R&amp;rsquo;s base graphics system for your plots and if you like&#xA;customizing your plots, you may have already wondered how to custom the tick&#xA;marks of your plots! I do that quite a lot and I thought it would be worth&#xA;explaining how I do so. Let&amp;rsquo;s consider the following plot,&lt;/p&gt;</description>
     </item>
     <item>
       <title>inSilecoMisc 0.4.0 (part 2/2)</title>
-      <link>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
-      <description>In the first part of this post I introduced several functions available in the package inSilecoMisc. In this post, I keep on introducing features of the package you might find useful!</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://bloglegacy.insileco.io/2020/04/05/insilecomisc-0.4.0-part-1/2/&#34;&gt;first part of this post&lt;/a&gt; I&#xA;introduced several functions available in the package &lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt;. In this post, I keep on introducing features of the package you&#xA;might find useful! If you did not read the first part of this post and are&#xA;interested in reproducing the examples below, simply install &lt;code&gt;inSilecoMisc&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>inSilecoMisc 0.4.0 (part 1/2)</title>
-      <link>https://insileco.github.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</guid>
-      <description>inSilecoMisc inSilecoMisc is an R &amp;#x1f4e6; I have been maintaining for four years now. It was originally designed as a convenient way to share handy functions.</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</guid>
+      <description>&lt;h2 id=&#34;insilecomisc&#34;&gt;inSilecoMisc&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt; is an R &amp;#x1f4e6; I&#xA;have been maintaining for four years now. It was originally designed as a&#xA;convenient way to share handy functions. Instead of stacking them in my&#xA;&lt;code&gt;.Rprofile&lt;/code&gt;, I created a package and made it available on GitHub. &lt;code&gt;inSilecoMisc&lt;/code&gt;&#xA;is therefore a set of miscellaneous functions, just as other R packages (e.g.&#xA;&lt;a href=&#34;https://CRAN.R-project.org/package=Hmisc&#34;&gt;&lt;code&gt;Hmisc&lt;/code&gt;&lt;/a&gt;) but as I frequently change its API,&#xA;it is meant to stay in the experimental stage! I like having &lt;code&gt;inSilecoMisc&lt;/code&gt; on&#xA;GitHub because it gives a large degree of freedom to experiment new ideas, new&#xA;functions and the code remains available and easy to install! Despite the &amp;ldquo;API&#xA;instability&amp;rdquo;, the overall quality of the package is constantly improving (at&#xA;least, I hope so &amp;#x1f604;). I have even included some of the somewhat more&#xA;matured functions in the research compendium of recent manuscripts&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>R as a ruler? How to calculate distances between geographical objects</title>
-      <link>https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</guid>
-      <description>When working in Ecology, it is often necessary to produce maps and calculate distances between objects such as sampled stations, species distribution ranges or geographical features.</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</guid>
+      <description>&lt;p&gt;When working in Ecology, it is often necessary to produce maps and calculate distances between objects such as sampled stations, species distribution ranges or geographical features. A &lt;a href=&#34;https://bloglegacy.insileco.io/tuto/rinspace/rinspace_homepage/&#34;&gt;tutorial on this blog&lt;/a&gt; describes many techniques to create maps with different packages in R, such as &lt;code&gt;sf&lt;/code&gt; and &lt;code&gt;raster&lt;/code&gt;. In this post, I will go further and use these tools to calculate distances in our spatial environment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or tips 004 {R}</title>
-      <link>https://insileco.github.io/2019/08/13/trick-or-tips-004-r/</link>
+      <link>https://bloglegacy.insileco.io/2019/08/13/trick-or-tips-004-r/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2019/08/13/trick-or-tips-004-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2019/08/13/trick-or-tips-004-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating empty data frames with dfTemplate() and dfTemplateMatch()</title>
-      <link>https://insileco.github.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</link>
+      <link>https://bloglegacy.insileco.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</guid>
-      <description>Creating a data frame is fairly simple but when you need to create a large empty data frame with columns that have different classes it takes several command lines.</description>
+      <guid>https://bloglegacy.insileco.io/2019/02/03/creating-empty-data-frames-with-dftemplate-and-dftemplatematch/</guid>
+      <description>&lt;p&gt;Creating a data frame is fairly simple but when you need to &lt;a href=&#34;https://stackoverflow.com/questions/10689055/create-an-empty-data-frame&#34;&gt;create a large empty data frame with columns that have different classes&lt;/a&gt; it takes several command lines. A few days ago, I decided to write a function to simplify this operation and I came to realize that such a function would actually be very useful to ease the row binding of data frames whose column names partially match. How so? This post is meant to answer this question!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu &#43; Windows 7 - dual partition</title>
-      <link>https://insileco.github.io/2018/12/09/ubuntu--windows-7-dual-partition/</link>
+      <link>https://bloglegacy.insileco.io/2018/12/09/ubuntu--windows-7-dual-partition/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/12/09/ubuntu--windows-7-dual-partition/</guid>
-      <description>Long story short, I recently had access to a Dell Studio XPS 8100 with Windows 7 on it. I was told that the computer was not working well and so was allowed to tweak it.</description>
+      <guid>https://bloglegacy.insileco.io/2018/12/09/ubuntu--windows-7-dual-partition/</guid>
+      <description>&lt;p&gt;Long story short, I recently had access to a &lt;a href=&#34;https://www.dell.com/en-ca/shop/cty/dell-studio-xps-8100-desktop-details-reviews/spd/studio-xps-8100&#34;&gt;Dell Studio XPS 8100 &lt;/a&gt; with &lt;a href=&#34;https://en.wikipedia.org/wiki/Windows_7&#34;&gt;Windows 7&lt;/a&gt; on it. I was told that the computer was not working well and so was allowed to tweak it. The computer was actually working well, so I simply decided to add a partition Ubuntu.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A few thoughts on R packages</title>
-      <link>https://insileco.github.io/2018/12/03/a-few-thoughts-on-r-packages/</link>
+      <link>https://bloglegacy.insileco.io/2018/12/03/a-few-thoughts-on-r-packages/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/12/03/a-few-thoughts-on-r-packages/</guid>
-      <description>Jonas Geschke, Ignasi Bartomeus and I have recently released rcites v-1.0.0 on CRAN, a R client for the Species+ API after it has been reviewed by rOpenSci.</description>
+      <guid>https://bloglegacy.insileco.io/2018/12/03/a-few-thoughts-on-r-packages/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jonasgeschke/&#34;&gt;Jonas Geschke&lt;/a&gt;,&#xA;&lt;a href=&#34;https://bartomeuslab.com/&#34;&gt;Ignasi Bartomeus&lt;/a&gt; and I have recently released &lt;a href=&#34;https://cran.r-project.org/web/packages/rcites/index.html&#34;&gt;rcites v-1.0.0&lt;/a&gt; on CRAN, a R client for the &lt;a href=&#34;https://api.speciesplus.net/&#34;&gt;Species+ API&lt;/a&gt; after it has been reviewed by &lt;a href=&#34;https://rOpenSci.org/&#34;&gt;rOpenSci&lt;/a&gt;. In this post, I would like to share this recent experience as well as several valuable resources.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Non linear regression with nls()</title>
-      <link>https://insileco.github.io/2018/11/18/non-linear-regression-with-nls/</link>
+      <link>https://bloglegacy.insileco.io/2018/11/18/non-linear-regression-with-nls/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/11/18/non-linear-regression-with-nls/</guid>
-      <description>Context Last week, I was discussing about how to use nls() for a specific model with one of my colleague and I ended creating a piece of code to show what I was talking about!</description>
+      <guid>https://bloglegacy.insileco.io/2018/11/18/non-linear-regression-with-nls/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;Last week, I was discussing about how to use &lt;code&gt;nls()&lt;/code&gt; for a specific&#xA;model with one of my colleague and I ended creating a piece of code to&#xA;show what I was talking about! Even though there are many posts exploring &lt;code&gt;nls()&lt;/code&gt;&#xA;in more depth that I did (for instance &lt;a href=&#34;https://datascienceplus.com/first-steps-with-non-linear-regression-in-r/&#34;&gt;this post on datascienceplus by Lionel Herzog&lt;/a&gt;),&#xA;I thought I could share these lines of command here!&lt;/p&gt;</description>
     </item>
     <item>
       <title>My MacOS Setup</title>
-      <link>https://insileco.github.io/2018/07/13/my-macos-setup/</link>
+      <link>https://bloglegacy.insileco.io/2018/07/13/my-macos-setup/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/07/13/my-macos-setup/</guid>
-      <description>My MacOS Setup Inspired by Kevin&amp;rsquo;s recent post on setting up his new laptop on Debian Stretch, I decided that it was time to reset my Mac BookPro to factory settings.</description>
+      <guid>https://bloglegacy.insileco.io/2018/07/13/my-macos-setup/</guid>
+      <description>&lt;h2 id=&#34;my-macos-setup&#34;&gt;My MacOS Setup&lt;/h2&gt;&#xA;&lt;p&gt;Inspired by Kevin&amp;rsquo;s &lt;a href=&#34;https://bloglegacy.insileco.io/2018/05/21/go-debian-testing/&#34;&gt;recent post&lt;/a&gt; on setting up&#xA;his new laptop on Debian Stretch, I decided that it was time to reset my&#xA;Mac BookPro to factory settings. I bought it after a year in my thesis and&#xA;I&amp;rsquo;ve grown quite a bit since then in my understanding of programming and&#xA;computers in general. That also meant that I had a lot of accumulated junk!&lt;/p&gt;</description>
     </item>
     <item>
       <title>My R setup on Debian</title>
-      <link>https://insileco.github.io/2018/06/18/my-r-setup-on-debian/</link>
+      <link>https://bloglegacy.insileco.io/2018/06/18/my-r-setup-on-debian/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/06/18/my-r-setup-on-debian/</guid>
-      <description>R 3.5.0 &amp;ldquo;Joy in playing&amp;rdquo; was released April 23rd this year. It took a couple of weeks before it was made available on Debian testing due to the work required to rebuild the packages and as a Debian user that spend a lot of time on R, I am extremely grateful to the work of Dirk, Michael and Johannes on this!</description>
+      <guid>https://bloglegacy.insileco.io/2018/06/18/my-r-setup-on-debian/</guid>
+      <description>&lt;p&gt;R 3.5.0 &amp;ldquo;Joy in playing&amp;rdquo; was released April 23rd this year. It took a couple&#xA;of weeks before it was made available on Debian testing due to the work&#xA;required to rebuild the packages and as a Debian user that spend a lot of time&#xA;on R, I am extremely grateful to &lt;a href=&#34;http://dirk.eddelbuettel.com/blog/2018/06/11/&#34;&gt;the work of Dirk, Michael and Johannes on this&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go Debian Testing!</title>
-      <link>https://insileco.github.io/2018/05/21/go-debian-testing/</link>
+      <link>https://bloglegacy.insileco.io/2018/05/21/go-debian-testing/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/05/21/go-debian-testing/</guid>
-      <description>For almost a year now I&amp;rsquo;ve being spending most of my computer time on Debian. I began with Debian Stretch and switched to Debian Testing two months ago.</description>
+      <guid>https://bloglegacy.insileco.io/2018/05/21/go-debian-testing/</guid>
+      <description>&lt;p&gt;For almost a year now I&amp;rsquo;ve being spending most of my computer time on Debian.&#xA;I began with Debian Stretch and switched to Debian Testing two months ago.&#xA;This was another good opportunity to gain skills and I&amp;rsquo;d like to report&#xA;about my transition in this post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown everywhere!</title>
-      <link>https://insileco.github.io/2018/05/13/markdown-everywhere/</link>
+      <link>https://bloglegacy.insileco.io/2018/05/13/markdown-everywhere/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/05/13/markdown-everywhere/</guid>
-      <description>According to Wikipedia:&#xA;Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</description>
+      <guid>https://bloglegacy.insileco.io/2018/05/13/markdown-everywhere/</guid>
+      <description>&lt;p&gt;According to &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Markdown is a lightweight markup language with plain text formatting syntax.&#xA;It is designed so that it can be converted to HTML and many other formats using&#xA;a tool by the same name Markdown is often used to format readme files, for&#xA;writing messages in online discussion forums, and to create rich text using a&#xA;plain text editor. As the initial description of Markdown contained ambiguities&#xA;and unanswered questions, many implementations and extensions of Markdown&#xA;appeared over the years to answer these issues.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo, Github, Travis: a step in continuous deployment!</title>
-      <link>https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</link>
+      <link>https://bloglegacy.insileco.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</guid>
-      <description>I (Kevin) recently rebuilt my personal website and I was eager to set up the same workflow Steve built for our blog (this blog!), i.e. a combination of Hugo, Github and Travis.</description>
+      <guid>https://bloglegacy.insileco.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</guid>
+      <description>&lt;p&gt;I (Kevin) recently rebuilt &lt;a href=&#34;http://kevincazelles.fr/&#34;&gt;my personal website&lt;/a&gt; and&#xA;I was eager to set up the same workflow Steve built for our blog (this blog!),&#xA;&lt;em&gt;i.e.&lt;/em&gt; a combination of Hugo, Github and Travis. I though this was a good opportunity&#xA;to detail how it works and so I wrote this post with Steve. Note that there are&#xA;several blog posts on the topic available online, for instance&#xA;&lt;a href=&#34;https://medium.com/zendesk-engineering/how-to-create-a-website-like-freshswift-net-using-hugo-travis-ci-and-github-pages-67be6f480298&#34;&gt;here&lt;/a&gt;&#xA;and &lt;a href=&#34;https://www.metachris.com/2017/04/continuous-deployment-hugo---travis-ci--github-pages/&#34;&gt;here&lt;/a&gt;.&#xA;We did our best to complement them in the following post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hierarchical edge bundling using base plot</title>
-      <link>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
+      <link>https://bloglegacy.insileco.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
-      <description>I recently came across a very interesting paper from Laura Dee and collaborators focused on the concept of metanetworks and entitled &amp;ldquo;Operationalizing Network Theory for Ecosystem Service Assessments&amp;rdquo; (Dee et al 2017, TREE 32(2):118-130).</description>
+      <guid>https://bloglegacy.insileco.io/2018/02/21/hierarchical-edge-bundling-using-base-plot/</guid>
+      <description>&lt;p&gt;I recently came across a very interesting paper from Laura Dee and collaborators&#xA;focused on the concept of metanetworks and entitled &amp;ldquo;&lt;em&gt;Operationalizing Network&#xA;Theory for Ecosystem Service Assessments&lt;/em&gt;&amp;rdquo;&#xA;(&lt;a href=&#34;http://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(16)30192-6&#34;&gt;Dee &lt;em&gt;et al&lt;/em&gt; 2017, TREE 32(2):118-130&lt;/a&gt;).&#xA;After reading that article I have begun to revamp the context of my thesis around&#xA;the concept of metanetworks to include environmental impact assessment and&#xA;cumulative impacts assessment within such a framework.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or Tips 003 {R}</title>
-      <link>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</link>
+      <link>https://bloglegacy.insileco.io/2018/02/11/trick-or-tips-003-r/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/02/11/trick-or-tips-003-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2018/02/11/trick-or-tips-003-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting my Debian Stretch up</title>
-      <link>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</link>
+      <link>https://bloglegacy.insileco.io/2018/01/21/setting-my-debian-stretch-up/</link>
       <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</guid>
-      <description>This post details my Debian Stretch setup on my Lenovo ThinkPad T470p. I got this machine in early August 2017, so I now have almost 6 months worth of experience on Debian and I thought it was a good time to 1- document the rationale behind my move from MacOS to Debian 2- explain how I set my computer up and 3- how I rate my appreciation of working on Debian.</description>
+      <guid>https://bloglegacy.insileco.io/2018/01/21/setting-my-debian-stretch-up/</guid>
+      <description>&lt;p&gt;This post details my Debian Stretch setup on my Lenovo ThinkPad T470p.&#xA;I got this machine in early August 2017, so I now have almost 6 months worth of experience on&#xA;Debian and I thought it was a good time to 1- document the rationale behind my move from&#xA;MacOS to Debian 2- explain how I set my computer up and 3- how I rate my appreciation of&#xA;working on Debian. Any comments/questions about what follows? Please, feel free&#xA;to comment on this post at the end of the post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or Tips 002 {R}</title>
-      <link>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/11/12/trick-or-tips-002-r/</link>
       <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/11/12/trick-or-tips-002-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2017/11/12/trick-or-tips-002-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gantt charts in R</title>
-      <link>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</guid>
-      <description>Gantt charts Gantt charts are a very useful way to organize projects into milestones and tasks visually. They are also dead useful when comes the time to create a timeline for a project, whether it be for a research project, field work or grant applications.</description>
+      <guid>https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;h2 id=&#34;gantt-charts&#34;&gt;Gantt charts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gantt_chart&#34;&gt;Gantt charts&lt;/a&gt; are a very useful way&#xA;to organize projects into milestones and tasks visually. They are also dead&#xA;useful when comes the time to create a timeline for a project, whether it be for&#xA;a research project, field work or grant applications. I recently wanted to&#xA;create one, but was unsatisfied by what was available out there in terms of&#xA;visuals (although there are neat R examples, see &lt;a href=&#34;https://www.r-bloggers.com/gantt-charts-in-r-using-plotly/&#34;&gt;here&lt;/a&gt;,&#xA;&lt;a href=&#34;https://stackoverflow.com/questions/3550341/gantt-charts-with-r&#34;&gt;here&lt;/a&gt; and&#xA;&lt;a href=&#34;https://davetang.org/muse/2017/02/03/gantt-chart-using-r/&#34;&gt;here&lt;/a&gt;). So I came up with my own!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Efficiency of spatial intersects in R</title>
-      <link>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
-      <description>Intersects &amp;amp; R We are increasingly performing spatial analyses in R. The replicability and the efficiency of programming languages is much more appealing than using pieces of user friendly software like ArcGIS, even though you can still code your way through analyses when using them (latter versions of QGIS do a fantastic job in that regard!</description>
+      <guid>https://bloglegacy.insileco.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;h2 id=&#34;intersects--r&#34;&gt;Intersects &amp;amp; R&lt;/h2&gt;&#xA;&lt;p&gt;We are increasingly performing spatial analyses in R. The replicability and the&#xA;efficiency of programming languages is much more appealing than using pieces of&#xA;user friendly software like &lt;a href=&#34;https://www.arcgis.com/features/index.html&#34;&gt;ArcGIS&lt;/a&gt;,&#xA;even though you can still code your way through analyses when using them&#xA;(latter versions of &lt;a href=&#34;http://qgis.org/fr/site/&#34;&gt;QGIS&lt;/a&gt; do a fantastic&#xA;job in that regard!). The performance of tools available for spatial analyses in&#xA;R is however not completely certain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Animations in R: Time series of erythemal irradiance in the St. Lawrence</title>
-      <link>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
+      <link>https://bloglegacy.insileco.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
-      <description>The “need” for animations As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St.</description>
+      <guid>https://bloglegacy.insileco.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
+      <description>&lt;h2 id=&#34;the-need-for-animations&#34;&gt;The “&lt;em&gt;need&lt;/em&gt;” for animations&lt;/h2&gt;&#xA;&lt;p&gt;As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St. Lawrence (see ResearchGate &lt;a href=&#34;https://www.researchgate.net/project/Evaluating-the-cumulative-impacts-of-human-activities-on-the-structure-and-function-the-trophic-network-of-the-estuary-and-gulf-of-StLawrence&#34;&gt;project&lt;/a&gt; for more details). I have recently &lt;em&gt;needed&lt;/em&gt; (read: &lt;em&gt;thought it would be cool&lt;/em&gt;) to create an animation of the temporal variations in ultra-violet intensity in the St. Lawrence. Here is how I did it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trick or tips 001 {R}</title>
-      <link>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/06/30/trick-or-tips-001-r/</link>
       <pubDate>Fri, 30 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/06/30/trick-or-tips-001-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2017/06/30/trick-or-tips-001-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Online ecology - Individual species description</title>
-      <link>https://insileco.github.io/2017/06/19/online-ecology-individual-species-description/</link>
+      <link>https://bloglegacy.insileco.io/2017/06/19/online-ecology-individual-species-description/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/06/19/online-ecology-individual-species-description/</guid>
-      <description>Online ecology Let’s imagine that we are interested in a species in a given area and wish to know as much as possible about it.</description>
+      <guid>https://bloglegacy.insileco.io/2017/06/19/online-ecology-individual-species-description/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet/leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet/leaflet.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leafletfix/leafletfix.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/proj4/proj4.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet-binding/leaflet.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet-providers/leaflet-providers_1.9.0.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/leaflet-providers-plugin/leaflet-providers-plugin.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/HomeButton/home-button.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/HomeButton/home-button.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/HomeButton/easy-button-src.min.js&#34;&gt;&lt;/script&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/clipboard/setClipboardText.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/mapviewCSS/mapview-popup.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/mapviewCSS/mapview.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;br/&gt;&#xA;&lt;h1 id=&#34;online-ecology&#34;&gt;Online ecology&lt;/h1&gt;&#xA;&lt;p&gt;Let’s imagine that we are interested in a species in a given area and wish to&#xA;know as much as possible about it. But, you can’t go out in the field because&#xA;funding is running short. What we do have, however, is a certain knowledge of&#xA;the open data science tools that are at our disposal. In a series of post&#xA;about online ecology, we will find out exactly just how far these tools allow&#xA;us to delve into the ecology of the species that interest us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Add icons on your R plot</title>
-      <link>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</link>
+      <link>https://bloglegacy.insileco.io/2017/05/23/add-icons-on-your-r-plot/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/05/23/add-icons-on-your-r-plot/</guid>
-      <description>Introduction Icons are very popular on websites to improve the visual grepping (i.e. visual optimization of eyeball search). We all know how to go at the top or the bottom of a website clicking on chevrons ( ).</description>
+      <guid>https://bloglegacy.insileco.io/2017/05/23/add-icons-on-your-r-plot/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Icons are very popular on websites to improve the visual grepping (&lt;em&gt;i.e.&lt;/em&gt; visual&#xA;optimization of &lt;em&gt;eyeball&lt;/em&gt; search). We all know how to go at the top or the&#xA;bottom of a website clicking on chevrons (&lt;i class=&#34;fa fa-chevron-down&#34;&#xA;aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; &lt;i class=&#34;fa fa-chevron-up&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;).&#xA;We are also familiar with simple symbols that allow us to click and edit the&#xA;text we are typing (&lt;i class=&#34;fa fa-align-left&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;&lt;i class=&#34;fa fa-align-center&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;&lt;i class=&#34;fa fa-align-right&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;). Moreover, some web&#xA;applications are so widespread than their logo appears in thousands of websites&#xA;(i.e Twitter &lt;i class=&#34;fab fa-twitter&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt; or&#xA;GitHub &lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;). Here, we explain how&#xA;to use these icons in your R plots. Why use icons on an R plot? It simply&#xA;increases the possibilities for the number of markers you could use and thus&#xA;efficiently and usefully refine your plots.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Make your R plot Hylian</title>
-      <link>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</link>
+      <link>https://bloglegacy.insileco.io/2017/04/14/make-your-r-plot-hylian/</link>
       <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</guid>
-      <description>Below are presented the 5 steps you need to make your plot a Hylian one! May the triforce be with you!&#xA;Open R and download the font The Triforce font is available on line.</description>
+      <guid>https://bloglegacy.insileco.io/2017/04/14/make-your-r-plot-hylian/</guid>
+      <description>&lt;p&gt;Below are presented the 5 steps you need to make your plot a Hylian one! &lt;strong&gt;May the triforce be with you&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;h2 id=&#34;open-r-and-download-the-font&#34;&gt;Open R and download the font&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://zeldauniverse.net/media/fonts/&#34;&gt;&lt;em&gt;Triforce&lt;/em&gt; font&lt;/a&gt; is available on line.&#xA;Below we download it using R. Alternatively, you may simply download and install&#xA;it using a couple of clicks, if you proceed so, skip step 1.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

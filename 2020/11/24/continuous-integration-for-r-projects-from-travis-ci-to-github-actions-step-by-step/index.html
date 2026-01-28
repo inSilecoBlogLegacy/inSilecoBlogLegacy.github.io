@@ -22,10 +22,10 @@
 </style>
 
 
-<link rel="stylesheet" href="https://insileco.github.io/css/main.css">
+<link rel="stylesheet" href="https://bloglegacy.insileco.io/css/main.css">
 
 
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">  <link rel="stylesheet" href="https://insileco.github.io/css/academicons.min.css">  <link rel="stylesheet" href="https://insileco.github.io/css/main.css">  <link rel="stylesheet" href="https://insileco.github.io/css/syntax.css"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/academicons.min.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/main.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/syntax.css"> 
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -42,7 +42,7 @@
 
 
 
- <script src="https://insileco.github.io/js/codecopypaste.js"></script> 
+ <script src="https://bloglegacy.insileco.io/js/codecopypaste.js"></script> 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -52,10 +52,9 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.132.0">
+ <meta name="generator" content="Hugo 0.153.0">
         
 
-        
 
         
             <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -95,7 +94,7 @@
                             
                                 <li><a href="/about/">About</a></li>
                             
-                                <li><a href="https://insilecoinc.github.io/">Consulting</a></li>
+                                <li><a href="https://insileco.io/">Consulting</a></li>
                             
                                 <li><a href="/post/">Posts</a></li>
                             
@@ -108,9 +107,7 @@
                             
                                 <li class="navbar-icon"><a href="/"><i class="fas fa-home"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://github.com/inSileco/"><i class="fab fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://twitter.com/inSileco/"><i class="fab fa-twitter"></i></a></li>
+                                <li class="navbar-icon"><a href="https://github.com/inSilecoBlogLegacy/"><i class="fab fa-github"></i></a></li>
                             
                                 <li class="navbar-icon"><a href="https://insileco.github.io/index.xml"><i class="fas fa-rss"></i></a></li>
                             
@@ -244,8 +241,8 @@
                 
                 
                 
-                <a href="http://twitter.com/share?url=https%3a%2f%2finsileco.github.io%2f2020%2f11%2f24%2fcontinuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step%2f&text=Continuous%20integration%20for%20R%20projects%3a%20from%20Travis%20CI%20to%20GitHub%20actions%20step%20by%20step" target="_blank">
-                    <img src='https://img.shields.io/twitter/url?style=social&url=https%3a%2f%2finsileco.github.io%2f2020%2f11%2f24%2fcontinuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step%2f?link=http://left&link=http://right}'>
+                <a href="http://twitter.com/share?url=https%3a%2f%2fbloglegacy.insileco.io%2f2020%2f11%2f24%2fcontinuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step%2f&text=Continuous%20integration%20for%20R%20projects%3a%20from%20Travis%20CI%20to%20GitHub%20actions%20step%20by%20step" target="_blank">
+                    <img src='https://img.shields.io/twitter/url?style=social&url=https%3a%2f%2fbloglegacy.insileco.io%2f2020%2f11%2f24%2fcontinuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step%2f?link=http://left&link=http://right}'>
                 </a>
                 
 
@@ -414,7 +411,7 @@ that I&rsquo;ve simplified a bit (I use only 4 combinations OS / R versions) and
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">if</span><span class="p">:</span><span class="w"> </span><span class="l">matrix.config.os == &#39;macOS-latest&#39; &amp;&amp; matrix.config.r == &#39;release&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span></span></span><span class="line"><span class="cl"><span class="sd">    remotes::install_cran(&#34;covr&#34;)
-</span></span></span><span class="line"><span class="cl"><span class="sd">    covr::codecov(token = &#34;${{secrets.CODECOV_TOKEN}}&#34;)</span><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="sd">    covr::codecov(token = &#34;${{secrets.CODECOV_TOKEN}}&#34;)</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">shell</span><span class="p">:</span><span class="w"> </span><span class="l">Rscript {0}</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
@@ -445,7 +442,7 @@ part <code>matrix.config.r == 'release'</code> in case I would add another confi
 </span></span></span><span class="line"><span class="cl"><span class="sd">    sudo apt-get install libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev
 </span></span></span><span class="line"><span class="cl"><span class="sd">    git fetch origin gh-pages:gh-pages
 </span></span></span><span class="line"><span class="cl"><span class="sd">    git --work-tree=docs checkout gh-pages -- .
-</span></span></span><span class="line"><span class="cl"><span class="sd">    Rscript -e &#39;remotes::install_cran(c(&#34;pkgdown&#34;)); pkgdown::build_site()&#39;</span><span class="w">    
+</span></span></span><span class="line"><span class="cl"><span class="sd">    Rscript -e &#39;remotes::install_cran(c(&#34;pkgdown&#34;)); pkgdown::build_site()&#39;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>There are a few lines that require some explanations. First, I decided to build this on Ubuntu (again, this is arbitrary). Second, the following line:</p>
@@ -698,9 +695,9 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">master</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">R-CMD-check</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">R-CMD-check</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">jobs</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">R-CMD-check</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">${{ matrix.config.os }}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
@@ -731,7 +728,7 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Query dependencies</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span></span></span><span class="line"><span class="cl"><span class="sd">          install.packages(&#39;remotes&#39;)
-</span></span></span><span class="line"><span class="cl"><span class="sd">          saveRDS(remotes::dev_package_deps(dependencies = TRUE), &#34;depends.Rds&#34;, version = 2)</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="sd">          saveRDS(remotes::dev_package_deps(dependencies = TRUE), &#34;depends.Rds&#34;, version = 2)</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">shell</span><span class="p">:</span><span class="w"> </span><span class="l">Rscript {0}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Cache R packages</span><span class="w">
@@ -749,14 +746,14 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span></span></span><span class="line"><span class="cl"><span class="sd">          Rscript -e &#34;remotes::install_github(&#39;r-hub/sysreqs&#39;)&#34;
 </span></span></span><span class="line"><span class="cl"><span class="sd">          sysreqs=$(Rscript -e &#34;cat(sysreqs::sysreq_commands(&#39;DESCRIPTION&#39;))&#34;)
-</span></span></span><span class="line"><span class="cl"><span class="sd">          sudo -s eval &#34;$sysreqs&#34;</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="sd">          sudo -s eval &#34;$sysreqs&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install dependencies</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span></span></span><span class="line"><span class="cl"><span class="sd">          library(remotes)
 </span></span></span><span class="line"><span class="cl"><span class="sd">          deps &lt;- readRDS(&#34;depends.Rds&#34;)
 </span></span></span><span class="line"><span class="cl"><span class="sd">          deps[[&#34;installed&#34;]] &lt;- vapply(deps[[&#34;package&#34;]], remotes:::local_sha, character(1))
 </span></span></span><span class="line"><span class="cl"><span class="sd">          update(deps)
-</span></span></span><span class="line"><span class="cl"><span class="sd">          remotes::install_cran(&#34;rcmdcheck&#34;)</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="sd">          remotes::install_cran(&#34;rcmdcheck&#34;)</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">shell</span><span class="p">:</span><span class="w"> </span><span class="l">Rscript {0}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Check</span><span class="w">
@@ -774,7 +771,7 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">if</span><span class="p">:</span><span class="w"> </span><span class="l">matrix.config.os == &#39;macOS-latest&#39; &amp;&amp; matrix.config.r == &#39;release&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="p">|</span><span class="sd">
 </span></span></span><span class="line"><span class="cl"><span class="sd">          remotes::install_cran(&#34;covr&#34;)
-</span></span></span><span class="line"><span class="cl"><span class="sd">          covr::codecov(token = &#34;${{secrets.CODECOV_TOKEN}}&#34;)</span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="sd">          covr::codecov(token = &#34;${{secrets.CODECOV_TOKEN}}&#34;)</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">shell</span><span class="p">:</span><span class="w"> </span><span class="l">Rscript {0}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build website </span><span class="w">
@@ -785,7 +782,7 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
 </span></span></span><span class="line"><span class="cl"><span class="sd">          git fetch origin gh-pages:gh-pages
 </span></span></span><span class="line"><span class="cl"><span class="sd">          git --work-tree=docs checkout gh-pages -- .
 </span></span></span><span class="line"><span class="cl"><span class="sd">          Rscript -e &#39;remotes::install_cran(c(&#34;pkgdown&#34;)); pkgdown::build_site()&#39;
-</span></span></span><span class="line"><span class="cl"><span class="sd">            </span><span class="w">          
+</span></span></span><span class="line"><span class="cl"><span class="sd">            </span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy website </span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">if</span><span class="p">:</span><span class="w"> </span><span class="l">matrix.config.os == &#39;ubuntu-20.04&#39; &amp;&amp; matrix.config.r == &#39;release&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v3</span><span class="w">
@@ -855,7 +852,7 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
 
   
 
-  <script type="text/javascript" src="https://insileco.github.io/js/codecopypaste.js"></script>
+  <script type="text/javascript" src="https://bloglegacy.insileco.io/js/codecopypaste.js"></script>
 
 
 
@@ -893,7 +890,7 @@ the default is <code>gh-pages</code> and I already had a branch <code>gh-pages</
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 23 January 2026 16:33 UTC.
+      Latest build: 28 January 2026 17:18 UTC.
     </p>
 
   </div>

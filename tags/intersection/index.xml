@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Intersection on inSileco</title>
-    <link>https://insileco.github.io/tags/intersection/</link>
+    <link>https://bloglegacy.insileco.io/tags/intersection/</link>
     <description>Recent content in Intersection on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/intersection/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/intersection/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Efficiency of spatial intersects in R</title>
-      <link>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
-      <description>Intersects &amp;amp; R We are increasingly performing spatial analyses in R. The replicability and the efficiency of programming languages is much more appealing than using pieces of user friendly software like ArcGIS, even though you can still code your way through analyses when using them (latter versions of QGIS do a fantastic job in that regard!</description>
+      <guid>https://bloglegacy.insileco.io/2017/09/12/efficiency-of-spatial-intersects-in-r/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;script src=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;h2 id=&#34;intersects--r&#34;&gt;Intersects &amp;amp; R&lt;/h2&gt;&#xA;&lt;p&gt;We are increasingly performing spatial analyses in R. The replicability and the&#xA;efficiency of programming languages is much more appealing than using pieces of&#xA;user friendly software like &lt;a href=&#34;https://www.arcgis.com/features/index.html&#34;&gt;ArcGIS&lt;/a&gt;,&#xA;even though you can still code your way through analyses when using them&#xA;(latter versions of &lt;a href=&#34;http://qgis.org/fr/site/&#34;&gt;QGIS&lt;/a&gt; do a fantastic&#xA;job in that regard!). The performance of tools available for spatial analyses in&#xA;R is however not completely certain.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

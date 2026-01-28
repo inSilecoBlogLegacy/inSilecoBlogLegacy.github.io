@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ticks on inSileco</title>
-    <link>https://insileco.github.io/tags/ticks/</link>
+    <link>https://bloglegacy.insileco.io/tags/ticks/</link>
     <description>Recent content in Ticks on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/ticks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/ticks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom tick marks with R&#39;s base graphics system</title>
-      <link>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
+      <link>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
-      <description>Context If you are using R&amp;rsquo;s base graphics system for your plots and if you like customizing your plots, you may have already wondered how to custom the tick marks of your plots!</description>
+      <guid>https://bloglegacy.insileco.io/2020/08/29/custom-tick-marks-with-rs-base-graphics-system/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;If you are using R&amp;rsquo;s base graphics system for your plots and if you like&#xA;customizing your plots, you may have already wondered how to custom the tick&#xA;marks of your plots! I do that quite a lot and I thought it would be worth&#xA;explaining how I do so. Let&amp;rsquo;s consider the following plot,&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Visualization on inSileco</title>
-    <link>https://insileco.github.io/tags/data-visualization/</link>
+    <link>https://bloglegacy.insileco.io/tags/data-visualization/</link>
     <description>Recent content in Data Visualization on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Wed, 20 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gantt charts in R</title>
-      <link>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/09/20/gantt-charts-in-r/</guid>
-      <description>Gantt charts Gantt charts are a very useful way to organize projects into milestones and tasks visually. They are also dead useful when comes the time to create a timeline for a project, whether it be for a research project, field work or grant applications.</description>
+      <guid>https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/</guid>
+      <description>&lt;script src=&#34;https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/index_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;&#xA;&lt;link href=&#34;https://bloglegacy.insileco.io/2017/09/20/gantt-charts-in-r/index_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;&#xA;&lt;h2 id=&#34;gantt-charts&#34;&gt;Gantt charts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Gantt_chart&#34;&gt;Gantt charts&lt;/a&gt; are a very useful way&#xA;to organize projects into milestones and tasks visually. They are also dead&#xA;useful when comes the time to create a timeline for a project, whether it be for&#xA;a research project, field work or grant applications. I recently wanted to&#xA;create one, but was unsatisfied by what was available out there in terms of&#xA;visuals (although there are neat R examples, see &lt;a href=&#34;https://www.r-bloggers.com/gantt-charts-in-r-using-plotly/&#34;&gt;here&lt;/a&gt;,&#xA;&lt;a href=&#34;https://stackoverflow.com/questions/3550341/gantt-charts-with-r&#34;&gt;here&lt;/a&gt; and&#xA;&lt;a href=&#34;https://davetang.org/muse/2017/02/03/gantt-chart-using-r/&#34;&gt;here&lt;/a&gt;). So I came up with my own!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

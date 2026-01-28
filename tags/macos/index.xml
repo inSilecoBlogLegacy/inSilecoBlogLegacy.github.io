@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacOS on inSileco</title>
-    <link>https://insileco.github.io/tags/macos/</link>
+    <link>https://bloglegacy.insileco.io/tags/macos/</link>
     <description>Recent content in MacOS on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My MacOS Setup</title>
-      <link>https://insileco.github.io/2018/07/13/my-macos-setup/</link>
+      <link>https://bloglegacy.insileco.io/2018/07/13/my-macos-setup/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/07/13/my-macos-setup/</guid>
-      <description>My MacOS Setup Inspired by Kevin&amp;rsquo;s recent post on setting up his new laptop on Debian Stretch, I decided that it was time to reset my Mac BookPro to factory settings.</description>
+      <guid>https://bloglegacy.insileco.io/2018/07/13/my-macos-setup/</guid>
+      <description>&lt;h2 id=&#34;my-macos-setup&#34;&gt;My MacOS Setup&lt;/h2&gt;&#xA;&lt;p&gt;Inspired by Kevin&amp;rsquo;s &lt;a href=&#34;https://bloglegacy.insileco.io/2018/05/21/go-debian-testing/&#34;&gt;recent post&lt;/a&gt; on setting up&#xA;his new laptop on Debian Stretch, I decided that it was time to reset my&#xA;Mac BookPro to factory settings. I bought it after a year in my thesis and&#xA;I&amp;rsquo;ve grown quite a bit since then in my understanding of programming and&#xA;computers in general. That also meant that I had a lot of accumulated junk!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

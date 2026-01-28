@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Miscellaneous on inSileco</title>
-    <link>https://insileco.github.io/categories/miscellaneous/</link>
+    <link>https://bloglegacy.insileco.io/categories/miscellaneous/</link>
     <description>Recent content in Miscellaneous on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Mon, 11 Sep 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Useful web links</title>
-      <link>https://insileco.github.io/resource/usefulurl/</link>
+      <link>https://bloglegacy.insileco.io/resource/usefulurl/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/usefulurl/</guid>
-      <description>The Internet&amp;hellip; so many websites, so many resources, how easy it is to get lost when navigating the vast digital ocean! Teaching how to identify credible online material is doubtlessly one of the biggest educational challenge of our time.</description>
+      <guid>https://bloglegacy.insileco.io/resource/usefulurl/</guid>
+      <description>&lt;p&gt;The Internet&amp;hellip; so many websites, so many resources,&#xA;how easy it is to get lost when navigating the vast digital ocean! Teaching how&#xA;to identify credible online material is doubtlessly one of the biggest educational&#xA;challenge of our time. As researchers with strong interests in computational&#xA;methods in ecology, we spend a substantial amount of our time searching&#xA;various kind of information online ranging from a small piece of code to&#xA;massive ecological database. To keep track of the web resources we regard as&#xA;helpful in our day to day work but quite inconspicuous, we have created the list&#xA;below. Please feel free to suggest other links at the bottom of this page!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stats on inSileco</title>
-    <link>https://insileco.github.io/rpkgs/stats/</link>
+    <link>https://bloglegacy.insileco.io/rpkgs/stats/</link>
     <description>Recent content in Stats on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Sun, 18 Nov 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/rpkgs/stats/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/rpkgs/stats/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Non linear regression with nls()</title>
-      <link>https://insileco.github.io/2018/11/18/non-linear-regression-with-nls/</link>
+      <link>https://bloglegacy.insileco.io/2018/11/18/non-linear-regression-with-nls/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/11/18/non-linear-regression-with-nls/</guid>
-      <description>Context Last week, I was discussing about how to use nls() for a specific model with one of my colleague and I ended creating a piece of code to show what I was talking about!</description>
+      <guid>https://bloglegacy.insileco.io/2018/11/18/non-linear-regression-with-nls/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;Last week, I was discussing about how to use &lt;code&gt;nls()&lt;/code&gt; for a specific&#xA;model with one of my colleague and I ended creating a piece of code to&#xA;show what I was talking about! Even though there are many posts exploring &lt;code&gt;nls()&lt;/code&gt;&#xA;in more depth that I did (for instance &lt;a href=&#34;https://datascienceplus.com/first-steps-with-non-linear-regression-in-r/&#34;&gt;this post on datascienceplus by Lionel Herzog&lt;/a&gt;),&#xA;I thought I could share these lines of command here!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

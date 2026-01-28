@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Radiation on inSileco</title>
-    <link>https://insileco.github.io/tags/radiation/</link>
+    <link>https://bloglegacy.insileco.io/tags/radiation/</link>
     <description>Recent content in Radiation on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Wed, 05 Jul 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/radiation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/radiation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animations in R: Time series of erythemal irradiance in the St. Lawrence</title>
-      <link>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
+      <link>https://bloglegacy.insileco.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
-      <description>The “need” for animations As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St.</description>
+      <guid>https://bloglegacy.insileco.io/2017/07/05/animations-in-r-time-series-of-erythemal-irradiance-in-the-st.-lawrence/</guid>
+      <description>&lt;h2 id=&#34;the-need-for-animations&#34;&gt;The “&lt;em&gt;need&lt;/em&gt;” for animations&lt;/h2&gt;&#xA;&lt;p&gt;As part of my PhD thesis, I am currently characterizing the intensity of multiple stressors in the estuary and gulf of St. Lawrence (see ResearchGate &lt;a href=&#34;https://www.researchgate.net/project/Evaluating-the-cumulative-impacts-of-human-activities-on-the-structure-and-function-the-trophic-network-of-the-estuary-and-gulf-of-StLawrence&#34;&gt;project&lt;/a&gt; for more details). I have recently &lt;em&gt;needed&lt;/em&gt; (read: &lt;em&gt;thought it would be cool&lt;/em&gt;) to create an animation of the temporal variations in ultra-violet intensity in the St. Lawrence. Here is how I did it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monorepo on inSileco</title>
-    <link>https://insileco.github.io/tags/monorepo/</link>
+    <link>https://bloglegacy.insileco.io/tags/monorepo/</link>
     <description>Recent content in Monorepo on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/monorepo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/monorepo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a monorepo of R packages with GitHub</title>
-      <link>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
+      <link>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
-      <description>Context As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use organization accounts to gather packages that have a common scope.</description>
+      <guid>https://bloglegacy.insileco.io/2023/11/23/creating-a-monorepo-of-r-packages-with-github/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;As an R developer who often works on open source project, I normally use one GitHub repository for new R packages. Team of R developers that work on several packages use &lt;a href=&#34;https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts&#34;&gt;organization accounts&lt;/a&gt; to gather packages that have a common scope. Popular accounts of this kind include:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

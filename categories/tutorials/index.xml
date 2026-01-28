@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on inSileco</title>
-    <link>https://insileco.github.io/categories/tutorials/</link>
+    <link>https://bloglegacy.insileco.io/categories/tutorials/</link>
     <description>Recent content in Tutorials on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our Software</title>
-      <link>https://insileco.github.io/resource/software/</link>
+      <link>https://bloglegacy.insileco.io/resource/software/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/software/</guid>
-      <description>diskers [R package] &amp;nbsp; Collection of seed dispersal kernels written in Rcpp. eDriversApp [Shiny App] &amp;nbsp; Shiny application to visualize eDrivers platform data . geographr [R package] &amp;nbsp; An R package to test your skills in world geography.</description>
+      <guid>https://bloglegacy.insileco.io/resource/software/</guid>
+      <description>&lt;div class=&#34;row&#34;&gt;&#xA;&#xA;  &lt;div class=&#34;col-sm-12&#34;&gt;&#xA;&#xA;    &#xA;    &lt;div class=&#34;col-sm-6 text-left&#34;&gt;&#xA;      &lt;div class=&#34;panel panel-default&#34;&gt;&#xA;        &lt;div class=&#34;panel-body&#34; style=&#34;min-height: 20rem; max-height:20rem; overflow: scroll;&#34;&gt;&#xA;          &lt;div class=&#34;title-left&#34; style=&#34;width: 80%; display: inline-block&#34;&gt;&#xA;            &lt;h3 style=&#34;font-weight:bold;display:inline;&#34;&gt;&#xA;              diskers&#xA;            &lt;/h3&gt;&#xA;            &lt;h4 style=&#34;font-weight:bold;display:inline;&#34;&gt;&#xA;              [R package]&#xA;            &lt;/h4&gt;&#xA;          &lt;/div&gt;&#xA;          &lt;div class=&#34;title-right&#34; style=&#34;width: 20%; display: inline;&#34;&gt;&#xA;            &#xA;            &lt;a href=&#34;https://github.com/KevCaz/diskers&#34; style=&#34;display:inline;&#34;&gt;&#xA;              &lt;i class=&#34;fab fa-2x fa-github&#34;&gt;&lt;/i&gt;&#xA;            &lt;/a&gt;&amp;nbsp;&#xA;            &#xA;            &#xA;            &lt;a href=&#34;https://kevcaz.insileco.io/diskers/&#34;&gt;&#xA;              &lt;i class=&#34;fa fa-2x fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;            &lt;/a&gt;&#xA;            &#xA;            &lt;hr&gt;&#xA;          &lt;/div&gt;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;          &#xA;          &lt;a href=&#34;https://www.repostatus.org/#active&#34;&gt;&lt;img alt=&#34;Repostatus&#34;&#xA;              src=&#34;https://www.repostatus.org/badges/latest/active.svg&#34;&gt;&lt;/img&gt;&lt;/a&gt;&#xA;          &#xA;          &#xA;          &#xA;          &#xA;          &lt;p style=&#34;margin-top: 1rem&#34;&gt; Collection of seed dispersal kernels written in Rcpp. &lt;/p&gt;</description>
     </item>
     <item>
       <title>Our tutorials</title>
-      <link>https://insileco.github.io/resource/tutorials/</link>
+      <link>https://bloglegacy.insileco.io/resource/tutorials/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/resource/tutorials/</guid>
-      <description>Short R tutorials About R Markdown (2018) 🇺🇸 Learn how to use R Markdown.&#xA;About R packages (2018) 🇺🇸 A short tutorial to learn how to created an R package.</description>
+      <guid>https://bloglegacy.insileco.io/resource/tutorials/</guid>
+      <description>&lt;h2&gt;Short R tutorials&lt;/h2&gt;&#xA;&#xA;&lt;ul&gt;&#xA;  &#xA;  &#xA;  &lt;li&gt;&#xA;    About R Markdown&#xA;     (2018) &#xA;    🇺🇸&#xA;    &#xA;    &lt;a href=&#34;https://github.com/KevCaz/aboutRMarkdown&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;    &lt;a href=&#34;https://kevcaz.github.io/aboutRMarkdown/#1&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;  &lt;/li&gt;&#xA;  &lt;p&gt;Learn how to use R Markdown.&lt;/p&gt;&#xA;  &#xA;  &#xA;  &#xA;  &lt;li&gt;&#xA;    About R packages&#xA;     (2018) &#xA;    🇺🇸&#xA;    &#xA;    &lt;a href=&#34;https://github.com/KevCaz/aboutRPackages&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fab fa-github&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;    &lt;a href=&#34;https://kevcaz.github.io/aboutRPackages/&#34; style=&#34;display:inline;&#34;&gt;&#xA;      &lt;i class=&#34;fas fa-globe&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&#xA;    &lt;/a&gt;&#xA;    &#xA;  &lt;/li&gt;&#xA;  &lt;p&gt;A short tutorial to learn how to created an R package.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

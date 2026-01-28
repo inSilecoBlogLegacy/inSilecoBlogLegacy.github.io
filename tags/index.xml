@@ -2,466 +2,466 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on inSileco</title>
-    <link>https://insileco.github.io/tags/</link>
+    <link>https://bloglegacy.insileco.io/tags/</link>
     <description>Recent content in Tags on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
-      <link>https://insileco.github.io/tags/docker/</link>
+      <link>https://bloglegacy.insileco.io/tags/docker/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/docker/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://insileco.github.io/tags/github/</link>
+      <link>https://bloglegacy.insileco.io/tags/github/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/github/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Github Actions</title>
-      <link>https://insileco.github.io/tags/github-actions/</link>
+      <link>https://bloglegacy.insileco.io/tags/github-actions/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/github-actions/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/github-actions/</guid>
       <description></description>
     </item>
     <item>
       <title>Monorepo</title>
-      <link>https://insileco.github.io/tags/monorepo/</link>
+      <link>https://bloglegacy.insileco.io/tags/monorepo/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/monorepo/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/monorepo/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>https://insileco.github.io/tags/r/</link>
+      <link>https://bloglegacy.insileco.io/tags/r/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/r/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Internals</title>
-      <link>https://insileco.github.io/tags/internals/</link>
+      <link>https://bloglegacy.insileco.io/tags/internals/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/internals/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/internals/</guid>
       <description></description>
     </item>
     <item>
       <title>Pipe</title>
-      <link>https://insileco.github.io/tags/pipe/</link>
+      <link>https://bloglegacy.insileco.io/tags/pipe/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/pipe/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/pipe/</guid>
       <description></description>
     </item>
     <item>
       <title>Tips</title>
-      <link>https://insileco.github.io/tags/tips/</link>
+      <link>https://bloglegacy.insileco.io/tags/tips/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/tips/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Scientific Writing</title>
-      <link>https://insileco.github.io/tags/scientific-writing/</link>
+      <link>https://bloglegacy.insileco.io/tags/scientific-writing/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/scientific-writing/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/scientific-writing/</guid>
       <description></description>
     </item>
     <item>
       <title>VSCode</title>
-      <link>https://insileco.github.io/tags/vscode/</link>
+      <link>https://bloglegacy.insileco.io/tags/vscode/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/vscode/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/vscode/</guid>
       <description></description>
     </item>
     <item>
       <title>Zotero</title>
-      <link>https://insileco.github.io/tags/zotero/</link>
+      <link>https://bloglegacy.insileco.io/tags/zotero/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/zotero/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/zotero/</guid>
       <description></description>
     </item>
     <item>
       <title>Trickortips</title>
-      <link>https://insileco.github.io/tags/trickortips/</link>
+      <link>https://bloglegacy.insileco.io/tags/trickortips/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/trickortips/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/trickortips/</guid>
       <description></description>
     </item>
     <item>
       <title>Spatial</title>
-      <link>https://insileco.github.io/tags/spatial/</link>
+      <link>https://bloglegacy.insileco.io/tags/spatial/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/spatial/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/spatial/</guid>
       <description></description>
     </item>
     <item>
       <title>Tutorials</title>
-      <link>https://insileco.github.io/tags/tutorials/</link>
+      <link>https://bloglegacy.insileco.io/tags/tutorials/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/tutorials/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Integration</title>
-      <link>https://insileco.github.io/tags/continuous-integration/</link>
+      <link>https://bloglegacy.insileco.io/tags/continuous-integration/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/continuous-integration/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/continuous-integration/</guid>
       <description></description>
     </item>
     <item>
       <title>R Package</title>
-      <link>https://insileco.github.io/tags/r-package/</link>
+      <link>https://bloglegacy.insileco.io/tags/r-package/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/r-package/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/r-package/</guid>
       <description></description>
     </item>
     <item>
       <title>Travis CI</title>
-      <link>https://insileco.github.io/tags/travis-ci/</link>
+      <link>https://bloglegacy.insileco.io/tags/travis-ci/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/travis-ci/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/travis-ci/</guid>
       <description></description>
     </item>
     <item>
       <title>Axes</title>
-      <link>https://insileco.github.io/tags/axes/</link>
+      <link>https://bloglegacy.insileco.io/tags/axes/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/axes/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/axes/</guid>
       <description></description>
     </item>
     <item>
       <title>Ticks</title>
-      <link>https://insileco.github.io/tags/ticks/</link>
+      <link>https://bloglegacy.insileco.io/tags/ticks/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/ticks/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/ticks/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://insileco.github.io/tags/development/</link>
+      <link>https://bloglegacy.insileco.io/tags/development/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/development/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/development/</guid>
       <description></description>
     </item>
     <item>
       <title>InSilecoMisc</title>
-      <link>https://insileco.github.io/tags/insilecomisc/</link>
+      <link>https://bloglegacy.insileco.io/tags/insilecomisc/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/insilecomisc/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/insilecomisc/</guid>
       <description></description>
     </item>
     <item>
       <title>Package</title>
-      <link>https://insileco.github.io/tags/package/</link>
+      <link>https://bloglegacy.insileco.io/tags/package/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/package/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/package/</guid>
       <description></description>
     </item>
     <item>
       <title>GIS</title>
-      <link>https://insileco.github.io/tags/gis/</link>
+      <link>https://bloglegacy.insileco.io/tags/gis/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/gis/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/gis/</guid>
       <description></description>
     </item>
     <item>
       <title>Utils</title>
-      <link>https://insileco.github.io/tags/utils/</link>
+      <link>https://bloglegacy.insileco.io/tags/utils/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/utils/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/utils/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Frame</title>
-      <link>https://insileco.github.io/tags/data-frame/</link>
+      <link>https://bloglegacy.insileco.io/tags/data-frame/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/data-frame/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/data-frame/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Frames Generation</title>
-      <link>https://insileco.github.io/tags/data-frames-generation/</link>
+      <link>https://bloglegacy.insileco.io/tags/data-frames-generation/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/data-frames-generation/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/data-frames-generation/</guid>
       <description></description>
     </item>
     <item>
       <title>Row Binding</title>
-      <link>https://insileco.github.io/tags/row-binding/</link>
+      <link>https://bloglegacy.insileco.io/tags/row-binding/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/row-binding/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/row-binding/</guid>
       <description></description>
     </item>
     <item>
       <title>Apt-Get</title>
-      <link>https://insileco.github.io/tags/apt-get/</link>
+      <link>https://bloglegacy.insileco.io/tags/apt-get/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/apt-get/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/apt-get/</guid>
       <description></description>
     </item>
     <item>
       <title>Chocolatey</title>
-      <link>https://insileco.github.io/tags/chocolatey/</link>
+      <link>https://bloglegacy.insileco.io/tags/chocolatey/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/chocolatey/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/chocolatey/</guid>
       <description></description>
     </item>
     <item>
       <title>Dual Partition</title>
-      <link>https://insileco.github.io/tags/dual-partition/</link>
+      <link>https://bloglegacy.insileco.io/tags/dual-partition/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/dual-partition/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/dual-partition/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
-      <link>https://insileco.github.io/tags/ubuntu/</link>
+      <link>https://bloglegacy.insileco.io/tags/ubuntu/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/ubuntu/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/ubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://insileco.github.io/tags/windows/</link>
+      <link>https://bloglegacy.insileco.io/tags/windows/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/windows/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>CRAN</title>
-      <link>https://insileco.github.io/tags/cran/</link>
+      <link>https://bloglegacy.insileco.io/tags/cran/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/cran/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/cran/</guid>
       <description></description>
     </item>
     <item>
       <title>ROpenSci</title>
-      <link>https://insileco.github.io/tags/ropensci/</link>
+      <link>https://bloglegacy.insileco.io/tags/ropensci/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/ropensci/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/ropensci/</guid>
       <description></description>
     </item>
     <item>
       <title>Plot</title>
-      <link>https://insileco.github.io/tags/plot/</link>
+      <link>https://bloglegacy.insileco.io/tags/plot/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/plot/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/plot/</guid>
       <description></description>
     </item>
     <item>
       <title>Wiki</title>
-      <link>https://insileco.github.io/tags/wiki/</link>
+      <link>https://bloglegacy.insileco.io/tags/wiki/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/wiki/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/wiki/</guid>
       <description></description>
     </item>
     <item>
       <title>Nls</title>
-      <link>https://insileco.github.io/tags/nls/</link>
+      <link>https://bloglegacy.insileco.io/tags/nls/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/nls/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/nls/</guid>
       <description></description>
     </item>
     <item>
       <title>Regression</title>
-      <link>https://insileco.github.io/tags/regression/</link>
+      <link>https://bloglegacy.insileco.io/tags/regression/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/regression/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/regression/</guid>
       <description></description>
     </item>
     <item>
       <title>MacOS</title>
-      <link>https://insileco.github.io/tags/macos/</link>
+      <link>https://bloglegacy.insileco.io/tags/macos/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/macos/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/macos/</guid>
       <description></description>
     </item>
     <item>
       <title>Setup</title>
-      <link>https://insileco.github.io/tags/setup/</link>
+      <link>https://bloglegacy.insileco.io/tags/setup/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/setup/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/setup/</guid>
       <description></description>
     </item>
     <item>
       <title>Debian</title>
-      <link>https://insileco.github.io/tags/debian/</link>
+      <link>https://bloglegacy.insileco.io/tags/debian/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/debian/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/debian/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://insileco.github.io/tags/linux/</link>
+      <link>https://bloglegacy.insileco.io/tags/linux/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/linux/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://insileco.github.io/tags/markdown/</link>
+      <link>https://bloglegacy.insileco.io/tags/markdown/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/markdown/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Markup Language</title>
-      <link>https://insileco.github.io/tags/markup-language/</link>
+      <link>https://bloglegacy.insileco.io/tags/markup-language/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/markup-language/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/markup-language/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://insileco.github.io/tags/blog/</link>
+      <link>https://bloglegacy.insileco.io/tags/blog/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/blog/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Continuous Deployment</title>
-      <link>https://insileco.github.io/tags/continuous-deployment/</link>
+      <link>https://bloglegacy.insileco.io/tags/continuous-deployment/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/continuous-deployment/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/continuous-deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>InSileco</title>
-      <link>https://insileco.github.io/tags/insileco/</link>
+      <link>https://bloglegacy.insileco.io/tags/insileco/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/insileco/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/insileco/</guid>
       <description></description>
     </item>
     <item>
       <title>Static Website</title>
-      <link>https://insileco.github.io/tags/static-website/</link>
+      <link>https://bloglegacy.insileco.io/tags/static-website/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/static-website/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/static-website/</guid>
       <description></description>
     </item>
     <item>
       <title>Network</title>
-      <link>https://insileco.github.io/tags/network/</link>
+      <link>https://bloglegacy.insileco.io/tags/network/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/network/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/network/</guid>
       <description></description>
     </item>
     <item>
       <title>Viz</title>
-      <link>https://insileco.github.io/tags/viz/</link>
+      <link>https://bloglegacy.insileco.io/tags/viz/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/viz/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/viz/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualization</title>
-      <link>https://insileco.github.io/tags/data-visualization/</link>
+      <link>https://bloglegacy.insileco.io/tags/data-visualization/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/data-visualization/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/data-visualization/</guid>
       <description></description>
     </item>
     <item>
       <title>Gantt Chart</title>
-      <link>https://insileco.github.io/tags/gantt-chart/</link>
+      <link>https://bloglegacy.insileco.io/tags/gantt-chart/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/gantt-chart/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/gantt-chart/</guid>
       <description></description>
     </item>
     <item>
       <title>Time Management</title>
-      <link>https://insileco.github.io/tags/time-management/</link>
+      <link>https://bloglegacy.insileco.io/tags/time-management/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/time-management/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/time-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Intersection</title>
-      <link>https://insileco.github.io/tags/intersection/</link>
+      <link>https://bloglegacy.insileco.io/tags/intersection/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/intersection/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/intersection/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Links</title>
-      <link>https://insileco.github.io/tags/web-links/</link>
+      <link>https://bloglegacy.insileco.io/tags/web-links/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/web-links/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/web-links/</guid>
       <description></description>
     </item>
     <item>
       <title>Animation</title>
-      <link>https://insileco.github.io/tags/animation/</link>
+      <link>https://bloglegacy.insileco.io/tags/animation/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/animation/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/animation/</guid>
       <description></description>
     </item>
     <item>
       <title>NASA</title>
-      <link>https://insileco.github.io/tags/nasa/</link>
+      <link>https://bloglegacy.insileco.io/tags/nasa/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/nasa/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/nasa/</guid>
       <description></description>
     </item>
     <item>
       <title>Radiation</title>
-      <link>https://insileco.github.io/tags/radiation/</link>
+      <link>https://bloglegacy.insileco.io/tags/radiation/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/radiation/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/radiation/</guid>
       <description></description>
     </item>
     <item>
       <title>St. Lawrence</title>
-      <link>https://insileco.github.io/tags/st.-lawrence/</link>
+      <link>https://bloglegacy.insileco.io/tags/st.-lawrence/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/st.-lawrence/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/st.-lawrence/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecology</title>
-      <link>https://insileco.github.io/tags/ecology/</link>
+      <link>https://bloglegacy.insileco.io/tags/ecology/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/ecology/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/ecology/</guid>
       <description></description>
     </item>
     <item>
       <title>Open-Data</title>
-      <link>https://insileco.github.io/tags/open-data/</link>
+      <link>https://bloglegacy.insileco.io/tags/open-data/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/open-data/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/open-data/</guid>
       <description></description>
     </item>
     <item>
       <title>Open-Science</title>
-      <link>https://insileco.github.io/tags/open-science/</link>
+      <link>https://bloglegacy.insileco.io/tags/open-science/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/open-science/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/open-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Fonts</title>
-      <link>https://insileco.github.io/tags/fonts/</link>
+      <link>https://bloglegacy.insileco.io/tags/fonts/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/fonts/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/fonts/</guid>
       <description></description>
     </item>
     <item>
       <title>Icons</title>
-      <link>https://insileco.github.io/tags/icons/</link>
+      <link>https://bloglegacy.insileco.io/tags/icons/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/icons/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/icons/</guid>
       <description></description>
     </item>
     <item>
       <title>Zelda</title>
-      <link>https://insileco.github.io/tags/zelda/</link>
+      <link>https://bloglegacy.insileco.io/tags/zelda/</link>
       <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/tags/zelda/</guid>
+      <guid>https://bloglegacy.insileco.io/tags/zelda/</guid>
       <description></description>
     </item>
   </channel>

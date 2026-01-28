@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zelda on inSileco</title>
-    <link>https://insileco.github.io/tags/zelda/</link>
+    <link>https://bloglegacy.insileco.io/tags/zelda/</link>
     <description>Recent content in Zelda on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Fri, 14 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/zelda/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/zelda/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Make your R plot Hylian</title>
-      <link>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</link>
+      <link>https://bloglegacy.insileco.io/2017/04/14/make-your-r-plot-hylian/</link>
       <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2017/04/14/make-your-r-plot-hylian/</guid>
-      <description>Below are presented the 5 steps you need to make your plot a Hylian one! May the triforce be with you!&#xA;Open R and download the font The Triforce font is available on line.</description>
+      <guid>https://bloglegacy.insileco.io/2017/04/14/make-your-r-plot-hylian/</guid>
+      <description>&lt;p&gt;Below are presented the 5 steps you need to make your plot a Hylian one! &lt;strong&gt;May the triforce be with you&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;h2 id=&#34;open-r-and-download-the-font&#34;&gt;Open R and download the font&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;https://zeldauniverse.net/media/fonts/&#34;&gt;&lt;em&gt;Triforce&lt;/em&gt; font&lt;/a&gt; is available on line.&#xA;Below we download it using R. Alternatively, you may simply download and install&#xA;it using a couple of clicks, if you proceed so, skip step 1.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

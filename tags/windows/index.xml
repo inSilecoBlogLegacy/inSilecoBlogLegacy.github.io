@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on inSileco</title>
-    <link>https://insileco.github.io/tags/windows/</link>
+    <link>https://bloglegacy.insileco.io/tags/windows/</link>
     <description>Recent content in Windows on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Sun, 09 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu &#43; Windows 7 - dual partition</title>
-      <link>https://insileco.github.io/2018/12/09/ubuntu--windows-7-dual-partition/</link>
+      <link>https://bloglegacy.insileco.io/2018/12/09/ubuntu--windows-7-dual-partition/</link>
       <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/12/09/ubuntu--windows-7-dual-partition/</guid>
-      <description>Long story short, I recently had access to a Dell Studio XPS 8100 with Windows 7 on it. I was told that the computer was not working well and so was allowed to tweak it.</description>
+      <guid>https://bloglegacy.insileco.io/2018/12/09/ubuntu--windows-7-dual-partition/</guid>
+      <description>&lt;p&gt;Long story short, I recently had access to a &lt;a href=&#34;https://www.dell.com/en-ca/shop/cty/dell-studio-xps-8100-desktop-details-reviews/spd/studio-xps-8100&#34;&gt;Dell Studio XPS 8100 &lt;/a&gt; with &lt;a href=&#34;https://en.wikipedia.org/wiki/Windows_7&#34;&gt;Windows 7&lt;/a&gt; on it. I was told that the computer was not working well and so was allowed to tweak it. The computer was actually working well, so I simply decided to add a partition Ubuntu.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

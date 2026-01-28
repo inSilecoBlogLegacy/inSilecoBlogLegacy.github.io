@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Covr on inSileco</title>
-    <link>https://insileco.github.io/rpkgs/covr/</link>
+    <link>https://bloglegacy.insileco.io/rpkgs/covr/</link>
     <description>Recent content in Covr on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Tue, 24 Nov 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/rpkgs/covr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/rpkgs/covr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Continuous integration for R projects: from Travis CI to GitHub actions step by step</title>
-      <link>https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</link>
+      <link>https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</guid>
-      <description>I have been using Travis CI (https://travis-ci.org/) since 2015 and GitHub Actions (hereafter GH Actions; https://github.com/features/actions) for over a year now1. While using these two hosted continuous integration services, I came to realize that I was spending less time troubleshooting with GH Actions than I was with Travis.</description>
+      <guid>https://bloglegacy.insileco.io/2020/11/24/continuous-integration-for-r-projects-from-travis-ci-to-github-actions-step-by-step/</guid>
+      <description>&lt;p&gt;I have been using Travis CI (&lt;a href=&#34;https://travis-ci.org/&#34;&gt;https://travis-ci.org/&lt;/a&gt;) since 2015 and GitHub&#xA;Actions (hereafter GH Actions; &lt;a href=&#34;https://github.com/features/actions&#34;&gt;https://github.com/features/actions&lt;/a&gt;) for over a&#xA;year now&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. While using these two hosted continuous integration services,&#xA;I came to realize that I was spending less time troubleshooting with GH Actions&#xA;than I was with Travis. For this reason, I am now setting GH Actions workflows&#xA;for my new projects (mainly R and Julia projects) and slowly migrating older&#xA;projects from Travis to GH Actions. Turns out that was the right move! Indeed,&#xA;as Jeroen Ooms explains in his recent post &lt;a href=&#34;https://discuss.ropensci.org/t/ropensci-moving-away-from-travis-ci/2267&#34;&gt;Moving away from Travis&#xA;CI&lt;/a&gt;,&#xA;by next year, &lt;a href=&#34;https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing&#34;&gt;Travis will no longer be free for open source&#xA;projects&lt;/a&gt; (see&#xA;&lt;a href=&#34;https://www.theregister.com/2020/11/02/travis_ci_pricng/&#34;&gt;also&lt;/a&gt;), which gives&#xA;me a good reason to speed up the migration process! As I was working on such&#xA;migration recently, I felt that I should to share some notes about this!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

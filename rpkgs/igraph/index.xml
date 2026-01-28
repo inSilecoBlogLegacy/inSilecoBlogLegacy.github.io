@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Igraph on inSileco</title>
-    <link>https://insileco.github.io/rpkgs/igraph/</link>
+    <link>https://bloglegacy.insileco.io/rpkgs/igraph/</link>
     <description>Recent content in Igraph on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/rpkgs/igraph/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/rpkgs/igraph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R as a ruler? How to calculate distances between geographical objects</title>
-      <link>https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</guid>
-      <description>When working in Ecology, it is often necessary to produce maps and calculate distances between objects such as sampled stations, species distribution ranges or geographical features.</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/</guid>
+      <description>&lt;p&gt;When working in Ecology, it is often necessary to produce maps and calculate distances between objects such as sampled stations, species distribution ranges or geographical features. A &lt;a href=&#34;https://bloglegacy.insileco.io/tuto/rinspace/rinspace_homepage/&#34;&gt;tutorial on this blog&lt;/a&gt; describes many techniques to create maps with different packages in R, such as &lt;code&gt;sf&lt;/code&gt; and &lt;code&gt;raster&lt;/code&gt;. In this post, I will go further and use these tools to calculate distances in our spatial environment.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

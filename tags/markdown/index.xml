@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on inSileco</title>
-    <link>https://insileco.github.io/tags/markdown/</link>
+    <link>https://bloglegacy.insileco.io/tags/markdown/</link>
     <description>Recent content in Markdown on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Sun, 13 May 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown everywhere!</title>
-      <link>https://insileco.github.io/2018/05/13/markdown-everywhere/</link>
+      <link>https://bloglegacy.insileco.io/2018/05/13/markdown-everywhere/</link>
       <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/05/13/markdown-everywhere/</guid>
-      <description>According to Wikipedia:&#xA;Markdown is a lightweight markup language with plain text formatting syntax. It is designed so that it can be converted to HTML and many other formats using a tool by the same name Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</description>
+      <guid>https://bloglegacy.insileco.io/2018/05/13/markdown-everywhere/</guid>
+      <description>&lt;p&gt;According to &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34;&gt;Wikipedia&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Markdown is a lightweight markup language with plain text formatting syntax.&#xA;It is designed so that it can be converted to HTML and many other formats using&#xA;a tool by the same name Markdown is often used to format readme files, for&#xA;writing messages in online discussion forums, and to create rich text using a&#xA;plain text editor. As the initial description of Markdown contained ambiguities&#xA;and unanswered questions, many implementations and extensions of Markdown&#xA;appeared over the years to answer these issues.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Continuous Deployment on inSileco</title>
-    <link>https://insileco.github.io/tags/continuous-deployment/</link>
+    <link>https://bloglegacy.insileco.io/tags/continuous-deployment/</link>
     <description>Recent content in Continuous Deployment on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Fri, 30 Mar 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/continuous-deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo, Github, Travis: a step in continuous deployment!</title>
-      <link>https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</link>
+      <link>https://bloglegacy.insileco.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</link>
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</guid>
-      <description>I (Kevin) recently rebuilt my personal website and I was eager to set up the same workflow Steve built for our blog (this blog!), i.e. a combination of Hugo, Github and Travis.</description>
+      <guid>https://bloglegacy.insileco.io/2018/03/30/hugo-github-travis-a-step-in-continuous-deployment/</guid>
+      <description>&lt;p&gt;I (Kevin) recently rebuilt &lt;a href=&#34;http://kevincazelles.fr/&#34;&gt;my personal website&lt;/a&gt; and&#xA;I was eager to set up the same workflow Steve built for our blog (this blog!),&#xA;&lt;em&gt;i.e.&lt;/em&gt; a combination of Hugo, Github and Travis. I though this was a good opportunity&#xA;to detail how it works and so I wrote this post with Steve. Note that there are&#xA;several blog posts on the topic available online, for instance&#xA;&lt;a href=&#34;https://medium.com/zendesk-engineering/how-to-create-a-website-like-freshswift-net-using-hugo-travis-ci-and-github-pages-67be6f480298&#34;&gt;here&lt;/a&gt;&#xA;and &lt;a href=&#34;https://www.metachris.com/2017/04/continuous-deployment-hugo---travis-ci--github-pages/&#34;&gt;here&lt;/a&gt;.&#xA;We did our best to complement them in the following post.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

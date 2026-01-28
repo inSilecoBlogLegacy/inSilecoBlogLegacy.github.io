@@ -2,277 +2,277 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rpkgs on inSileco</title>
-    <link>https://insileco.github.io/rpkgs/</link>
+    <link>https://bloglegacy.insileco.io/rpkgs/</link>
     <description>Recent content in Rpkgs on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Thu, 23 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/rpkgs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/rpkgs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Usethis</title>
-      <link>https://insileco.github.io/rpkgs/usethis/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/usethis/</link>
       <pubDate>Thu, 23 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/usethis/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/usethis/</guid>
       <description></description>
     </item>
     <item>
       <title>Base</title>
-      <link>https://insileco.github.io/rpkgs/base/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/base/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/base/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/base/</guid>
       <description></description>
     </item>
     <item>
       <title>Dplyr</title>
-      <link>https://insileco.github.io/rpkgs/dplyr/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/dplyr/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/dplyr/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/dplyr/</guid>
       <description></description>
     </item>
     <item>
       <title>Magrittr</title>
-      <link>https://insileco.github.io/rpkgs/magrittr/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/magrittr/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/magrittr/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/magrittr/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphics</title>
-      <link>https://insileco.github.io/rpkgs/graphics/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/graphics/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/graphics/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/graphics/</guid>
       <description></description>
     </item>
     <item>
       <title>Utils</title>
-      <link>https://insileco.github.io/rpkgs/utils/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/utils/</link>
       <pubDate>Sun, 12 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/utils/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/utils/</guid>
       <description></description>
     </item>
     <item>
       <title>Covr</title>
-      <link>https://insileco.github.io/rpkgs/covr/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/covr/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/covr/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/covr/</guid>
       <description></description>
     </item>
     <item>
       <title>Pkgdown</title>
-      <link>https://insileco.github.io/rpkgs/pkgdown/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/pkgdown/</link>
       <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/pkgdown/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/pkgdown/</guid>
       <description></description>
     </item>
     <item>
       <title>InSilecoMisc</title>
-      <link>https://insileco.github.io/rpkgs/insilecomisc/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/insilecomisc/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/insilecomisc/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/insilecomisc/</guid>
       <description></description>
     </item>
     <item>
       <title>Remotes</title>
-      <link>https://insileco.github.io/rpkgs/remotes/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/remotes/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/remotes/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/remotes/</guid>
       <description></description>
     </item>
     <item>
       <title>Gdistance</title>
-      <link>https://insileco.github.io/rpkgs/gdistance/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/gdistance/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/gdistance/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/gdistance/</guid>
       <description></description>
     </item>
     <item>
       <title>Igraph</title>
-      <link>https://insileco.github.io/rpkgs/igraph/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/igraph/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/igraph/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/igraph/</guid>
       <description></description>
     </item>
     <item>
       <title>Knitr</title>
-      <link>https://insileco.github.io/rpkgs/knitr/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/knitr/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/knitr/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/knitr/</guid>
       <description></description>
     </item>
     <item>
       <title>Raster</title>
-      <link>https://insileco.github.io/rpkgs/raster/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/raster/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/raster/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/raster/</guid>
       <description></description>
     </item>
     <item>
       <title>Sf</title>
-      <link>https://insileco.github.io/rpkgs/sf/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/sf/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/sf/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/sf/</guid>
       <description></description>
     </item>
     <item>
       <title>Sp</title>
-      <link>https://insileco.github.io/rpkgs/sp/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/sp/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/sp/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/sp/</guid>
       <description></description>
     </item>
     <item>
       <title>Microbenchmark</title>
-      <link>https://insileco.github.io/rpkgs/microbenchmark/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/microbenchmark/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/microbenchmark/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/microbenchmark/</guid>
       <description></description>
     </item>
     <item>
       <title>Devtools</title>
-      <link>https://insileco.github.io/rpkgs/devtools/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/devtools/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/devtools/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/devtools/</guid>
       <description></description>
     </item>
     <item>
       <title>Goodpractice</title>
-      <link>https://insileco.github.io/rpkgs/goodpractice/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/goodpractice/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/goodpractice/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/goodpractice/</guid>
       <description></description>
     </item>
     <item>
       <title>Rcites</title>
-      <link>https://insileco.github.io/rpkgs/rcites/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/rcites/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/rcites/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/rcites/</guid>
       <description></description>
     </item>
     <item>
       <title>Roxygen2</title>
-      <link>https://insileco.github.io/rpkgs/roxygen2/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/roxygen2/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/roxygen2/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/roxygen2/</guid>
       <description></description>
     </item>
     <item>
       <title>Testthtat</title>
-      <link>https://insileco.github.io/rpkgs/testthtat/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/testthtat/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/testthtat/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/testthtat/</guid>
       <description></description>
     </item>
     <item>
       <title>Stats</title>
-      <link>https://insileco.github.io/rpkgs/stats/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/stats/</link>
       <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/stats/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/stats/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphicsutils</title>
-      <link>https://insileco.github.io/rpkgs/graphicsutils/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/graphicsutils/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/graphicsutils/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/graphicsutils/</guid>
       <description></description>
     </item>
     <item>
       <title>Plotrix</title>
-      <link>https://insileco.github.io/rpkgs/plotrix/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/plotrix/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/plotrix/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/plotrix/</guid>
       <description></description>
     </item>
     <item>
       <title>KableExtra</title>
-      <link>https://insileco.github.io/rpkgs/kableextra/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/kableextra/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/kableextra/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/kableextra/</guid>
       <description></description>
     </item>
     <item>
       <title>RColorBrewer</title>
-      <link>https://insileco.github.io/rpkgs/rcolorbrewer/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/rcolorbrewer/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/rcolorbrewer/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/rcolorbrewer/</guid>
       <description></description>
     </item>
     <item>
       <title>Tidyverse</title>
-      <link>https://insileco.github.io/rpkgs/tidyverse/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/tidyverse/</link>
       <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/tidyverse/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/tidyverse/</guid>
       <description></description>
     </item>
     <item>
       <title>Rgeos</title>
-      <link>https://insileco.github.io/rpkgs/rgeos/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/rgeos/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/rgeos/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/rgeos/</guid>
       <description></description>
     </item>
     <item>
       <title>Animation</title>
-      <link>https://insileco.github.io/rpkgs/animation/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/animation/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/animation/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/animation/</guid>
       <description></description>
     </item>
     <item>
       <title>Plyr</title>
-      <link>https://insileco.github.io/rpkgs/plyr/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/plyr/</link>
       <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/plyr/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/plyr/</guid>
       <description></description>
     </item>
     <item>
       <title>Biomod2</title>
-      <link>https://insileco.github.io/rpkgs/biomod2/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/biomod2/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/biomod2/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/biomod2/</guid>
       <description></description>
     </item>
     <item>
       <title>Rfishbase</title>
-      <link>https://insileco.github.io/rpkgs/rfishbase/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/rfishbase/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/rfishbase/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/rfishbase/</guid>
       <description></description>
     </item>
     <item>
       <title>Rglobi</title>
-      <link>https://insileco.github.io/rpkgs/rglobi/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/rglobi/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/rglobi/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/rglobi/</guid>
       <description></description>
     </item>
     <item>
       <title>Robis</title>
-      <link>https://insileco.github.io/rpkgs/robis/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/robis/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/robis/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/robis/</guid>
       <description></description>
     </item>
     <item>
       <title>Sdmpredictors</title>
-      <link>https://insileco.github.io/rpkgs/sdmpredictors/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/sdmpredictors/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/sdmpredictors/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/sdmpredictors/</guid>
       <description></description>
     </item>
     <item>
       <title>Taxize</title>
-      <link>https://insileco.github.io/rpkgs/taxize/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/taxize/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/taxize/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/taxize/</guid>
       <description></description>
     </item>
     <item>
       <title>Showtext</title>
-      <link>https://insileco.github.io/rpkgs/showtext/</link>
+      <link>https://bloglegacy.insileco.io/rpkgs/showtext/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/rpkgs/showtext/</guid>
+      <guid>https://bloglegacy.insileco.io/rpkgs/showtext/</guid>
       <description></description>
     </item>
   </channel>

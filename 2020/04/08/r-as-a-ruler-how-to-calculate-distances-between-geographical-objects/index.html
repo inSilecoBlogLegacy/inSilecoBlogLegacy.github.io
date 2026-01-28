@@ -22,10 +22,10 @@
 </style>
 
 
-<link rel="stylesheet" href="https://insileco.github.io/css/main.css">
+<link rel="stylesheet" href="https://bloglegacy.insileco.io/css/main.css">
 
 
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">  <link rel="stylesheet" href="https://insileco.github.io/css/academicons.min.css">  <link rel="stylesheet" href="https://insileco.github.io/css/main.css">  <link rel="stylesheet" href="https://insileco.github.io/css/syntax.css"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/academicons.min.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/main.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/syntax.css"> 
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -42,7 +42,7 @@
 
 
 
- <script src="https://insileco.github.io/js/codecopypaste.js"></script> 
+ <script src="https://bloglegacy.insileco.io/js/codecopypaste.js"></script> 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -52,10 +52,9 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.132.0">
+ <meta name="generator" content="Hugo 0.153.0">
         
 
-        
 
         
             <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -95,7 +94,7 @@
                             
                                 <li><a href="/about/">About</a></li>
                             
-                                <li><a href="https://insilecoinc.github.io/">Consulting</a></li>
+                                <li><a href="https://insileco.io/">Consulting</a></li>
                             
                                 <li><a href="/post/">Posts</a></li>
                             
@@ -108,9 +107,7 @@
                             
                                 <li class="navbar-icon"><a href="/"><i class="fas fa-home"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://github.com/inSileco/"><i class="fab fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://twitter.com/inSileco/"><i class="fab fa-twitter"></i></a></li>
+                                <li class="navbar-icon"><a href="https://github.com/inSilecoBlogLegacy/"><i class="fab fa-github"></i></a></li>
                             
                                 <li class="navbar-icon"><a href="https://insileco.github.io/index.xml"><i class="fas fa-rss"></i></a></li>
                             
@@ -356,7 +353,7 @@
 </span></span><span class="line"><span class="cl">          <span class="nf">st_transform</span><span class="p">(</span><span class="n">crs</span> <span class="o">=</span> <span class="m">32619</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot1-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot1-1.png" width="672" style="display: block; margin: auto;" />
 <p>The initial position of Herbert is on the turquoise dot (init), and we are interested in three possible locations (P1, P2 and P3).</p>
 <h3 id="classic-geographical-distances">Classic geographical distances</h3>
 <p>We can compute the Euclidean distances between each points by using <code>sf::st_distance()</code>. Let&rsquo;s try this here, even if we know that we do not consider the coast as a forbidden area.</p>
@@ -379,25 +376,25 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:right">P1</th>
-<th style="text-align:right">P2</th>
-<th style="text-align:right">P3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Distance from init:</td>
-<td style="text-align:right">5194.299 [m]</td>
-<td style="text-align:right">5696.479 [m]</td>
-<td style="text-align:right">7350.401 [m]</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right">P1</th>
+          <th style="text-align: right">P2</th>
+          <th style="text-align: right">P3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Distance from init:</td>
+          <td style="text-align: right">5194.299 [m]</td>
+          <td style="text-align: right">5696.479 [m]</td>
+          <td style="text-align: right">7350.401 [m]</td>
+      </tr>
+  </tbody>
 </table>
 <p>Based on these results, P1 is the closest site to the initial location of Herbert implying that P1 could be the preferential site where he would migrate under the human perturbation scenario (where its initial position would not be available anymore). However, we know that Herbert, even if he is an awesome lobster, cannot go on land which is necessary to attain P1. So, we need to refine our analysis to take this into account.</p>
-<img src="https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot2-1.png" width="672" style="display: block; margin: auto;" />
+<img src="https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot2-1.png" width="672" style="display: block; margin: auto;" />
 <h3 id="least-cost-distances-with-gdistance">Least Cost Distances with <code>gdistance</code></h3>
 <p>To take the geographical barriers into consideration, we will use the package <code>gdistance</code>, which have a very useful sets of functions to calculate functions (ven Etten 2017). In particular, <code>costDistance()</code> will do the trick. To use it, we will need to convert our polygon for the Bay of Sept-Îles to a raster specifying which cell can be considered by the pathfinding and so:</p>
 <ul>
@@ -429,7 +426,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">raster_bay</span><span class="nf">[is.na</span><span class="p">(</span><span class="n">raster_bay</span><span class="p">)</span><span class="n">]</span> <span class="o">&lt;-</span> <span class="m">0</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot3-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot3-1.png" width="672" style="display: block; margin: auto;" />
 <blockquote>
 <p>We have to add <code>field = 1</code> in function <code>rasterize()</code> otherwise the id number will be automatically assigned to each cell as a weighting parameter, which will bias the distance calculation by introducing a cost for choosing the cell.</p>
 </blockquote>
@@ -489,28 +486,28 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:right">P1</th>
-<th style="text-align:right">P2</th>
-<th style="text-align:right">P3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Distance from init:</td>
-<td style="text-align:right">8543.394</td>
-<td style="text-align:right">5823.122</td>
-<td style="text-align:right">7798.219</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right">P1</th>
+          <th style="text-align: right">P2</th>
+          <th style="text-align: right">P3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Distance from init:</td>
+          <td style="text-align: right">8543.394</td>
+          <td style="text-align: right">5823.122</td>
+          <td style="text-align: right">7798.219</td>
+      </tr>
+  </tbody>
 </table>
 <blockquote>
 <p><code>costDistance()</code> needs a conversion to <code>SpatialPoints</code> class, as the package has been created with <code>sp</code> objects.</p>
 </blockquote>
 <p>These results show that P2 is the closest potential site for Herbert now, without any coast between the two points. This result is much more relevant than previously calculated with <code>st_distance()</code>! If you want to represent the shortest path between two points (based on the transition matrix), you can plot the result of function <code>shortestPath()</code>.</p>
-<img src="https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot4-1.png" width="672" style="display: block; margin: auto;" />
+<img src="https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot4-1.png" width="672" style="display: block; margin: auto;" />
 <h3 id="least-cost-distances-with-igraph">Least Cost Distances with <code>igraph</code></h3>
 <p>The <code>gdistance</code> package is excellent, but not particularly flexible. You may need a custom workflow if you need to handle very large datasets or you want to use a hexagonal grid (<em>i.e.</em> you don&rsquo;t want to worry about chessboard moves). If this is so, you will need package <code>igraph</code> (Csardi &amp; Nepusz 2006).</p>
 <div class="highlight"><div class="chroma">
@@ -530,7 +527,7 @@
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">hex_bay</span> <span class="o">&lt;-</span> <span class="nf">st_make_grid</span><span class="p">(</span><span class="n">bay</span><span class="p">,</span> <span class="n">cellsize</span> <span class="o">=</span> <span class="m">250</span><span class="p">,</span> <span class="n">square</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot5-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot5-1.png" width="672" style="display: block; margin: auto;" />
 <p>Now that we have our basic grid, we need to create an <code>igraph</code> network. The network in this case will represent neighbouring cells (<em>i.e.</em> right next to one another) which Herbert has the possibility to move through. We must first create an edge list (<em>i.e.</em> list to &lsquo;from&rsquo; and &rsquo;to&rsquo; cell id&rsquo;s that represent neighbours), then convert into a network.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -546,7 +543,7 @@
 </span></span><span class="line"><span class="cl"><span class="n">gr</span> <span class="o">&lt;-</span> <span class="nf">graph_from_edgelist</span><span class="p">(</span><span class="n">edgelist</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><img src="https://insileco.github.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot6-1.png" width="672" style="display: block; margin: auto;" />
+</div><img src="https://bloglegacy.insileco.io/2020/04/08/r-as-a-ruler-how-to-calculate-distances-between-geographical-objects/index_files/figure-html/plot6-1.png" width="672" style="display: block; margin: auto;" />
 <p>Yes, this plot no longer looks like the bay because we have abstracted out the actual coordinates and are looking only at the distances between cells. In this particular example we know that the distance between each neighbouring cell is 250m since we defined this when we created the grid. At this phase, you could also incorporate &lsquo;fancier&rsquo; weights that incorporate habitat resistance (<em>i.e.</em> the influence of habitat type on the facilitation or prevention of movement) to calculate isolation by resistance. But for this example, let&rsquo;s keep it simple.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -580,22 +577,22 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><table>
-<thead>
-<tr>
-<th style="text-align:left"></th>
-<th style="text-align:right">P1</th>
-<th style="text-align:right">P2</th>
-<th style="text-align:right">P3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Distance from init:</td>
-<td style="text-align:right">5750</td>
-<td style="text-align:right">6500</td>
-<td style="text-align:right">7500</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: right">P1</th>
+          <th style="text-align: right">P2</th>
+          <th style="text-align: right">P3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Distance from init:</td>
+          <td style="text-align: right">5750</td>
+          <td style="text-align: right">6500</td>
+          <td style="text-align: right">7500</td>
+      </tr>
+  </tbody>
 </table>
 <p>You will notice that we find a comparable result from what we calculated previously with <code>gdistance</code> (P2 being the closest potential site), even if this is a bit further than the <code>gdistance</code> estimates. This is likely mostly because of the difference in resolution (and somewhat because of cell shape).</p>
 <p>If you are just calculating a handful of distances such as in this example, <code>gdistance</code> is probably faster. But if you are doing millions, <code>igraph</code> is typically more effective since much of the work is done &lsquo;upfront&rsquo; when you create the graph. It would also be possible to create an <code>igraph</code> network from a <code>gdistance</code> transition raster which would combine the best of both packages.</p>
@@ -805,7 +802,7 @@
 
   
 
-  <script type="text/javascript" src="https://insileco.github.io/js/codecopypaste.js"></script>
+  <script type="text/javascript" src="https://bloglegacy.insileco.io/js/codecopypaste.js"></script>
 
 
 
@@ -843,7 +840,7 @@
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 23 January 2026 16:33 UTC.
+      Latest build: 28 January 2026 17:18 UTC.
     </p>
 
   </div>

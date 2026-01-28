@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pipe on inSileco</title>
-    <link>https://insileco.github.io/tags/pipe/</link>
+    <link>https://bloglegacy.insileco.io/tags/pipe/</link>
     <description>Recent content in Pipe on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Fri, 25 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/pipe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/pipe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A few thoughts about pipes in R</title>
-      <link>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
+      <link>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
-      <description>Piping in R Back in 2014, I discovered the forward pipe for R introduced in magrittr and since that time, I never stopped piping, although my piping habits evolved over time, especially with the introduction of the native pipe in R 4.</description>
+      <guid>https://bloglegacy.insileco.io/2023/08/25/a-few-thoughts-about-pipes-in-r/</guid>
+      <description>&lt;h2 id=&#34;piping-in-r&#34;&gt;Piping in R&lt;/h2&gt;&#xA;&lt;p&gt;Back in 2014, I discovered the forward pipe for R introduced in &lt;a href=&#34;https://magrittr.tidyverse.org/&#34;&gt;&lt;code&gt;magrittr&lt;/code&gt;&lt;/a&gt; and since that time, I never stopped piping, although my piping habits evolved over time, especially with the &lt;a href=&#34;https://www.jumpingrivers.com/blog/new-features-r410-pipe-anonymous-functions/&#34;&gt;introduction of the native pipe&lt;/a&gt; in R 4.1.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

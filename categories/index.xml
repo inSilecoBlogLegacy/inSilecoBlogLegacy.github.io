@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on inSileco</title>
-    <link>https://insileco.github.io/categories/</link>
+    <link>https://bloglegacy.insileco.io/categories/</link>
     <description>Recent content in Categories on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Fri, 10 Feb 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
-      <link>https://insileco.github.io/categories/tutorials/</link>
+      <link>https://bloglegacy.insileco.io/categories/tutorials/</link>
       <pubDate>Fri, 10 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/categories/tutorials/</guid>
+      <guid>https://bloglegacy.insileco.io/categories/tutorials/</guid>
       <description></description>
     </item>
     <item>
       <title>About R</title>
-      <link>https://insileco.github.io/categories/about-r/</link>
+      <link>https://bloglegacy.insileco.io/categories/about-r/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/categories/about-r/</guid>
+      <guid>https://bloglegacy.insileco.io/categories/about-r/</guid>
       <description></description>
     </item>
     <item>
       <title>Miscellaneous</title>
-      <link>https://insileco.github.io/categories/miscellaneous/</link>
+      <link>https://bloglegacy.insileco.io/categories/miscellaneous/</link>
       <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/categories/miscellaneous/</guid>
+      <guid>https://bloglegacy.insileco.io/categories/miscellaneous/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Scientific Writing on inSileco</title>
-    <link>https://insileco.github.io/tags/scientific-writing/</link>
+    <link>https://bloglegacy.insileco.io/tags/scientific-writing/</link>
     <description>Recent content in Scientific Writing on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/scientific-writing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/scientific-writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic writing with Markdown, Visual Studio Code and Zotero</title>
-      <link>https://insileco.github.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</link>
+      <link>https://bloglegacy.insileco.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</guid>
-      <description>Academic researchers devote a significant amount of time to writing papers to report their findings. As this is an important aspect of their job, they need to use a document preparation system (a word processor) that they are comfortable working with.</description>
+      <guid>https://bloglegacy.insileco.io/2023/04/02/academic-writing-with-markdown-visual-studio-code-and-zotero/</guid>
+      <description>&lt;p&gt;Academic researchers devote a significant amount of time to writing papers to report their findings. As this is an important aspect of their job, they need to use a &lt;strong&gt;document preparation system&lt;/strong&gt; (a word processor) that they are comfortable working with. Another important aspect of scientific writing is to contextualize their work within the current body of knowledge. This involves citing other relevant scientific papers. To manage and organize all these references effectively, they use a &lt;strong&gt;reference manager system&lt;/strong&gt;. In this post, I will detail my current setup for academic writing that revolves around two pieces of software (with &lt;em&gt;ad hoc&lt;/em&gt; extensions): &lt;a href=&#34;https://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt; and &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt; (VS Code).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

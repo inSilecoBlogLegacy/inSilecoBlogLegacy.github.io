@@ -22,10 +22,10 @@
 </style>
 
 
-<link rel="stylesheet" href="https://insileco.github.io/css/main.css">
+<link rel="stylesheet" href="https://bloglegacy.insileco.io/css/main.css">
 
 
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">  <link rel="stylesheet" href="https://insileco.github.io/css/academicons.min.css">  <link rel="stylesheet" href="https://insileco.github.io/css/main.css">  <link rel="stylesheet" href="https://insileco.github.io/css/syntax.css"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/academicons.min.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/main.css">  <link rel="stylesheet" href="https://bloglegacy.insileco.io/css/syntax.css"> 
 
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -42,7 +42,7 @@
 
 
 
- <script src="https://insileco.github.io/js/codecopypaste.js"></script> 
+ <script src="https://bloglegacy.insileco.io/js/codecopypaste.js"></script> 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -52,10 +52,9 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.132.0">
+ <meta name="generator" content="Hugo 0.153.0">
         
 
-        
 
         
             <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -95,7 +94,7 @@
                             
                                 <li><a href="/about/">About</a></li>
                             
-                                <li><a href="https://insilecoinc.github.io/">Consulting</a></li>
+                                <li><a href="https://insileco.io/">Consulting</a></li>
                             
                                 <li><a href="/post/">Posts</a></li>
                             
@@ -108,9 +107,7 @@
                             
                                 <li class="navbar-icon"><a href="/"><i class="fas fa-home"></i></a></li>
                             
-                                <li class="navbar-icon"><a href="https://github.com/inSileco/"><i class="fab fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://twitter.com/inSileco/"><i class="fab fa-twitter"></i></a></li>
+                                <li class="navbar-icon"><a href="https://github.com/inSilecoBlogLegacy/"><i class="fab fa-github"></i></a></li>
                             
                                 <li class="navbar-icon"><a href="https://insileco.github.io/index.xml"><i class="fas fa-rss"></i></a></li>
                             
@@ -232,8 +229,8 @@
                 
                 
                 
-                <a href="http://twitter.com/share?url=https%3a%2f%2finsileco.github.io%2f2023%2f11%2f23%2fcreating-a-monorepo-of-r-packages-with-github%2f&text=Creating%20a%20monorepo%20of%20R%20packages%20with%20GitHub." target="_blank">
-                    <img src='https://img.shields.io/twitter/url?style=social&url=https%3a%2f%2finsileco.github.io%2f2023%2f11%2f23%2fcreating-a-monorepo-of-r-packages-with-github%2f?link=http://left&link=http://right}'>
+                <a href="http://twitter.com/share?url=https%3a%2f%2fbloglegacy.insileco.io%2f2023%2f11%2f23%2fcreating-a-monorepo-of-r-packages-with-github%2f&text=Creating%20a%20monorepo%20of%20R%20packages%20with%20GitHub." target="_blank">
+                    <img src='https://img.shields.io/twitter/url?style=social&url=https%3a%2f%2fbloglegacy.insileco.io%2f2023%2f11%2f23%2fcreating-a-monorepo-of-r-packages-with-github%2f?link=http://left&link=http://right}'>
                 </a>
                 
 
@@ -395,7 +392,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 </span></span></span><span class="line"><span class="cl"><span class="sd">      any::covr
 </span></span></span><span class="line"><span class="cl"><span class="sd">      any::goodpractice
 </span></span></span><span class="line"><span class="cl"><span class="sd">      any::lintr
-</span></span></span><span class="line"><span class="cl"><span class="sd">      local::../testpkg01 </span><span class="w">      
+</span></span></span><span class="line"><span class="cl"><span class="sd">      local::../testpkg01 </span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>Note, however, that this only works if all packages are at the same level.</p>
@@ -424,7 +421,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># determine what needs to be checked</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">changes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">changes</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">permissions</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pull-requests</span><span class="p">:</span><span class="w"> </span><span class="l">read</span><span class="w">
@@ -441,7 +438,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 </span></span></span><span class="line"><span class="cl"><span class="sd">        testpkg01: &#39;testpkg01/**&#39;
 </span></span></span><span class="line"><span class="cl"><span class="sd">        testpkg02: 
 </span></span></span><span class="line"><span class="cl"><span class="sd">          - &#39;testpkg01/R&#39;
-</span></span></span><span class="line"><span class="cl"><span class="sd">          - &#39;testpkg02/**&#39;</span><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="sd">          - &#39;testpkg02/**&#39;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><p>If any files in the folder <code>testpkg01</code> (<code>&quot;testpkg01/**&quot;</code>) change, then <code>testpkg01</code> will be in the output list. Similarly, if any file in <code>testpkg02</code> change <strong>or</strong> if any file in <code>testpkg01/R</code> change then <code>testpkg02</code> will make the output list. The latter rule is super useful because it allows us to check that <code>testpkg02</code> was not affected by the changes in <code>testpkg01</code>. The list of outputs <code>needs.changes.outputs.packages</code> is then passed to the next job <code>checkPackages</code> that won’t be triggered if <code>changes</code> is not completed.</p>
@@ -626,7 +623,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
 
   
 
-  <script type="text/javascript" src="https://insileco.github.io/js/codecopypaste.js"></script>
+  <script type="text/javascript" src="https://bloglegacy.insileco.io/js/codecopypaste.js"></script>
 
 
 
@@ -664,7 +661,7 @@ As I am using a monorepo, I need to find a way to check all R packages using a c
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 23 January 2026 16:33 UTC.
+      Latest build: 28 January 2026 17:18 UTC.
     </p>
 
   </div>

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Package on inSileco</title>
-    <link>https://insileco.github.io/tags/package/</link>
+    <link>https://bloglegacy.insileco.io/tags/package/</link>
     <description>Recent content in Package on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/package/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/package/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>inSilecoMisc 0.4.0 (part 2/2)</title>
-      <link>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
-      <description>In the first part of this post I introduced several functions available in the package inSilecoMisc. In this post, I keep on introducing features of the package you might find useful!</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/21/insilecomisc-0.4.0-part-2/2/</guid>
+      <description>&lt;p&gt;In the &lt;a href=&#34;https://bloglegacy.insileco.io/2020/04/05/insilecomisc-0.4.0-part-1/2/&#34;&gt;first part of this post&lt;/a&gt; I&#xA;introduced several functions available in the package &lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt;. In this post, I keep on introducing features of the package you&#xA;might find useful! If you did not read the first part of this post and are&#xA;interested in reproducing the examples below, simply install &lt;code&gt;inSilecoMisc&lt;/code&gt;:&lt;/p&gt;</description>
     </item>
     <item>
       <title>inSilecoMisc 0.4.0 (part 1/2)</title>
-      <link>https://insileco.github.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</link>
+      <link>https://bloglegacy.insileco.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</guid>
-      <description>inSilecoMisc inSilecoMisc is an R &amp;#x1f4e6; I have been maintaining for four years now. It was originally designed as a convenient way to share handy functions.</description>
+      <guid>https://bloglegacy.insileco.io/2020/04/14/insilecomisc-0.4.0-part-1/2/</guid>
+      <description>&lt;h2 id=&#34;insilecomisc&#34;&gt;inSilecoMisc&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/inSileco/inSilecoMisc&#34;&gt;&lt;code&gt;inSilecoMisc&lt;/code&gt;&lt;/a&gt; is an R &amp;#x1f4e6; I&#xA;have been maintaining for four years now. It was originally designed as a&#xA;convenient way to share handy functions. Instead of stacking them in my&#xA;&lt;code&gt;.Rprofile&lt;/code&gt;, I created a package and made it available on GitHub. &lt;code&gt;inSilecoMisc&lt;/code&gt;&#xA;is therefore a set of miscellaneous functions, just as other R packages (e.g.&#xA;&lt;a href=&#34;https://CRAN.R-project.org/package=Hmisc&#34;&gt;&lt;code&gt;Hmisc&lt;/code&gt;&lt;/a&gt;) but as I frequently change its API,&#xA;it is meant to stay in the experimental stage! I like having &lt;code&gt;inSilecoMisc&lt;/code&gt; on&#xA;GitHub because it gives a large degree of freedom to experiment new ideas, new&#xA;functions and the code remains available and easy to install! Despite the &amp;ldquo;API&#xA;instability&amp;rdquo;, the overall quality of the package is constantly improving (at&#xA;least, I hope so &amp;#x1f604;). I have even included some of the somewhat more&#xA;matured functions in the research compendium of recent manuscripts&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A few thoughts on R packages</title>
-      <link>https://insileco.github.io/2018/12/03/a-few-thoughts-on-r-packages/</link>
+      <link>https://bloglegacy.insileco.io/2018/12/03/a-few-thoughts-on-r-packages/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/12/03/a-few-thoughts-on-r-packages/</guid>
-      <description>Jonas Geschke, Ignasi Bartomeus and I have recently released rcites v-1.0.0 on CRAN, a R client for the Species+ API after it has been reviewed by rOpenSci.</description>
+      <guid>https://bloglegacy.insileco.io/2018/12/03/a-few-thoughts-on-r-packages/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/jonasgeschke/&#34;&gt;Jonas Geschke&lt;/a&gt;,&#xA;&lt;a href=&#34;https://bartomeuslab.com/&#34;&gt;Ignasi Bartomeus&lt;/a&gt; and I have recently released &lt;a href=&#34;https://cran.r-project.org/web/packages/rcites/index.html&#34;&gt;rcites v-1.0.0&lt;/a&gt; on CRAN, a R client for the &lt;a href=&#34;https://api.speciesplus.net/&#34;&gt;Species+ API&lt;/a&gt; after it has been reviewed by &lt;a href=&#34;https://rOpenSci.org/&#34;&gt;rOpenSci&lt;/a&gt;. In this post, I would like to share this recent experience as well as several valuable resources.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

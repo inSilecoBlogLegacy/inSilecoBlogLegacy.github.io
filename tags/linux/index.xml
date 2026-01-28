@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on inSileco</title>
-    <link>https://insileco.github.io/tags/linux/</link>
+    <link>https://bloglegacy.insileco.io/tags/linux/</link>
     <description>Recent content in Linux on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Mon, 18 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My R setup on Debian</title>
-      <link>https://insileco.github.io/2018/06/18/my-r-setup-on-debian/</link>
+      <link>https://bloglegacy.insileco.io/2018/06/18/my-r-setup-on-debian/</link>
       <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/06/18/my-r-setup-on-debian/</guid>
-      <description>R 3.5.0 &amp;ldquo;Joy in playing&amp;rdquo; was released April 23rd this year. It took a couple of weeks before it was made available on Debian testing due to the work required to rebuild the packages and as a Debian user that spend a lot of time on R, I am extremely grateful to the work of Dirk, Michael and Johannes on this!</description>
+      <guid>https://bloglegacy.insileco.io/2018/06/18/my-r-setup-on-debian/</guid>
+      <description>&lt;p&gt;R 3.5.0 &amp;ldquo;Joy in playing&amp;rdquo; was released April 23rd this year. It took a couple&#xA;of weeks before it was made available on Debian testing due to the work&#xA;required to rebuild the packages and as a Debian user that spend a lot of time&#xA;on R, I am extremely grateful to &lt;a href=&#34;http://dirk.eddelbuettel.com/blog/2018/06/11/&#34;&gt;the work of Dirk, Michael and Johannes on this&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Go Debian Testing!</title>
-      <link>https://insileco.github.io/2018/05/21/go-debian-testing/</link>
+      <link>https://bloglegacy.insileco.io/2018/05/21/go-debian-testing/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/05/21/go-debian-testing/</guid>
-      <description>For almost a year now I&amp;rsquo;ve being spending most of my computer time on Debian. I began with Debian Stretch and switched to Debian Testing two months ago.</description>
+      <guid>https://bloglegacy.insileco.io/2018/05/21/go-debian-testing/</guid>
+      <description>&lt;p&gt;For almost a year now I&amp;rsquo;ve being spending most of my computer time on Debian.&#xA;I began with Debian Stretch and switched to Debian Testing two months ago.&#xA;This was another good opportunity to gain skills and I&amp;rsquo;d like to report&#xA;about my transition in this post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting my Debian Stretch up</title>
-      <link>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</link>
+      <link>https://bloglegacy.insileco.io/2018/01/21/setting-my-debian-stretch-up/</link>
       <pubDate>Sun, 21 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2018/01/21/setting-my-debian-stretch-up/</guid>
-      <description>This post details my Debian Stretch setup on my Lenovo ThinkPad T470p. I got this machine in early August 2017, so I now have almost 6 months worth of experience on Debian and I thought it was a good time to 1- document the rationale behind my move from MacOS to Debian 2- explain how I set my computer up and 3- how I rate my appreciation of working on Debian.</description>
+      <guid>https://bloglegacy.insileco.io/2018/01/21/setting-my-debian-stretch-up/</guid>
+      <description>&lt;p&gt;This post details my Debian Stretch setup on my Lenovo ThinkPad T470p.&#xA;I got this machine in early August 2017, so I now have almost 6 months worth of experience on&#xA;Debian and I thought it was a good time to 1- document the rationale behind my move from&#xA;MacOS to Debian 2- explain how I set my computer up and 3- how I rate my appreciation of&#xA;working on Debian. Any comments/questions about what follows? Please, feel free&#xA;to comment on this post at the end of the post.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

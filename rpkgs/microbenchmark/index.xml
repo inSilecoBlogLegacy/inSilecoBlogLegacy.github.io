@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microbenchmark on inSileco</title>
-    <link>https://insileco.github.io/rpkgs/microbenchmark/</link>
+    <link>https://bloglegacy.insileco.io/rpkgs/microbenchmark/</link>
     <description>Recent content in Microbenchmark on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
     <lastBuildDate>Tue, 13 Aug 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://insileco.github.io/rpkgs/microbenchmark/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bloglegacy.insileco.io/rpkgs/microbenchmark/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Trick or tips 004 {R}</title>
-      <link>https://insileco.github.io/2019/08/13/trick-or-tips-004-r/</link>
+      <link>https://bloglegacy.insileco.io/2019/08/13/trick-or-tips-004-r/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://insileco.github.io/2019/08/13/trick-or-tips-004-r/</guid>
-      <description>Trick or Tips Ever tumbled on a code chunk that made you say: &#34;I should have known this f_ piece of code long ago!&#34; Chances are you have, frustratingly, just like we have, and on multiple occasions too.</description>
+      <guid>https://bloglegacy.insileco.io/2019/08/13/trick-or-tips-004-r/</guid>
+      <description>&lt;div class=&#34;tricksortips&#34;&gt;&#xA;&lt;b style=&#34;color:#3fb3b2; font-size:1.5em;&#34;&gt;Trick or Tips &lt;i class=&#34;fas fa-question-circle&#34;&gt;&lt;/i&gt;&lt;/b&gt;&#xA;&lt;p&gt;Ever tumbled on a code chunk that made you say:&#xA;&#34;I should have known this f_&lt;i class=&#34;fas fa-volume-mute&#34;&gt;&lt;/i&gt; piece of code long ago!&#34;&#xA;Chances are you have, frustratingly, just like we have, and on multiple occasions too.  In comes &lt;b&gt;Trick or Tips&lt;/b&gt;!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
