@@ -41,7 +41,7 @@ create for my thesis!
 ## Libraries
 
 
-```r
+``` r
 library(graphicsutils)
 pal_insileco <- gpuPalette("insileco")
 ```
@@ -54,7 +54,7 @@ a dataset composed of hierarchical nodes and another one identifying the links
 between those nodes.
 
 
-```r
+``` r
 # Individual network nodes
   opt <- options()
   options(stringsAsFactors = FALSE)
@@ -88,12 +88,12 @@ head(nodes)
 #R>  6 Drivers driver_6
 head(links)
 #R>             from         to
-#R>  1      driver_2   action_5
-#R>  2 beneficiary_6  driver_13
-#R>  4 beneficiary_2 species_14
-#R>  5    species_23  driver_12
-#R>  6      action_1   action_2
-#R>  7      action_6 species_16
+#R>  1 beneficiary_5 species_17
+#R>  2     manager_8   driver_7
+#R>  3      action_1 species_24
+#R>  4      action_7   action_1
+#R>  5    species_19  species_8
+#R>  6     species_6   action_7
 ```
 
 ## Circle functions
@@ -109,7 +109,7 @@ The first function we need will be used to generate the x and y coordinates of a
 circle for a given angle and circle radius, which we can obtain with some circle trigonometry.
 
 
-```r
+``` r
 # Let's begin by creating a function that will give us the x and y coordinates
 # of the outside of a circle given a certain radius
 coordCircle <- function(theta = NULL, radius = 1) {
@@ -135,7 +135,7 @@ individual networks on the graph. This will make the visual aspect of the graph
 more appealing.
 
 
-```r
+``` r
 bound <- function(metanetwork, gap = .025, addGap = TRUE) {
   # Metanetwork list composed of "nodes" and "links"
   # Size of gap between groups on the graph
@@ -180,7 +180,7 @@ groups, we can add a gap between the edges at the beginning and end of the group
 for visual differentiation between the group.
 
 
-```r
+``` r
 nodePos <- function(metanetwork, edgeRad = 0.975, groupRad = 0.5, gapEdge = 0.1, addGap = TRUE) {
   # Add x and y columns to nodes and networkGroup data
     metanetwork$nodes$y <- metanetwork$nodes$x <- 0
@@ -240,7 +240,7 @@ points(metanetwork$nodes$x, metanetwork$nodes$y, pch = 20, cex = 2)
 points(metanetwork$networkGroup$x, metanetwork$networkGroup$y, pch = 20, cex = 2)
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/nodePos-1.png" width="480" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/nodePos-1.png" alt="" width="480" style="display: block; margin: auto;" />
 
 
 ## Visualization functions
@@ -255,7 +255,7 @@ individual network and their name. To do this, we can use the `polygon`
 and `plotrix::arctext` function.
 
 
-```r
+``` r
 # We can now use both functions to generate a box for each group on the plot
 boxGroup <- function(metanetwork, rad1 = .95, rad2 = 1, colBox = NULL, names = NULL, colNames = NULL, addNames = TRUE, ...) {
   # metanetwork = data list composed of 'nodes', 'links' & 'networkGroup'
@@ -308,7 +308,7 @@ plot0()
 boxGroup(metanetwork, rad1 = .5)
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/plotGroups-1.png" width="960" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/plotGroups-1.png" alt="" width="960" style="display: block; margin: auto;" />
 
 ### Plot connections
 
@@ -317,7 +317,7 @@ hierarchical structure identified using the `nodePos` function created earlier.
 We can do this using the `xspline` function.
 
 
-```r
+``` r
 plotLinks <- function(metanetwork, cols = NULL, ...) {
   if (!is.null(cols) & length(cols) == 1) {
     cols <- rep(cols, nrow(metanetwork$links))
@@ -351,14 +351,14 @@ plotLinks(metanetwork, col = 'black')
 points(metanetwork$nodes$x, metanetwork$nodes$y)
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/plotLinks-1.png" width="672" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/plotLinks-1.png" alt="" width="672" style="display: block; margin: auto;" />
 
 </br>
 
 ## Plot metanetwork
 
 
-```r
+``` r
 # The plot
 par(mar = c(0,0,0,0))
 plot0()
@@ -367,7 +367,7 @@ plotLinks(metanetwork, col = 'black')
 points(metanetwork$nodes$x, metanetwork$nodes$y, pch = 20, cex = 2)
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/metanetwork-1.png" width="576" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/metanetwork-1.png" alt="" width="576" style="display: block; margin: auto;" />
 
 <br/>
 
@@ -380,7 +380,7 @@ to links and nodes and change the size of the nodes.
 First, let's give a color to individual networks.
 
 
-```r
+``` r
 colGroups <- function(metanetwork, colPal = pal_insileco) {
   # Group colors
     metanetwork$networkGroup$cols <- colPal[1:nrow(metanetwork$networkGroup)]
@@ -420,7 +420,7 @@ Second, a function to give a size to nodes based on link frequency.
 <br/>
 
 
-```r
+``` r
 # Add size to nodes based on frequency of links to each node
 nodeSize <- function(metanetwork, freq = T) {
     if (isTRUE(freq)) {
@@ -437,13 +437,13 @@ nodeSize <- function(metanetwork, freq = T) {
 
 metanetwork <- nodeSize(metanetwork)
 head(metanetwork$nodes)
-#R>    network     name          x         y    cols Freq    cex
-#R>  1 Drivers driver_1 -0.0546519 0.8732916 #ffdd55    4 0.2500
-#R>  2 Drivers driver_2 -0.1282239 0.8655539 #ffdd55   15 0.9375
-#R>  3 Drivers driver_3 -0.2008793 0.8516293 #ffdd55   10 0.6250
-#R>  4 Drivers driver_4 -0.2720989 0.8316172 #ffdd55    9 0.5625
-#R>  5 Drivers driver_5 -0.3413735 0.8056607 #ffdd55   12 0.7500
-#R>  6 Drivers driver_6 -0.4082079 0.7739453 #ffdd55    8 0.5000
+#R>    network     name          x         y    cols Freq       cex
+#R>  1 Drivers driver_1 -0.0546519 0.8732916 #ffdd55   10 0.5555556
+#R>  2 Drivers driver_2 -0.1282239 0.8655539 #ffdd55    8 0.4444444
+#R>  3 Drivers driver_3 -0.2008793 0.8516293 #ffdd55    9 0.5000000
+#R>  4 Drivers driver_4 -0.2720989 0.8316172 #ffdd55    8 0.4444444
+#R>  5 Drivers driver_5 -0.3413735 0.8056607 #ffdd55    6 0.3333333
+#R>  6 Drivers driver_6 -0.4082079 0.7739453 #ffdd55    5 0.2777778
 ```
 
 <br/>
@@ -454,7 +454,7 @@ the metanetwork, or focus on all the links for a single network.
 <br/>
 
 
-```r
+``` r
 linkCol <- function(metanetwork, type = 'all', focus = NULL, colLinks = '#876b40', colShadow = '#f4f4f4') {
   # metanetwork = list composed of 'nodes', 'links' and 'networkGroup'
   # type        = type of colors:
@@ -528,12 +528,12 @@ linkCol <- function(metanetwork, type = 'all', focus = NULL, colLinks = '#876b40
 metanetwork <- linkCol(metanetwork, type = 'focus', focus = c('Species','Drivers'))
 head(metanetwork$links)
 #R>             from         to      cols
-#R>  1      driver_2   action_5 #f4f4f466
-#R>  2 beneficiary_6  driver_13 #f4f4f466
-#R>  4 beneficiary_2 species_14 #f4f4f466
-#R>  5    species_23  driver_12 #876b4066
-#R>  6      action_1   action_2 #f4f4f466
-#R>  7      action_6 species_16 #f4f4f466
+#R>  1 beneficiary_5 species_17 #f4f4f466
+#R>  2     manager_8   driver_7 #f4f4f466
+#R>  3      action_1 species_24 #f4f4f466
+#R>  4      action_7   action_1 #f4f4f466
+#R>  5    species_19  species_8 #876b4066
+#R>  6     species_6   action_7 #f4f4f466
 head(metanetwork$networkGroup)
 #R>             Var1 Freq      Prop   spanDeg     lower     upper          x          y    cols colNames
 #R>  1       Actions    9 0.1250000 0.7853982 0.0125000 0.7728982  0.4619398  0.1913417 #f4f4f4  #212121
@@ -550,7 +550,7 @@ head(metanetwork$networkGroup)
 Now we could wrap all of this in a single function.
 
 
-```r
+``` r
 plotMetanetwork <- function(metanetwork,
                             rad1 = .925,
                             rad2 = 1,
@@ -623,9 +623,9 @@ plotMetanetwork(metanetwork, type = 'focus', focus = c('Species', 'Drivers'))
 plotMetanetwork(metanetwork, type = 'focus', focus = c('Species', 'Drivers', 'Managers'))
 ```
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/function-1.png" width="960" style="display: block; margin: auto;" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/function-1.png" alt="" width="960" style="display: block; margin: auto;" />
 
-```r
+``` r
 opt <- options()
 ```
 
@@ -639,44 +639,52 @@ opt <- options()
 
 <div style="margin: 1.5rem 0rem 0.5rem 0rem;">
 <details>
-<summary>Session info <i class="fas fa-cogs" aria-hidden="true"></i></summary>
+<summary>
+<i class="fas fa-cogs" aria-hidden="true"></i> Display information relative to the R session used to render this post.
+</summary>
 
-```r
+``` r
 sessionInfo()
-#R>  R version 4.2.2 Patched (2022-11-10 r83330)
-#R>  Platform: x86_64-pc-linux-gnu (64-bit)
-#R>  Running under: Ubuntu 22.04.2 LTS
+#R>  R version 4.5.2 (2025-10-31)
+#R>  Platform: x86_64-pc-linux-gnu
+#R>  Running under: Ubuntu 25.10
 #R>  
 #R>  Matrix products: default
-#R>  BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3
-#R>  LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so
+#R>  BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.1 
+#R>  LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.1;  LAPACK version 3.12.0
 #R>  
 #R>  locale:
-#R>   [1] LC_CTYPE=en_CA.UTF-8       LC_NUMERIC=C               LC_TIME=en_CA.UTF-8       
-#R>   [4] LC_COLLATE=en_CA.UTF-8     LC_MONETARY=en_CA.UTF-8    LC_MESSAGES=en_CA.UTF-8   
-#R>   [7] LC_PAPER=en_CA.UTF-8       LC_NAME=C                  LC_ADDRESS=C              
-#R>  [10] LC_TELEPHONE=C             LC_MEASUREMENT=en_CA.UTF-8 LC_IDENTIFICATION=C       
+#R>   [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=en_US.UTF-8       
+#R>   [4] LC_COLLATE=en_US.UTF-8     LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+#R>   [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                  LC_ADDRESS=C              
+#R>  [10] LC_TELEPHONE=C             LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+#R>  
+#R>  time zone: America/New_York
+#R>  tzcode source: system (glibc)
 #R>  
 #R>  attached base packages:
-#R>  [1] stats     graphics  grDevices utils     datasets  methods   base     
+#R>  [1] stats     graphics  grDevices datasets  utils     methods   base     
 #R>  
 #R>  other attached packages:
-#R>  [1] graphicsutils_1.6.0.9000 inSilecoRef_0.1.0       
+#R>  [1] graphicsutils_1.6.0.9000 inSilecoRef_0.1.1       
 #R>  
 #R>  loaded via a namespace (and not attached):
-#R>   [1] bslib_0.4.2       tidyselect_1.2.0  xfun_0.36         vctrs_0.5.2       generics_0.1.3   
-#R>   [6] miniUI_0.1.1.1    htmltools_0.5.4   yaml_2.3.6        utf8_1.2.3        rlang_1.0.6      
-#R>  [11] jquerylib_0.1.4   later_1.3.0       pillar_1.8.1      glue_1.6.2        httpcode_0.3.0   
-#R>  [16] withr_2.5.0       lifecycle_1.0.3   plyr_1.8.8        stringr_1.5.0     targets_0.14.2   
-#R>  [21] blogdown_1.16     htmlwidgets_1.6.1 evaluate_0.19     codetools_0.2-19  knitr_1.41       
-#R>  [26] callr_3.7.3       fastmap_1.1.0     httpuv_1.6.9      ps_1.7.2          curl_5.0.0       
-#R>  [31] fansi_1.0.4       highr_0.10        Rcpp_1.0.10       xtable_1.8-4      promises_1.2.0.1 
-#R>  [36] backports_1.4.1   DT_0.26           plotrix_3.8-2     cachem_1.0.6      jsonlite_1.8.4   
-#R>  [41] rcrossref_1.2.0   mime_0.12         fs_1.6.1          digest_0.6.31     stringi_1.7.8    
-#R>  [46] bookdown_0.32     processx_3.8.0    dplyr_1.1.0       shiny_1.7.4       bibtex_0.5.1     
-#R>  [51] cli_3.5.0         tools_4.2.2       sass_0.4.5        magrittr_2.0.3    base64url_1.4    
-#R>  [56] tibble_3.1.8      crul_1.3          pkgconfig_2.0.3   ellipsis_0.3.2    data.table_1.14.8
-#R>  [61] xml2_1.3.3        rmarkdown_2.19    R6_2.5.1          compiler_4.2.2    igraph_1.4.0
+#R>   [1] sass_0.4.10         generics_0.1.4      bspm_0.5.7          xml2_1.5.2         
+#R>   [5] blogdown_1.23       stringi_1.8.7       httpcode_0.3.0      digest_0.6.39      
+#R>   [9] magrittr_2.0.4      evaluate_1.0.5      bookdown_0.46       fastmap_1.2.0      
+#R>  [13] plyr_1.8.9          jsonlite_2.0.0      processx_3.8.6      backports_1.5.0    
+#R>  [17] secretbase_1.1.1    crul_1.6.0          ps_1.9.1            promises_1.5.0     
+#R>  [21] jquerylib_0.1.4     codetools_0.2-20    bibtex_0.5.1        cli_3.6.5          
+#R>  [25] shiny_1.12.1        rlang_1.1.7         plotrix_3.8-13      cachem_1.1.0       
+#R>  [29] yaml_2.3.12         otel_0.2.0          tools_4.5.2         dplyr_1.1.4        
+#R>  [33] base64url_1.4       httpuv_1.6.16       DT_0.34.0           rcrossref_1.2.1    
+#R>  [37] curl_7.0.0          vctrs_0.7.1         R6_2.6.1            mime_0.13          
+#R>  [41] lifecycle_1.0.5     stringr_1.6.0       fs_1.6.6            htmlwidgets_1.6.4  
+#R>  [45] miniUI_0.1.2        targets_1.11.4      pkgconfig_2.0.3     callr_3.7.6        
+#R>  [49] bslib_0.10.0        pillar_1.11.1       later_1.4.5         data.table_1.18.2.1
+#R>  [53] glue_1.8.0          Rcpp_1.1.1          xfun_0.56           tibble_3.3.1       
+#R>  [57] tidyselect_1.2.1    knitr_1.51          xtable_1.8-4        htmltools_0.5.9    
+#R>  [61] igraph_2.2.1        rmarkdown_2.30      compiler_4.5.2      prettyunits_1.2.0
 ```
 </details>
 </div>

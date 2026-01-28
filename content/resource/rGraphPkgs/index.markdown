@@ -16,7 +16,7 @@ output:
 
 Note that the list of packages below would be updated as soon as we find a new
 package. If you know a package that should be in the list, please feel mention
-it in the disqus section below.
+it in the comment section below.
 
 <br/>
 

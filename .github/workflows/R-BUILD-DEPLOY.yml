@@ -30,7 +30,7 @@ jobs:
       - name: Build blogdown
         run: |-
           Rscript -e "icons::download_fontawesome()"
-          Rscript -e "blogdown::install_hugo(version = '0.132')"
+          Rscript -e "blogdown::install_hugo(version = '0.153')"
           Rscript -e "blogdown::check_config()"
           Rscript -e "blogdown::check_content()"
           Rscript -e "blogdown::build_site(build_rmd = TRUE)"

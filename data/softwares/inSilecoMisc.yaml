@@ -4,7 +4,6 @@ category: "R package"
 description: "Miscelleneous R functions."
 website: "http://insileco.github.io/inSilecoMisc/"
 badges:
-badges:
   codecov:
     repo: gh/inSileco/inSilecoMisc
     token: O1lGQXHXS0
