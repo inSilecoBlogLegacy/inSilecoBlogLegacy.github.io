@@ -1,4 +1,4 @@
-baseurl = "https://insileco.github.io/"
+baseurl = "https://bloglegacy.insileco.io/"
 languageCode = "en-us"
 title = "inSileco"
 theme = "minimal"
@@ -38,24 +38,20 @@ summaryLength = 25
     url = "/post/"
 [[menu.main]]
     name = "Consulting"
-    url = "https://insilecoinc.github.io/"
+    url = "https://insileco.io/"
 
 [[menu.icon]]
     url = "/"
     name = "fas fa-home"
     weight = 1
 [[menu.icon]]
-    url = "https://github.com/inSileco/"
+    url = "https://github.com/inSilecoBlogLegacy/"
     name = "fab fa-github"
     weight = 2
 [[menu.icon]]
-    url = "https://twitter.com/inSileco/"
-    name = "fab fa-twitter"
-    weight = 3
-[[menu.icon]]
     url = "https://insileco.github.io/index.xml"
     name = "fas fa-rss"
-    weight = 4
+    weight = 3
 
 
 [params]
