@@ -334,8 +334,8 @@ further processing (e.g., printing).</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">.libPaths</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] &#34;/home/runner/work/_temp/Library&#34; &#34;/opt/R/4.5.3/lib/R/site-library&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [3] &#34;/opt/R/4.5.3/lib/R/library&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] &#34;/home/runner/work/_temp/Library&#34; &#34;/opt/R/4.6.0/lib/R/site-library&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [3] &#34;/opt/R/4.6.0/lib/R/library&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>As explained in the manual page (<code>?.libPaths</code>):</p>
@@ -416,12 +416,12 @@ probably means that you installed it several times (different ways and/or differ
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;      }</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;      else .lib.loc</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  }</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;bytecode: 0x55d69fae3ae8&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;environment: 0x55d69fae4db8&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;bytecode: 0x55a8abdce240&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;environment: 0x55a8abdc96f0&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="n">.Library</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] &#34;/opt/R/4.5.3/lib/R/library&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] &#34;/opt/R/4.6.0/lib/R/library&#34;</span>
 </span></span><span class="line"><span class="cl"><span class="n">.Library.site</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] &#34;/opt/R/4.5.3/lib/R/site-library&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [1] &#34;/opt/R/4.6.0/lib/R/site-library&#34;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="platform"><code>.Platform</code></h2>
@@ -532,7 +532,7 @@ code.</p>
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">file.path</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  function (..., fsep = .Platform$file.sep) </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  .Internal(file.path(list(...), fsep))</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;bytecode: 0x55d69fa80ba0&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;bytecode: 0x55a8abd66be0&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  &lt;environment: namespace:base&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -798,7 +798,7 @@ largest double or integer and the machine’s precision.</p>
 <div style="margin: 1.5rem 0rem 0.5rem 0rem;">
 <details>
 <summary>
-<i class="fas fa-cogs" aria-hidden="true"></i> Display information relative to the R session used to render this post.
+<p><i class="fas fa-cogs" aria-hidden="true"></i> Display information relative to the R session used to render this post.</p>
 </summary>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -840,7 +840,7 @@ largest double or integer and the machine’s precision.</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">sessionInfo</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  R version 4.5.3 (2026-03-11)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  R version 4.6.0 (2026-04-24)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Platform: x86_64-pc-linux-gnu</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Running under: Ubuntu 24.04.4 LTS</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
@@ -868,12 +868,12 @@ largest double or integer and the machine’s precision.</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] fastmap_1.2.0     plyr_1.8.9        jsonlite_2.0.0    backports_1.5.1   crul_1.6.0       </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] promises_1.5.0    textshaping_1.0.5 jquerylib_0.1.4   bibtex_0.5.2      cli_3.6.6        </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] shiny_1.13.0      rlang_1.2.0       cachem_1.1.0      yaml_2.3.12       otel_0.2.0       </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] tools_4.5.3       dplyr_1.2.1       httpuv_1.6.17     DT_0.34.0         rcrossref_1.2.1  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] curl_7.0.0        vctrs_0.7.2       R6_2.6.1          mime_0.13         lifecycle_1.0.5  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] stringr_1.6.0     fs_2.0.1          htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] pillar_1.11.1     bslib_0.10.0      later_1.4.8       glue_1.8.0        Rcpp_1.1.1       </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] tools_4.6.0       dplyr_1.2.1       httpuv_1.6.17     DT_0.34.0         rcrossref_1.2.1  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] curl_7.1.0        vctrs_0.7.3       R6_2.6.1          mime_0.13         lifecycle_1.0.5  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] stringr_1.6.0     fs_2.1.0          htmlwidgets_1.6.4 miniUI_0.1.2      pkgconfig_2.0.3  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] pillar_1.11.1     bslib_0.10.0      later_1.4.8       glue_1.8.1        Rcpp_1.1.1-1.1   </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] systemfonts_1.3.2 xfun_0.57         tibble_3.3.1      tidyselect_1.2.1  knitr_1.51       </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] xtable_1.8-8      htmltools_0.5.9   svglite_2.2.2     rmarkdown_2.31    compiler_4.5.3</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] xtable_1.8-8      htmltools_0.5.9   svglite_2.2.2     rmarkdown_2.31    compiler_4.6.0</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></details>
@@ -1009,7 +1009,7 @@ largest double or integer and the machine’s precision.</p>
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 11 April 2026 01:28 UTC.
+      Latest build: 11 May 2026 02:17 UTC.
     </p>
 
   </div>
