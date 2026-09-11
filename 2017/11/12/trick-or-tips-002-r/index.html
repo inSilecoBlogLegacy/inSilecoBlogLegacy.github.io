@@ -315,13 +315,13 @@ columns:</p>
 </span></span><span class="line"><span class="cl">  <span class="n">var3</span> <span class="o">=</span> <span class="nf">runif</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nf">head</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          var1       var2       var3</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1 0.04670684 0.67633781 0.15470906</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 0.36068262 0.26856152 0.14868547</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 0.12113362 0.95831675 0.53459167</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 0.46652510 0.73253084 0.73826550</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 0.58848107 0.08975963 0.17675102</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6 0.56201888 0.79311947 0.04224358</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;         var1      var2       var3</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1 0.8956882 0.5593542 0.01225543</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 0.6243835 0.6155344 0.61970149</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 0.8805532 0.6740923 0.20005534</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 0.7784375 0.1975051 0.62692484</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 0.8521741 0.7926110 0.69815130</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6 0.6860192 0.8501390 0.47950921</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>To extract the first column, I use the <code>[]</code> operator and either type the number
@@ -334,8 +334,8 @@ of the column like so:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">df[</span><span class="p">,</span> <span class="m">1</span><span class="n">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 0.04670684 0.36068262 0.12113362 0.46652510 0.58848107 0.56201888 0.53455088 0.38447835</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [9] 0.75364123 0.88781555</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 0.8956882 0.6243835 0.8805532 0.7784375 0.8521741 0.6860192 0.7135707 0.3998205 0.9860419</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [10] 0.9361150</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>or the name of the column to be extracted:</p>
@@ -347,8 +347,8 @@ of the column like so:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">df[</span><span class="p">,</span> <span class="s">&#39;var1&#39;</span><span class="n">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 0.04670684 0.36068262 0.12113362 0.46652510 0.58848107 0.56201888 0.53455088 0.38447835</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [9] 0.75364123 0.88781555</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] 0.8956882 0.6243835 0.8805532 0.7784375 0.8521741 0.6860192 0.7135707 0.3998205 0.9860419</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [10] 0.9361150</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Interestingly enough, this returns a <strong>vector</strong>, not a data.frame</p>
@@ -402,17 +402,17 @@ a vector, but using <code>drop = FALSE</code> prevents this from happening. Let�
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">df[</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">drop</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="n">]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;           var1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.04670684</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.36068262</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.12113362</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.46652510</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.58848107</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.56201888</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.53455088</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.38447835</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.75364123</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.88781555</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          var1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.8956882</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.6243835</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.8805532</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.7784375</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.8521741</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.6860192</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.7135707</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.3998205</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.9860419</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.9361150</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Let’s check its class:</p>
@@ -446,17 +446,17 @@ same size, so you can basically subset the list!).</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">df[1]</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;           var1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.04670684</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.36068262</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.12113362</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.46652510</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.58848107</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.56201888</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.53455088</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.38447835</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.75364123</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.88781555</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          var1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.8956882</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.6243835</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.8805532</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.7784375</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.8521741</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.6860192</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.7135707</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.3998205</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.9860419</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.9361150</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>But if you need a specific selection of rows, you better use <code>drop</code>!</p>
@@ -472,10 +472,10 @@ same size, so you can basically subset the list!).</p>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">df[2</span><span class="o">:</span><span class="m">5</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span> <span class="n">drop</span> <span class="o">=</span> <span class="kc">FALSE</span><span class="n">]</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;         var1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 0.3606826</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 0.1211336</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 0.4665251</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 0.5884811</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2 0.6243835</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3 0.8805532</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4 0.7784375</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5 0.8521741</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Now you know ;-)</p>
@@ -509,8 +509,8 @@ of the reference for the package <code>knitr</code> as of version 1.17 using fun
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">citation</span><span class="p">(</span><span class="s">&#34;knitr&#34;</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  To cite package &#39;knitr&#39; in publications use:</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    Xie Y (2025). _knitr: A General-Purpose Package for Dynamic Report Generation in R_. R</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    package version 1.51, &lt;https://yihui.org/knitr/&gt;.</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    Xie Y (2026). _knitr: A General-Purpose Package for Dynamic Report Generation in R_. R</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    package version 1.52, &lt;https://yihui.org/knitr/&gt;.</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    Yihui Xie (2015) Dynamic Documents with R and knitr. 2nd edition. Chapman and Hall/CRC.</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    ISBN 978-1498716963</span>
@@ -562,8 +562,8 @@ format with the <code>toBibtex</code> function, let’s do this:</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  @Manual{,</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    title = {knitr: A General-Purpose Package for Dynamic Report Generation in {R}},</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    author = {Yihui Xie},</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    year = {2025},</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    note = {R package version 1.51},</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    year = {2026},</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    note = {R package version 1.52},</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;    url = {https://yihui.org/knitr/},</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  }</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
@@ -636,17 +636,17 @@ If not, let me show you something:</p>
 </span></span><span class="line"><span class="cl">  <span class="n">var2</span> <span class="o">=</span> <span class="nf">runif</span><span class="p">(</span><span class="m">10</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">  <span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nf">extract</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="s">&#39;var1&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;           var1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.52261180</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.01736894</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.80490271</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.22384060</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.62212893</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.63989089</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.84231499</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.15481027</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.49357790</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.17738000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          var1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.7630441</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.9318843</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.9781282</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.9120844</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.1602690</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.8081850</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.3311103</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.6196517</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.5709172</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.4878581</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Here I use the function <code>extract()</code> from the <code>magrittr</code> package that act as <code>[]</code>
@@ -704,17 +704,17 @@ only package from the CRAN). Let’s use it:</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="n">magrittr</span><span class="o">::</span><span class="nf">extract</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="s">&#39;var1&#39;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;           var1</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.52261180</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.01736894</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.80490271</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.22384060</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.62212893</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.63989089</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.84231499</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.15481027</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.49357790</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.17738000</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;          var1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  1  0.7630441</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  2  0.9318843</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  3  0.9781282</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  4  0.9120844</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  5  0.1602690</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  6  0.8081850</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  7  0.3311103</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  8  0.6196517</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  9  0.5709172</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  10 0.4878581</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Using this is also very helpful when you develop a package and functions from
@@ -889,7 +889,7 @@ and see the differences:</p>
 <pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="nf">sessionInfo</span><span class="p">()</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  R version 4.6.1 (2026-06-24)</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Platform: x86_64-pc-linux-gnu</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Running under: Ubuntu 24.04.4 LTS</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Running under: Ubuntu 24.04.5 LTS</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  Matrix products: default</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 </span>
@@ -912,16 +912,16 @@ and see the differences:</p>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  loaded via a namespace (and not attached):</span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [1] sass_0.4.10       generics_0.1.4    xml2_1.6.0        lattice_0.22-9    blogdown_1.24    </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;   [6] stringi_1.8.9     httpcode_0.3.0    digest_0.6.39     grid_4.6.1        evaluate_1.0.5   </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] bookdown_0.47     fastmap_1.2.0     plyr_1.8.9        jsonlite_2.0.0    backports_1.5.1  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [11] bookdown_0.48     fastmap_1.2.0     plyr_1.8.9        jsonlite_2.0.0    backports_1.5.1  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [16] crul_1.6.0        promises_1.5.0    codetools_0.2-20  textshaping_1.0.5 jquerylib_0.1.4  </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [21] bibtex_0.5.2      cli_3.6.6         shiny_1.14.0      rlang_1.3.0       cachem_1.1.0     </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [26] yaml_2.3.12       otel_0.2.0        tools_4.6.1       dplyr_1.2.1       httpuv_1.6.17    </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] DT_0.34.0         rcrossref_1.2.1   curl_7.1.0        vctrs_0.7.3       R6_2.6.1         </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [31] DT_0.34.0         rcrossref_1.2.1   curl_8.0.0        vctrs_0.7.3       R6_2.6.1         </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [36] mime_0.13         lifecycle_1.0.5   stringr_1.6.0     fs_2.1.0          htmlwidgets_1.6.4</span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] miniUI_0.1.2      pkgconfig_2.0.3   terra_1.9-34      pillar_1.11.1     bslib_0.12.0     </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [41] miniUI_0.1.2      pkgconfig_2.0.3   terra_1.9-50      pillar_1.11.1     bslib_0.12.0     </span>
 </span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [46] later_1.4.8       glue_1.8.1        Rcpp_1.1.2        systemfonts_1.3.2 xfun_0.60        </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] tibble_3.3.1      tidyselect_1.2.1  knitr_1.51        xtable_1.8-8      htmltools_0.5.9  </span>
-</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [56] svglite_2.2.2     rmarkdown_2.31    compiler_4.6.1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [51] tibble_3.3.1      tidyselect_1.2.1  knitr_1.52        xtable_1.8-8      htmltools_0.5.9  </span>
+</span></span><span class="line"><span class="cl"><span class="c1">#R&gt;  [56] svglite_2.2.2     rmarkdown_2.32    compiler_4.6.1</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></details>
@@ -1070,7 +1070,7 @@ and see the differences:</p>
       Powered by <a href="https://bookdown.org/yihui/blogdown/">Blogdown</a>,
       <a href="https://gohugo.io">Hugo</a>
       and <a href="https://github.com/calintat/minimal">Minimal</a> |
-      Latest build: 11 August 2026 01:06 UTC.
+      Latest build: 11 September 2026 02:14 UTC.
     </p>
 
   </div>
