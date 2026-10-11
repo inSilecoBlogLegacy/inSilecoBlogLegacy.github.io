@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub Actions on inSileco</title>
+    <title>Github Actions on inSileco</title>
     <link>https://bloglegacy.insileco.io/tags/github-actions/</link>
-    <description>Recent content in GitHub Actions on inSileco</description>
+    <description>Recent content in Github Actions on inSileco</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>2017-2024 inSileco</copyright>
